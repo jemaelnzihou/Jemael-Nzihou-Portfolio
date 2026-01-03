@@ -37,8 +37,6 @@ This project addresses that gap by converting **normative legal principles into 
 
 ---
 
-## 🏗️ Project Architecture
-
 ## 📊 Key Visualizations
 
 ### 🔵 Oath vs Outcome Radar Chart (Law Enforcement Example)
