@@ -92,12 +92,6 @@ This project addresses that gap by converting **normative legal principles into 
 - Trend analysis  
 ---
 
-Perfect — these three figures are **exactly what Project 2 needed**. Below is an **improved, publication-quality Markdown section** for **Project 2**, with your **three images embedded**, clear interpretation, and wording aligned with **data center engineering + data science**.
-
-You can **copy–paste this directly** into your `README.md`.
-
----
-
 ## 📊 Project 2: Data Center Insights with Data Science & Engineering
 
 ### *Operational Intelligence, Reliability, and Performance Optimization*
@@ -279,7 +273,7 @@ This project integrates:
 * **Network performance engineering**
 * **Optimization logic** grounded in real-world constraints
 
-Rather than abstract metrics, each result is interpreted in the context of **physical signal behavior and network performance limits**.
+Each result is interpreted in the context of **physical signal behavior and network performance limits**.
 
 ---
 
