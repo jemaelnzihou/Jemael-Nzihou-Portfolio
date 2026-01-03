@@ -206,6 +206,107 @@ Rather than treating data as abstract, each variable is interpreted within its *
 
 ---
 
+## 📡 Project 3: Wi-Fi Optimization & Communication Performance Analysis
+
+### *Signal Quality, Reliability, and Network Efficiency*
+
+---
+
+## 📌 Project Overview
+
+This project applies **data science, signal processing concepts, and network engineering principles** to analyze **wireless communication performance**, with a focus on **signal reliability, coverage quality, and user-level optimization**.
+
+Wireless networks are fundamental to modern digital infrastructure, yet their performance is constrained by **noise, interference, distance, and infrastructure placement**. This project demonstrates how **engineering-informed analytics** can be used to evaluate and optimize Wi-Fi performance using **quantitative signal metrics**.
+
+---
+
+## 🎯 Analytical Objectives
+
+* Quantify the relationship between **Signal-to-Noise Ratio (SNR)** and **Bit Error Rate (BER)**
+* Analyze **spatial Wi-Fi coverage quality** across a service area
+* Evaluate **user-level throughput optimization** under SNR constraints
+* Support data-driven decisions for **access-point placement and network tuning**
+
+---
+
+## 📈 Key Visual Analyses
+
+### 📉 Bit Error Rate vs Signal-to-Noise Ratio (QPSK)
+
+![QPSK BER vs SNR](Bit%20Error%20Rate%20vs%20SNR%20plot%20.png)
+
+**Insight**
+
+* Demonstrates the exponential reduction in **bit errors** as SNR increases
+* Highlights the reliability threshold required for stable digital communication
+* Reinforces theoretical expectations from **digital modulation and communication theory**
+* Relevant to network design, error control, and quality-of-service planning
+
+---
+
+### 🗺️ Wi-Fi Coverage Map: Average SNR by Region
+
+![Wi-Fi Coverage Map](Wifi%20coverage%20map%20plot%20.png)
+
+**Insight**
+
+* Visualizes spatial variation in **signal quality**
+* Identifies low-SNR regions requiring infrastructure improvement
+* Supports **access-point optimization** and coverage gap detection
+* Applicable to enterprise networks, campuses, and data center environments
+
+---
+
+### 🚀 User Optimization: SNR vs Throughput
+
+![Wi-Fi Optimization: SNR vs Throughput](wifi%20optimization%20plotpng.png)
+
+**Insight**
+
+* Shows throughput sensitivity to SNR degradation
+* Threshold lines highlight **performance drop-off zones**
+* Enables classification of **low-quality user experiences**
+* Supports intelligent AP assignment and load balancing strategies
+
+---
+
+## 🧠 Engineering & Data Science Integration
+
+This project integrates:
+
+* **Communication theory** (SNR, BER, modulation efficiency)
+* **Statistical visualization and analysis**
+* **Network performance engineering**
+* **Optimization logic** grounded in real-world constraints
+
+Rather than abstract metrics, each result is interpreted in the context of **physical signal behavior and network performance limits**.
+
+---
+
+## 🧪 Deliverables
+
+* 📓 Jupyter Notebook with reproducible simulations
+* 📊 Communication performance visualizations
+* 📡 Network optimization insights
+* 📘 Engineering-aware documentation
+
+---
+
+## 🚀 Future Enhancements
+
+* Adaptive modulation and coding analysis
+* Machine-learning-based AP selection
+* Time-varying interference modeling
+* Integration with real Wi-Fi telemetry data
+
+---
+
+## 📁 Project Files
+
+📓 Wifi optimization (1).ipynb
+
+---
+
 ## 👤 Author
 
 **Jemael Nzihou**
