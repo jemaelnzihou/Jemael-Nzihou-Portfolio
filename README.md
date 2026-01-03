@@ -140,7 +140,7 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 
 ### ⚡ Power Consumption Patterns in a Data Center
 
-![Power Consumption Over a Day](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Latency%20comparison.png)
+![Power Consumption Over a Day](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Power%20comsumption%20per%20day.png)
 
 **Insight**
 
@@ -156,9 +156,8 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 
 ### 🚀 Communication Latency: Optical vs Electrical Transmission
 
-```md
-![Latency Comparison: Light vs Electrical Communication](Latency%20comparison.png)
-```
+![Latency Comparison: Light vs Electrical Communication](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Latency%20comparison.png)
+
 
 **Insight**
 
@@ -205,9 +204,8 @@ Rather than treating data as abstract, each variable is interpreted within its *
 
 ## 📁 Project Files
 
-```md
 📓 The Data Center insights with Data science and engineering (1).ipynb
-```
+
 ---
 
 ## 👤 Author
