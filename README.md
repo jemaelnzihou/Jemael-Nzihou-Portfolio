@@ -43,7 +43,7 @@ This project addresses that gap by converting **normative legal principles into 
 
 ### 🔵 Oath vs Outcome Radar Chart (Law Enforcement Example)
 
-![Oath vs Outcome Radar Chart](assets/images/radar_oath_vs_outcome.png)
+![Oath vs Outcome Radar Chart]([assets/images/radar_oath_vs_outcome.png](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/radar%20plot%20.png))
 
 **Interpretation**
 - Large gaps between oath commitments and outcomes indicate **institutional misalignment**
