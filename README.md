@@ -1,4 +1,4 @@
-# Data Science Portfolio
+# Data Science Projects
 
 # 📊 Project 1: Oath–Outcome Alignment Analysis
 
