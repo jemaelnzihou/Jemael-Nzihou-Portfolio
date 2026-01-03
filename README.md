@@ -92,6 +92,126 @@ This project addresses that gap by converting **normative legal principles into 
 - Trend analysis  
 ---
 
+Perfect — these three figures are **exactly what Project 2 needed**. Below is an **improved, publication-quality Markdown section** for **Project 2**, with your **three images embedded**, clear interpretation, and wording aligned with **data center engineering + data science**.
+
+You can **copy–paste this directly** into your `README.md`.
+
+---
+
+## 📊 Project 2: Data Center Insights with Data Science & Engineering
+
+### *Operational Intelligence, Reliability, and Performance Optimization*
+
+---
+
+## 📌 Project Overview
+
+This project applies **data science methods grounded in engineering principles** to analyze and interpret **data center operational behavior**, focusing on **thermal stability, energy consumption, and communication efficiency**.
+
+Modern data centers function as tightly coupled cyber-physical systems. Small deviations in temperature, power usage, or communication latency can propagate into **equipment stress, efficiency loss, or reliability risk**. This project demonstrates how **engineering-aware analytics** can support **proactive monitoring and decision-making**.
+
+---
+
+## 🎯 Analytical Objectives
+
+* Monitor and interpret **thermal system behavior**
+* Evaluate **power consumption patterns** over operational cycles
+* Compare **communication latency** across physical transmission media
+* Translate engineering signals into **data-driven operational insights**
+
+---
+
+## 📈 Key Visual Analyses
+
+### 🌡️ Reactor / Equipment Temperature Monitoring (24-Hour Cycle)
+
+```md
+![Simulated Reactor Temperature Over 24 Hours](reactor%20temperature%20plot.png)
+```
+
+**Insight**
+
+* Shows diurnal temperature variation and peak thermal loading
+* Dashed threshold highlights **risk zones** requiring alerts or control actions
+* Demonstrates how time-series monitoring supports **preventive intervention**
+* Directly applicable to **thermal management of racks, cooling loops, and DAHUs**
+
+---
+
+### ⚡ Power Consumption Patterns in a Data Center
+
+```md
+![Power Consumption Over a Day](Power%20comsumption%20per%20day.png)
+```
+
+**Insight**
+
+* Captures cyclical load behavior across a 24-hour operational window
+* Peak demand periods correlate with increased cooling and compute activity
+* Supports:
+
+  * Energy efficiency optimization
+  * Capacity planning
+  * PUE-oriented performance analysis
+
+---
+
+### 🚀 Communication Latency: Optical vs Electrical Transmission
+
+```md
+![Latency Comparison: Light vs Electrical Communication](Latency%20comparison.png)
+```
+
+**Insight**
+
+* Quantifies latency growth as a function of distance
+* Demonstrates superior scalability of **optical fiber** for low-latency environments
+* Reinforces engineering trade-offs in **network design for data centers**
+* Relevant to:
+
+  * High-performance computing
+  * Low-latency cloud services
+  * Backbone infrastructure planning
+
+---
+
+## 🧠 Engineering + Data Science Integration
+
+This project explicitly connects:
+
+* **Physical system behavior** (temperature, power, signal propagation)
+* **Data science tools** (EDA, visualization, trend analysis)
+* **Engineering constraints** (thresholds, efficiency limits, reliability curves)
+
+Rather than treating data as abstract, each variable is interpreted within its **physical and operational context**.
+
+---
+
+## 🧪 Deliverables
+
+* 📓 Jupyter Notebook with reproducible analysis
+* 📊 Engineering-driven visual analytics
+* 🧠 Operational insights for infrastructure optimization
+* 📘 Documentation linking analytics to real data center systems
+
+---
+
+## 🚀 Future Extensions
+
+* Predictive maintenance models (thermal & electrical)
+* Time-series forecasting of energy demand
+* Anomaly detection for early fault identification
+* Integration with real sensor telemetry (IoT / BMS / EPMS)
+
+---
+
+## 📁 Project Files
+
+```md
+📓 The Data Center insights with Data science and engineering (1).ipynb
+```
+---
+
 ## 👤 Author
 
 **Jemael Nzihou**
