@@ -1,6 +1,4 @@
-# Jemael-Portfolio
-Data Science Projects
-
+# Data Science Portfolio
 
 # 📊 Project 1: Oath–Outcome Alignment Analysis
 
