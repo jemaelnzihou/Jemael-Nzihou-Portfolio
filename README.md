@@ -125,9 +125,7 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 
 ### 🌡️ Reactor / Equipment Temperature Monitoring (24-Hour Cycle)
 
-```md
-![Simulated Reactor Temperature Over 24 Hours](reactor%20temperature%20plot.png)
-```
+![Simulated Reactor Temperature Over 24 Hours](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/reactor%20temperature%20plot.png)
 
 **Insight**
 
