@@ -140,9 +140,7 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 
 ### ⚡ Power Consumption Patterns in a Data Center
 
-```md
-![Power Consumption Over a Day](Power%20comsumption%20per%20day.png)
-```
+![Power Consumption Over a Day](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Latency%20comparison.png)
 
 **Insight**
 
