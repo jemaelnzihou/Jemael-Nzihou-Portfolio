@@ -119,7 +119,7 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 
 ### 🌡️ Reactor / Equipment Temperature Monitoring (24-Hour Cycle)
 
-![Simulated Reactor Temperature Over 24 Hours](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/reactor%20temperature%20plot.png)
+![Simulated Reactor Temperature Over 24 Hours](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/reactor%20temperature%20plot.png,raw=true)
 
 **Insight**
 
@@ -132,7 +132,7 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 
 ### ⚡ Power Consumption Patterns in a Data Center
 
-![Power Consumption Over a Day](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Power%20comsumption%20per%20day.png)
+![Power Consumption Over a Day](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Power%20comsumption%20per%20day.png,raw=true)
 
 **Insight**
 
@@ -147,8 +147,8 @@ Modern data centers function as tightly coupled cyber-physical systems. Small de
 ---
 
 ### 🚀 Communication Latency: Optical vs Electrical Transmission
-
-![Latency Comparison: Light vs Electrical Communication](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Latency%20comparison.png)
+![Latency Comparison: Light vs Electrical Communication](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Latency%20comparison.png,raw=true)
+![Latency Comparison: Light vs Electrical Communication](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Latency%20comparison.png,raw=true)
 
 
 **Insight**
