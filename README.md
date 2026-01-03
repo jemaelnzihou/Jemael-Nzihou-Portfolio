@@ -54,7 +54,6 @@ Observed Institutional Outcomes
    ↓
 Oath–Outcome Alignment
 ```
-
 ---
 
 ## 📂 Data Sources
@@ -125,43 +124,14 @@ OOAS = Expected Constitutional Compliance − Observed Violations
   * Heatmaps
   * Radar charts
   * Trend analysis
-
 ---
 
 ## 📊 Deliverables
 
 * 📄 Research paper (academic / policy-oriented)
-* 📈 Interactive dashboard (Power BI / Tableau / Dash)
 * 🧪 Reproducible codebase
 * 📁 Structured datasets
 * 📘 Documentation and methodology notes
-
----
-
-## 🗂️ Repository Structure
-
-```text
-├── data/
-│   ├── raw/
-│   ├── processed/
-│
-├── notebooks/
-│   ├── oath_text_analysis.ipynb
-│   ├── outcome_analysis.ipynb
-│
-├── src/
-│   ├── data_processing.py
-│   ├── feature_engineering.py
-│   ├── modeling.py
-│
-├── dashboards/
-│
-├── docs/
-│   ├── methodology.md
-│   ├── limitations.md
-│
-└── README.md
-```
 
 ---
 
