@@ -51,7 +51,7 @@ Summary statistics across three subsystems:
 - Pipe Velocity
 - Heat Exchanger Temperature
   
-![EDA Summary](EDA _summary_across_systems.png)
+![EDA Summary](EDA_summary_across_systems.png)
 
 ### Metrics Analyzed
 - Minimum
