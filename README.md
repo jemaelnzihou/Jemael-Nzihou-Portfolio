@@ -75,7 +75,6 @@ Observed vs predicted velocity distribution along pipe radius.
 - Near-parabolic profile consistent with **laminar flow**
 - Prediction deviation near pipe wall highlights **model limitations**
 - Useful for **hydraulic efficiency validation**
-
 ---
 
 ## 🤖 Predictive Modeling — Reactor Mid-Position Temperature
