@@ -1,6 +1,136 @@
 # Data Science Projects
 
-# 📊 Project 1: Oath–Outcome Alignment Analysis  
+# 📊 Project 1 — Dynamic Temperature & Velocity Analysis in Engineering Systems
+
+## 🔍 Overview
+This project applies **data science, exploratory data analysis (EDA), and predictive modeling** to analyze **thermal and fluid dynamic behavior** in two critical engineering systems:
+
+- **Heat Exchangers**
+- **Chemical Reactors**
+
+By combining **physics-based simulation**, **statistical summaries**, and **predictive trend analysis**, the project demonstrates how data science can be used to **monitor system stability**, **detect deviations**, and **support operational decision-making** in industrial environments.
+
+---
+
+## 🎯 Objectives
+- Model **temperature distribution** across time and space  
+- Analyze **dynamic temperature control** in a reactor  
+- Perform **EDA across multiple physical systems**  
+- Compare **observed vs predicted velocity profiles**  
+- Evaluate **prediction accuracy for reactor temperature**
+
+---
+
+## 🧪 System 1 — Heat Exchanger Temperature Distribution
+This visualization shows how temperature evolves over **time** and **distance** inside a heat exchanger.
+
+![Temperature Distribution in Heat Exchanger](Temperature_distribution_in_heat_exchanger.png)
+
+### Key Insights
+- Temperature decays with both **time** and **axial distance**
+- Highlights **thermal efficiency loss**
+- Useful for detecting **ineffective heat transfer zones**
+
+---
+
+## 🔥 System 2 — Dynamic Temperature Control in a Chemical Reactor
+A spatio-temporal view of temperature regulation inside a reactor.
+
+![Dynamic Temperature Control](dynamic_temperature_in_reactor.png)
+
+### Key Insights
+- Oscillatory behavior indicates **active control dynamics**
+- Spatial damping shows **heat dissipation stability**
+- Applicable to **process control and safety monitoring**
+
+---
+
+## 📈 Exploratory Data Analysis (EDA) Across Systems
+Summary statistics across three subsystems:
+- Reactor Temperature
+- Pipe Velocity
+- Heat Exchanger Temperature
+
+![EDA Summary](EDA_summary_across_systems.png)
+
+### Metrics Analyzed
+- Minimum
+- Maximum
+- Mean
+- Standard Deviation
+
+### Why It Matters
+- Identifies **variability and risk**
+- Supports **threshold setting**
+- Enables **cross-system comparison**
+
+---
+
+## 🚰 Pipe Flow Analysis — Velocity vs Radius
+Observed vs predicted velocity distribution along pipe radius.
+
+![Velocity Profile](Velocity_and-pipe_Radius_plot.png)
+
+### Key Insights
+- Near-parabolic profile consistent with **laminar flow**
+- Prediction deviation near pipe wall highlights **model limitations**
+- Useful for **hydraulic efficiency validation**
+
+---
+
+## 🤖 Predictive Modeling — Reactor Mid-Position Temperature
+Comparison between observed and predicted reactor temperature over time.
+
+![Reactor Temperature Prediction](Reactor_position_plot.png)
+
+### Key Insights
+- Model captures **trend but smooths oscillations**
+- Demonstrates bias–variance tradeoff
+- Foundation for **advanced ML control models**
+
+---
+
+## 🧠 Data Science Techniques Used
+- Exploratory Data Analysis (EDA)
+- Time-series trend analysis
+- Physics-informed simulation
+- Model vs observation comparison
+- Visualization with Matplotlib & NumPy
+
+---
+
+## 🛠 Tools & Technologies
+- Python
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Statistical Analysis
+- Engineering Modeling
+
+📂 Notebook:
+
+Heat Exchangers vs. Reactors – The Role of Dynamic Temperature & Fluid Velocity Profiles.ipynb
+
+---
+
+## 🚀 Applications
+- Process Engineering
+- Chemical & Thermal Systems
+- Manufacturing Optimization
+- Predictive Maintenance
+- Data-Driven Engineering Decisions
+
+---
+
+## ⭐ Why This Project Matters
+This project demonstrates how **data science bridges theory and real-world engineering systems**, enabling:
+- Better control
+- Higher efficiency
+- Safer operations
+- Smarter decision-making
+---
+
+# 📊 Project 2: Oath–Outcome Alignment Analysis  
 ### *From Constitutional Promises to Measurable Outcomes*
 
 ---
@@ -92,7 +222,7 @@ This project addresses that gap by converting **normative legal principles into 
 - Trend analysis  
 ---
 
-## 📊 Project 2: Data Center Insights with Data Science & Engineering
+## 📊 Project 3: Data Center Insights with Data Science & Engineering
 
 ### *Operational Intelligence, Reliability, and Performance Optimization*
 
@@ -199,7 +329,7 @@ Rather than treating data as abstract, each variable is interpreted within its *
 
 ---
 
-## 📡 Project 3: Wi-Fi Optimization & Communication Performance Analysis
+## 📡 Project 4: Wi-Fi Optimization & Communication Performance Analysis
 
 ### *Signal Quality, Reliability, and Network Efficiency*
 
@@ -303,10 +433,10 @@ Each result is interpreted in the context of **physical signal behavior and netw
 ## 👤 Author
 
 **Jemael Nzihou**
-PhD Student — Data Science
-Background in Chemical Engineering, Business Analytics, and Governance
-Focus: decision-making, accountability systems, and data-driven public oversight
-
+PhD Student — Data Science 
+Chemical Engineer | Business Analytics | Quality Champion certified  
+🔗 Portfolio: https://jemaelnzihou.github.io/Jemael-Nzihou-Portfolio/  
+🔗 LinkedIn: https://www.linkedin.com/in/jemaelnzihou 
 ---
 
 ## 📜 License
