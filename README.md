@@ -436,7 +436,7 @@ Each result is interpreted in the context of **physical signal behavior and netw
 PhD Student — Data Science 
 Chemical Engineer | Business Analytics | Quality Champion certified  
 🔗 Portfolio: https://jemaelnzihou.github.io/Jemael-Nzihou-Portfolio/  
-🔗 LinkedIn: https://www.linkedin.com/in/jemaelnzihou 
+🔗 LinkedIn: https://www.linkedin.com/in/jemaelnzihou
 ---
 
 ## 📜 License
