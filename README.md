@@ -185,7 +185,7 @@ Gradual tail suggests wear-out behavior
 
 Confidence bands show estimation uncertainty over time
 
-![Kaplan–Meier Survival Curve](images/kaplan_meier_survival_curve.png)
+![Kaplan–Meier Survival Curve](kaplan_meier_survival_curve.png)
 
 ---
 
@@ -199,7 +199,7 @@ Censored observations increase at later times
 
 Confirms the need for survival modeling vs. simple averages
 
-![Time to Event Distribution](images/time_to_event_distribution_failure_vs_censored.png)
+![Time to Event Distribution](time_to_event_distribution_failure_vs_censored.png)
 
 ---
 
@@ -213,7 +213,7 @@ Batch B experiences earlier degradation
 
 Confidence intervals reflect statistical uncertainty
 
-![Survival Curve by Batch](images/survival_curve_by_batch.png)
+![Survival Curve by Batch](survival_curve_by_batch.png)
 
 ---
 
@@ -227,7 +227,7 @@ Batch B exhibits faster reliability decay
 
 Useful for management-level interpretation
 
-![Smoothed Survival Curves](images/smoothed_survival_curves_by_batch.png)
+![Smoothed Survival Curves](smoothed_survival_curves_by_batch.png)
 
 ---
 
@@ -239,7 +239,7 @@ Increasing hazard rate indicates aging or wear-out failure mode
 
 Critical for maintenance planning and lifecycle decisions
 
-![Hazard Function](images/hazard_function_by_batch.png)
+![Hazard Function](hazard_function_by_batch.png)
 
 ---
 
