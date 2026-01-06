@@ -213,7 +213,7 @@ Batch B experiences earlier degradation
 
 Confidence intervals reflect statistical uncertainty
 
-![Survival Curve by Batch](survival_curve_by_batch.png)
+![Survival Curve by Batch](survival_curve_by_batch(2).png)
 
 ---
 
