@@ -127,6 +127,7 @@ This project demonstrates how **data science bridges theory and real-world engin
 - Higher efficiency
 - Safer operations
 - Smarter decision-making
+  
 ---
 # Project 2: Reliability Analysis & Survival Modeling
 
@@ -184,7 +185,9 @@ Gradual tail suggests wear-out behavior
 
 Confidence bands show estimation uncertainty over time
 
+![Kaplan–Meier Survival Curve](images/kaplan_meier_survival_curve.png)
 
+---
 
 ### 2️⃣ Time-to-Event Distribution (Failure vs. Censored)
 
@@ -196,6 +199,10 @@ Censored observations increase at later times
 
 Confirms the need for survival modeling vs. simple averages
 
+![Time to Event Distribution](images/time_to_event_distribution_failure_vs_censored.png)
+
+---
+
 ### 3️⃣ Survival Probability Comparison (Batch A vs. Batch B)
 
 This comparison highlights reliability differences between manufacturing batches.
@@ -205,6 +212,10 @@ Batch A demonstrates consistently higher survival probability
 Batch B experiences earlier degradation
 
 Confidence intervals reflect statistical uncertainty
+
+![Survival Curve by Batch](images/survival_curve_by_batch.png)
+
+---
 
 ### 4️⃣ Smoothed Survival Trends
 
@@ -216,6 +227,10 @@ Batch B exhibits faster reliability decay
 
 Useful for management-level interpretation
 
+![Smoothed Survival Curves](images/smoothed_survival_curves_by_batch.png)
+
+---
+
 ### 5️⃣ Hazard Function Analysis
 
 The hazard function represents the instantaneous failure rate.
@@ -223,6 +238,10 @@ The hazard function represents the instantaneous failure rate.
 Increasing hazard rate indicates aging or wear-out failure mode
 
 Critical for maintenance planning and lifecycle decisions
+
+![Hazard Function](images/hazard_function_by_batch.png)
+
+---
 
 ## 📈 Business & Engineering Impact
 
@@ -236,20 +255,26 @@ Critical for maintenance planning and lifecycle decisions
 
 - Applicable to aerospace, defense, electronics, and semiconductor systems
 
+---
+
 ## 🛠 Tools & Technologies
 
-Python
+- Python
 
-NumPy, Pandas
+- NumPy, Pandas
 
-Matplotlib / Seaborn
+- Matplotlib / Seaborn
 
-Lifelines (Survival Analysis)
+- Lifelines (Survival Analysis)
 
-Jupyter Notebook
+- Jupyter Notebook
+  
+---
 
 📁 Notebook:
 Reliability Analysis Using Weibull Modeling.ipynb
+
+---
 
 ### 🔍 Key Takeaway
 
@@ -349,7 +374,7 @@ This project addresses that gap by converting **normative legal principles into 
 - Trend analysis  
 ---
 
-## 📊 Project 3: Data Center Insights with Data Science & Engineering
+## 📊 Project 4: Data Center Insights with Data Science & Engineering
 
 ### *Operational Intelligence, Reliability, and Performance Optimization*
 
@@ -456,7 +481,7 @@ Rather than treating data as abstract, each variable is interpreted within its *
 
 ---
 
-## 📡 Project 4: Wi-Fi Optimization & Communication Performance Analysis
+## 📡 Project 5: Wi-Fi Optimization & Communication Performance Analysis
 
 ### *Signal Quality, Reliability, and Network Efficiency*
 
