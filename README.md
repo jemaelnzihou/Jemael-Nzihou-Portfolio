@@ -128,8 +128,136 @@ This project demonstrates how **data science bridges theory and real-world engin
 - Safer operations
 - Smarter decision-making
 ---
+# Project 2: Reliability Analysis & Survival Modeling
 
-# 📊 Project 2: Oath–Outcome Alignment Analysis  
+### Kaplan–Meier, Hazard Functions, and Batch Comparison
+
+---
+
+## 📌 Project Overview
+
+This project focuses on reliability engineering and time-to-event analysis using survival analysis techniques. The objective is to model failure behavior over time, quantify survival probabilities, and compare reliability performance across manufacturing batches.
+
+The analysis applies industry-standard statistical methods widely used in manufacturing, aerospace, defense, and semiconductor reliability studies.
+
+---
+
+## 🎯 Objectives
+
+- Model time-to-failure behavior using Kaplan–Meier survival estimation
+
+- Distinguish failure vs. censored observations
+
+- Compare survival performance between Batch A and Batch B
+
+- Analyze hazard (failure) rates over time
+
+- Support data-driven reliability and quality decisions
+
+---
+
+## 🧠 Methods & Techniques
+
+- Kaplan–Meier Estimator
+
+- Censoring analysis
+
+- Survival curve comparison by group
+
+- Hazard function estimation
+
+- Exploratory distribution analysis
+
+- Confidence interval visualization
+
+---
+
+## 📊 Key Visualizations & Insights
+
+### 1️⃣ Kaplan–Meier Survival Curve
+
+This plot estimates the probability that a unit survives beyond a given time.
+
+Steep early decline indicates early-life failures
+
+Gradual tail suggests wear-out behavior
+
+Confidence bands show estimation uncertainty over time
+
+
+
+### 2️⃣ Time-to-Event Distribution (Failure vs. Censored)
+
+This visualization contrasts observed failures against censored observations.
+
+Failures dominate early time periods
+
+Censored observations increase at later times
+
+Confirms the need for survival modeling vs. simple averages
+
+### 3️⃣ Survival Probability Comparison (Batch A vs. Batch B)
+
+This comparison highlights reliability differences between manufacturing batches.
+
+Batch A demonstrates consistently higher survival probability
+
+Batch B experiences earlier degradation
+
+Confidence intervals reflect statistical uncertainty
+
+### 4️⃣ Smoothed Survival Trends
+
+Smoothed curves help reveal underlying reliability trends.
+
+Batch A shows delayed failure onset
+
+Batch B exhibits faster reliability decay
+
+Useful for management-level interpretation
+
+### 5️⃣ Hazard Function Analysis
+
+The hazard function represents the instantaneous failure rate.
+
+Increasing hazard rate indicates aging or wear-out failure mode
+
+Critical for maintenance planning and lifecycle decisions
+
+## 📈 Business & Engineering Impact
+
+- Enables predictive maintenance strategies
+
+- Supports supplier and batch qualification
+
+- Reduces unexpected failures and downtime
+
+- Improves manufacturing reliability and quality control
+
+- Applicable to aerospace, defense, electronics, and semiconductor systems
+
+## 🛠 Tools & Technologies
+
+Python
+
+NumPy, Pandas
+
+Matplotlib / Seaborn
+
+Lifelines (Survival Analysis)
+
+Jupyter Notebook
+
+📁 Notebook:
+Reliability Analysis Using Weibull Modeling.ipynb
+
+### 🔍 Key Takeaway
+
+Survival analysis provides a statistically robust framework to evaluate reliability, account for censored data, and compare manufacturing performance across batches—far beyond traditional MTBF metrics.
+
+---
+
+# 📊 Project 3: Oath–Outcome Alignment Analysis  
 ### *From Constitutional Promises to Measurable Outcomes*
 
 ---
