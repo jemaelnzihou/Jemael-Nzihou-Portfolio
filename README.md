@@ -227,7 +227,7 @@ Batch B exhibits faster reliability decay
 
 Useful for management-level interpretation
 
-![Smoothed Survival Curves](smoothed_survival_curves_by_batch.png)
+![Survival Curve by Batch](survival_curve_by_batch.png)
 
 ---
 
