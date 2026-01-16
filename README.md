@@ -318,7 +318,11 @@ Key observations:
 - Risk banding (Green / Yellow / Red)  
 - SHAP-based local explanations  
 - Dashboard integration (Power BI / Plotly Dash)
-  
+
+---
+## 📁 Project Files
+
+📓 Photolithography_Project.ipynb
 ---
 
 # Project 3: Reliability Analysis & Survival Modeling
