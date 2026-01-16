@@ -226,7 +226,7 @@ Process telemetry representing:
 ![sensor_correlation_heatmap](sensor_correlation_heatmap.png)
   
 
-EDA highlights:
+**EDA highlights:**
 - Severe class imbalance  
 - Mostly complete core sensors with conditional diagnostics  
 - Strong subsystem-level correlations  
@@ -278,7 +278,7 @@ At default thresholds, the Random Forest behaves **conservatively**, flagging ne
 
 ![top_sensor_importances](top_sensor_importances.png)
 
-Key observations:
+**Key observations:**
 - Only **~10–20 sensors dominate** model decisions  
 - Reflect real lithography subsystems:
   - Illumination stability  
@@ -320,9 +320,11 @@ Key observations:
 - Dashboard integration (Power BI / Plotly Dash)
 
 ---
-## 📁 Project Files
+
+### 📁 Project Files
 
 📓 Photolithography_Project.ipynb
+
 ---
 
 # Project 3: Reliability Analysis & Survival Modeling
