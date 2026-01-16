@@ -133,8 +133,8 @@ This project demonstrates how **data science bridges theory and real-world engin
 # 📊 Project 2: Photolithography Yield Risk Prediction  
 ## AI-Driven Pass/Fail Modeling for Semiconductor Manufacturing
 
-> **Project Type:** Industrial Data Science · Manufacturing AI · Explainable ML  
-> **Dataset:** SECOM Semiconductor Manufacturing Dataset (UCI ML Repository)
+  **Project Type:** Industrial Data Science · Manufacturing AI · Explainable ML  
+  **Dataset:** SECOM Semiconductor Manufacturing Dataset (UCI ML Repository)
 
 ---
 
@@ -269,7 +269,7 @@ Process telemetry representing:
 
 At default thresholds, the Random Forest behaves **conservatively**, flagging nearly all runs as FAIL.
 
-> **Prediction ≠ Decision**  
+  **Prediction ≠ Decision**  
 > Threshold tuning is essential to balance **yield protection vs throughput**.
 
 ---
