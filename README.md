@@ -129,7 +129,228 @@ This project demonstrates how **data science bridges theory and real-world engin
 - Smarter decision-making
   
 ---
-# Project 2: Reliability Analysis & Survival Modeling
+
+# 📊 Project 2: Photolithography Yield Risk Prediction  
+## AI-Driven Pass/Fail Modeling for Semiconductor Manufacturing
+
+> **Project Type:** Industrial Data Science · Manufacturing AI · Explainable ML  
+> **Dataset:** SECOM Semiconductor Manufacturing Dataset (UCI ML Repository)
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Programming:** Python  
+- **Libraries:** Scikit-Learn, Pandas, NumPy, Matplotlib  
+- **Methods:** Classification, Ensemble Learning, Explainable AI, Drift Monitoring  
+
+---
+
+## 🔬 Project Overview
+
+Modern semiconductor manufacturing—especially **photolithography**—operates under extremely tight process windows. Small deviations in **exposure, focus, thermal stability, or tool health** can lead to **critical dimension (CD)** or **overlay excursions**, resulting in yield loss.
+
+This project develops an **AI-driven pass/fail risk prediction system** using real semiconductor process sensor data.  
+The objective is to **identify yield risk before downstream metrology**, enabling:
+
+- Earlier intervention  
+- Higher throughput  
+- Improved fab stability  
+
+---
+
+## 🎯 Business & Engineering Objective
+
+### Problem Statement
+**Can we predict whether a manufacturing run will PASS or FAIL specification using high-dimensional process sensor data—before final inspection?**
+
+### Why This Matters
+- AI chips require **near-perfect yield**
+- Lithography tools are **capital-intensive bottlenecks**
+- Early risk detection reduces:
+  - Scrap
+  - Rework
+  - Tool downtime
+  - Throughput loss
+
+---
+
+## 🧠 Dataset Description
+
+**Source:** UCI Machine Learning Repository – SECOM Dataset  
+
+| Attribute | Value |
+|---------|------|
+| Samples | 1,567 manufacturing runs |
+| Sensors | 590 process variables |
+| Target  | Pass / Fail |
+
+### Key Characteristics
+- High dimensionality (**p ≫ n**)  
+- Severe class imbalance (~93% FAIL, ~7% PASS)  
+- Structured missing data (conditional sensors)  
+- Strong subsystem correlations  
+
+> ✅ This makes the dataset **highly realistic** for semiconductor manufacturing analytics.
+
+---
+
+## 🔄 Data Science Lifecycle (Photolithography Context)
+
+### 1️⃣ Problem Definition
+- Predict yield risk (PASS/FAIL) prior to metrology  
+- Analogous to CD or overlay out-of-spec prediction  
+
+### 2️⃣ Data Collection
+Process telemetry representing:
+- Exposure & focus proxies  
+- Thermal and environmental signals  
+- Tool subsystem health  
+
+### 3️⃣ Data Understanding
+- Sensor completeness analysis  
+- Missingness patterns  
+- Variability and correlation checks  
+
+### 4️⃣ Data Cleaning & Wrangling
+- Median imputation for missing values  
+- Retention of conditionally active sensors  
+- Stratified train/test split  
+
+### 5️⃣ Exploratory Data Analysis (EDA)
+
+<p align="center">
+  <img src="images/class_distribution.png" width="45%">
+  <img src="images/missing_fraction_histogram.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="images/sensor_correlation_heatmap.png" width="70%">
+</p>
+
+EDA highlights:
+- Severe class imbalance  
+- Mostly complete core sensors with conditional diagnostics  
+- Strong subsystem-level correlations  
+
+---
+
+### 6️⃣ Feature Engineering
+- Robust scaling  
+- Imputation pipelines  
+- Preparation for nonlinear models  
+
+---
+
+### 7️⃣ Modeling
+- **Logistic Regression** – baseline, interpretable  
+- **Random Forest** – nonlinear, subsystem-aware  
+
+---
+
+### 8️⃣ Model Evaluation
+
+<p align="center">
+  <img src="images/roc_curves_logreg_vs_rf.png" width="60%">
+</p>
+
+| Model | ROC-AUC |
+|-----|--------|
+| Logistic Regression | ~0.64 |
+| Random Forest | ~0.78 |
+
+**Interpretation**
+- Yield risk is **not linearly separable**
+- Nonlinear interactions between tool subsystems dominate
+- Ensemble models better capture lithography behavior
+
+---
+
+### 9️⃣ Operational Insight: Confusion Matrix
+
+<p align="center">
+  <img src="images/rf_confusion_matrix.png" width="45%">
+</p>
+
+At default thresholds, the Random Forest behaves **conservatively**, flagging nearly all runs as FAIL.
+
+> **Prediction ≠ Decision**  
+> Threshold tuning is essential to balance **yield protection vs throughput**.
+
+---
+
+## 🔍 Explainability & Root-Cause Insight
+
+<p align="center">
+  <img src="images/top_sensor_importances.png" width="60%">
+</p>
+
+Key observations:
+- Only **~10–20 sensors dominate** model decisions  
+- Reflect real lithography subsystems:
+  - Illumination stability  
+  - Focus control  
+  - Thermal regulation  
+  - Stage dynamics  
+
+---
+
+## 📡 Deployment & Drift Monitoring
+
+<p align="center">
+  <img src="images/psi_drift_monitoring.png" width="60%">
+</p>
+
+- Drift monitored using **Population Stability Index (PSI)**
+- Early-stage drift detected in key sensors
+- No catastrophic shifts, but signals of:
+  - Tool aging
+  - Process change
+  - Recipe evolution  
+
+> This mirrors how fabs monitor equipment health in production.
+
+---
+
+## 🚀 Why This Project Stands Out
+
+✔ Real semiconductor manufacturing data  
+✔ High-dimensional, imbalanced industrial ML problem  
+✔ Strong focus on explainability and deployment readiness  
+✔ Direct relevance to **AI chip production and advanced nodes**
+
+---
+
+## 📌 Future Enhancements
+- Threshold optimization for fab decision policies  
+- Precision-Recall analysis  
+- Risk banding (Green / Yellow / Red)  
+- SHAP-based local explanations  
+- Dashboard integration (Power BI / Plotly Dash)
+
+---
+```
+
+---
+
+### ✅ What this version improves
+
+* Clear **top-down story** (business → data → models → operations)
+* Proper **visual placement** (not cluttered)
+* Recruiter-friendly **scannability**
+* Reads like a **senior industrial ML case study**
+
+If you want next, I can:
+
+* Optimize this README for **ATS keywords**
+* Auto-export and resize figures for GitHub
+* Create a **LinkedIn post** announcing Project 2
+* Help you align Project 2 with **Project 1 & 3** in your portfolio
+
+Just tell me the next step.
+
+---
+# Project 3: Reliability Analysis & Survival Modeling
 
 ### Kaplan–Meier, Hazard Functions, and Batch Comparison
 
@@ -282,7 +503,7 @@ Survival analysis provides a statistically robust framework to evaluate reliabil
 
 ---
 
-# 📊 Project 3: Oath–Outcome Alignment Analysis  
+# 📊 Project 4: Oath–Outcome Alignment Analysis  
 ### *From Constitutional Promises to Measurable Outcomes*
 
 ---
@@ -374,7 +595,7 @@ This project addresses that gap by converting **normative legal principles into 
 - Trend analysis  
 ---
 
-## 📊 Project 4: Data Center Insights with Data Science & Engineering
+## 📊 Project 5: Data Center Insights with Data Science & Engineering
 
 ### *Operational Intelligence, Reliability, and Performance Optimization*
 
@@ -481,7 +702,7 @@ Rather than treating data as abstract, each variable is interpreted within its *
 
 ---
 
-## 📡 Project 5: Wi-Fi Optimization & Communication Performance Analysis
+## 📡 Project 6: Wi-Fi Optimization & Communication Performance Analysis
 
 ### *Signal Quality, Reliability, and Network Efficiency*
 
