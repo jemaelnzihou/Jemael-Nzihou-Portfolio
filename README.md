@@ -219,14 +219,12 @@ Process telemetry representing:
 
 ### 5️⃣ Exploratory Data Analysis (EDA)
 
-<p align="center">
-  <img src="images/class_distribution.png" width="45%">
-  <img src="images/missing_fraction_histogram.png" width="45%">
-</p>
+![class_distribution](class_distribution.png)
 
-<p align="center">
-  <img src="images/sensor_correlation_heatmap.png" width="70%">
-</p>
+![missing_fraction_histogram](missing_fraction_histogram.png)
+
+![sensor_correlation_heatmap](sensor_correlation_heatmap.png)
+  
 
 EDA highlights:
 - Severe class imbalance  
@@ -250,9 +248,7 @@ EDA highlights:
 
 ### 8️⃣ Model Evaluation
 
-<p align="center">
-  <img src="images/roc_curves_logreg_vs_rf.png" width="60%">
-</p>
+![roc_curves_logreg_vs_rf](roc_curves_logreg_vs_rf.png)
 
 | Model | ROC-AUC |
 |-----|--------|
@@ -268,9 +264,8 @@ EDA highlights:
 
 ### 9️⃣ Operational Insight: Confusion Matrix
 
-<p align="center">
-  <img src="images/rf_confusion_matrix.png" width="45%">
-</p>
+![rf_confusion_matrix](rf_confusion_matrix.png)
+  
 
 At default thresholds, the Random Forest behaves **conservatively**, flagging nearly all runs as FAIL.
 
@@ -281,9 +276,7 @@ At default thresholds, the Random Forest behaves **conservatively**, flagging ne
 
 ## 🔍 Explainability & Root-Cause Insight
 
-<p align="center">
-  <img src="images/top_sensor_importances.png" width="60%">
-</p>
+![top_sensor_importances](top_sensor_importances.png)
 
 Key observations:
 - Only **~10–20 sensors dominate** model decisions  
@@ -297,9 +290,7 @@ Key observations:
 
 ## 📡 Deployment & Drift Monitoring
 
-<p align="center">
-  <img src="images/psi_drift_monitoring.png" width="60%">
-</p>
+![psi_drift_monitoring](psi_drift_monitoring.png)
 
 - Drift monitored using **Population Stability Index (PSI)**
 - Early-stage drift detected in key sensors
@@ -327,29 +318,9 @@ Key observations:
 - Risk banding (Green / Yellow / Red)  
 - SHAP-based local explanations  
 - Dashboard integration (Power BI / Plotly Dash)
-
----
-```
-
+  
 ---
 
-### ✅ What this version improves
-
-* Clear **top-down story** (business → data → models → operations)
-* Proper **visual placement** (not cluttered)
-* Recruiter-friendly **scannability**
-* Reads like a **senior industrial ML case study**
-
-If you want next, I can:
-
-* Optimize this README for **ATS keywords**
-* Auto-export and resize figures for GitHub
-* Create a **LinkedIn post** announcing Project 2
-* Help you align Project 2 with **Project 1 & 3** in your portfolio
-
-Just tell me the next step.
-
----
 # Project 3: Reliability Analysis & Survival Modeling
 
 ### Kaplan–Meier, Hazard Functions, and Batch Comparison
