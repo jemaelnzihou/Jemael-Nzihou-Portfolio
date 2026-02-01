@@ -1,6 +1,162 @@
 # Data Science Projects
 
-# 📊 Project 1 — Dynamic Temperature & Velocity Analysis in Engineering Systems
+#  📊 Project 1 - Physics-Informed Neural Networks (PINNs) for Heat Transfer Modeling in Chemical Reactors
+
+This repository implements a **Physics-Informed Neural Network (PINN)** to solve the **1D transient heat diffusion equation**:
+
+\[
+\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
+\]
+
+with Dirichlet boundary conditions and an initial condition.  
+Unlike purely data-driven models, PINNs embed **first-principles physics directly into the learning process**, enabling accurate solutions even with sparse or noisy data.
+
+---
+
+## 📌 Problem Statement
+
+Traditional numerical methods such as **Finite Difference (FDM)**, **Finite Volume (FVM)**, or **Computational Fluid Dynamics (CFD)** can be computationally expensive and slow, especially for:
+
+- Iterative design
+- Real-time optimization
+- Digital twin deployment
+
+This project demonstrates how **Physics-Informed Neural Networks** can serve as a **fast, physics-consistent surrogate model** for transient heat transfer problems in chemical reactors.
+
+---
+
+## ⚗️ Chemical Engineering Background
+
+Temperature distribution inside reactors critically affects:
+
+- Reaction kinetics (Arrhenius dependence)
+- Catalyst activity and degradation
+- Hot-spot formation
+- Thermal runaway and safety risks
+
+Classically, these systems are modeled using **energy balances and PDEs**.  
+PINNs offer a modern alternative that preserves physical fidelity while enabling **machine-learning-based acceleration**.
+
+---
+
+## 📐 Governing Equations
+
+### Heat Diffusion Equation (1D, Transient)
+
+\[
+T_t = \alpha T_{xx}
+\]
+
+Where:
+
+- \( T(x,t) \) = temperature  
+- \( \alpha = \frac{k}{\rho c_p} \) = thermal diffusivity  
+
+### Boundary Conditions
+\[
+T(0,t) = 0, \quad T(1,t) = 0
+\]
+
+### Initial Condition
+\[
+T(x,0) = \sin(\pi x)
+\]
+
+### Analytical Solution (Validation Case)
+\[
+T(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x)
+\]
+
+This analytical form allows direct comparison between **PINN predictions and ground truth**.
+
+---
+
+## 📊 Data & Assumptions
+
+**Assumptions**
+- One-dimensional conduction
+- Constant thermal properties
+- No internal heat generation (baseline case)
+
+**Training Data**
+- Physics collocation points sampled across space–time
+- Boundary condition points
+- Initial condition points
+- Optional sparse synthetic sensor data
+
+PINNs allow learning **without full-field labeled datasets**.
+
+---
+
+## 🧠 Model Development
+
+- Neural network: Multi-Layer Perceptron (MLP)
+- Inputs: spatial coordinate \(x\), time \(t\)
+- Output: temperature \(T(x,t)\)
+
+### Loss Function Components
+- **PDE residual loss** (physics enforcement)
+- **Boundary condition loss**
+- **Initial condition loss**
+- *(Optional)* data loss from sensors
+
+Automatic differentiation is used to compute \( T_t \) and \( T_{xx} \).
+
+---
+
+## 📈 Results & Interpretation
+
+The training script produces:
+
+- Loss convergence curves
+- Temperature profile comparisons (PINN vs analytical)
+- Absolute error heatmap over space and time
+- Quantitative metrics (RMSE, max error)
+
+Results are saved to the `results/` directory after training.
+
+---
+
+## 💼 Business / Operational Impact
+
+**Chemical & Industrial Systems**
+- Hot-spot detection
+- Reduced sensor requirements
+- Faster design iteration
+
+**Data Centers**
+- Thermal digital twins
+- Cooling optimization (CRAC/CRAH, liquid loops)
+- Reliability and energy efficiency analysis
+
+**Energy & Aerospace**
+- Lightweight thermal solvers
+- Rapid what-if scenario testing
+- Predictive reliability modeling
+
+---
+
+## 🔮 Future Improvements
+
+- Extend to **2D / 3D geometries**
+- Add **convection and reaction heat generation**
+- Solve **inverse problems** (estimate \( \alpha \), heat flux)
+- Integrate **reinforcement learning** for control optimization
+- Deploy as a **Streamlit or cloud-based dashboard**
+
+---
+
+## 🚀 Quickstart
+
+### 1️⃣ Create a virtual environment
+```bash
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS / Linux:
+source .venv/bin/activate
+
+# 📊 Project 2 — Dynamic Temperature & Velocity Analysis in Engineering Systems
 
 ## 🔍 Overview
 This project applies **data science, exploratory data analysis (EDA), and predictive modeling** to analyze **thermal and fluid dynamic behavior** in two critical engineering systems:
@@ -130,7 +286,7 @@ This project demonstrates how **data science bridges theory and real-world engin
   
 ---
 
-# 📊 Project 2: Photolithography Yield Risk Prediction  
+# 📊 Project 3: Photolithography Yield Risk Prediction  
 ## AI-Driven Pass/Fail Modeling for Semiconductor Manufacturing
 
   **Project Type:** Industrial Data Science · Manufacturing AI · Explainable ML  
@@ -327,7 +483,7 @@ At default thresholds, the Random Forest behaves **conservatively**, flagging ne
 
 ---
 
-# Project 3: Reliability Analysis & Survival Modeling
+# Project 4: Reliability Analysis & Survival Modeling
 
 ### Kaplan–Meier, Hazard Functions, and Batch Comparison
 
@@ -480,7 +636,7 @@ Survival analysis provides a statistically robust framework to evaluate reliabil
 
 ---
 
-# 📊 Project 4: Oath–Outcome Alignment Analysis  
+# 📊 Project 5: Oath–Outcome Alignment Analysis  
 ### *From Constitutional Promises to Measurable Outcomes*
 
 ---
@@ -572,7 +728,7 @@ This project addresses that gap by converting **normative legal principles into 
 - Trend analysis  
 ---
 
-## 📊 Project 5: Data Center Insights with Data Science & Engineering
+## 📊 Project 6: Data Center Insights with Data Science & Engineering
 
 ### *Operational Intelligence, Reliability, and Performance Optimization*
 
@@ -679,7 +835,7 @@ Rather than treating data as abstract, each variable is interpreted within its *
 
 ---
 
-## 📡 Project 6: Wi-Fi Optimization & Communication Performance Analysis
+## 📡 Project 7: Wi-Fi Optimization & Communication Performance Analysis
 
 ### *Signal Quality, Reliability, and Network Efficiency*
 
