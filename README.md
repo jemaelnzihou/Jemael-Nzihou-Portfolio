@@ -195,7 +195,7 @@ This shows the PINN has internalized the governing physics, not memorized discre
 
 The smooth error structure indicates **numerical stability**, not overfitting.
 
-##**📊 Quantitative Summary (From Metrics)**
+## **📊 Quantitative Summary (From Metrics)**
 
 - RMSE ≈ 1.2 × 10⁻³
 
