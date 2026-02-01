@@ -17,8 +17,11 @@ Rather than relying purely on data, the model enforces the **1D heat equation** 
 ## 🎯 Objectives
 
 * Model **transient heat diffusion** using a neural network
+  
 * Enforce physical consistency via **PDE residual minimization**
+  
 * Validate predictions against a **closed-form analytical solution**
+  
 * Produce engineering-ready outputs (profiles, error maps, metrics)
 
 ---
@@ -169,7 +172,7 @@ This shows the PINN has internalized the governing physics, not memorized discre
 
 ### **🧠 Interpretation**
 
-**Higher error near **t=0** is common because:**
+**Higher error near t=0 is common because:**
 
 - The solution transitions sharply from the initial condition
 
@@ -230,16 +233,6 @@ The smooth error structure indicates **numerical stability**, not overfitting.
 ### **📌 Final Insight**
 
 **A Physics-Informed Neural Network was trained to solve the 1D transient heat equation, achieving sub-percent error and near-perfect agreement with analytical solutions across the full space–time domain.**
-
-## **📈 Key Outputs**
-
-- Loss convergence curves
-
-- PINN vs analytical temperature profiles
-
-- Absolute error heatmaps
-
-- Quantitative metrics (RMSE, mean error, max error)
   
 ---
 
