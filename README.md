@@ -1,43 +1,29 @@
 # 📊 Data Science Projects
 
-## 🧠 Project 1 — Physics-Informed Neural Networks (PINNs)
+# 🧠 Project 1 — Physics-Informed Neural Networks (PINNs)
 
-### Heat Transfer Modeling in Chemical Reactors
+## *Heat Transfer Modeling in Chemical Reactors*
 
-### 🔍 Overview
+---
+
+## 🔍 Overview
 
 This project implements a **Physics-Informed Neural Network (PINN)** to model **transient heat diffusion** in a chemical reactor using **first-principles physics embedded into a neural network**.
 
-Rather than relying purely on data, the model enforces the **1D heat equation** directly during training, enabling **physically consistent predictions even with sparse or noisy measurements**.
+Rather than relying purely on data, the model enforces the **1D heat equation** during training, enabling **physically consistent predictions even with sparse or noisy measurements**—a key requirement for engineering systems and digital twins.
 
 ---
 
-### 🎯 Problem Statement
+## 🎯 Objectives
 
-Traditional numerical solvers (FDM, FVM, CFD) are accurate but often:
-
-* Computationally expensive
-* Too slow for real-time optimization
-* Difficult to deploy as digital twins
-
-This project demonstrates how **PINNs act as fast, physics-consistent surrogate models** for reactor thermal behavior.
+* Model **transient heat diffusion** using a neural network
+* Enforce physical consistency via **PDE residual minimization**
+* Validate predictions against a **closed-form analytical solution**
+* Produce engineering-ready outputs (profiles, error maps, metrics)
 
 ---
 
-### ⚗️ Chemical Engineering Context
-
-Reactor temperature profiles directly affect:
-
-* Reaction kinetics (Arrhenius behavior)
-* Catalyst activity and degradation
-* Hot-spot formation
-* Thermal runaway risk
-
-Embedding physical laws into ML preserves **engineering realism** while enabling **data-driven acceleration**.
-
----
-
-### 📐 Governing Physics (Engineering Form)
+## 📐 Governing Physics (Engineering Form)
 
 **Heat diffusion (1D, transient):**
 
@@ -47,8 +33,8 @@ Embedding physical laws into ML preserves **engineering realism** while enabling
 
 Where:
 
-* T(x,t) = temperature
-* α = k / (ρ · cₚ) = thermal diffusivity
+* `T(x,t)` = temperature
+* `α = k / (ρ · cₚ)` = thermal diffusivity
 
 **Boundary conditions:**
 
@@ -71,43 +57,23 @@ T(x,t) = exp(-α·π²·t) · sin(πx)
 
 ---
 
-### 📊 Data & Assumptions
+## 🧠 Methods & Model Design
 
-**Assumptions**
+* **Model:** Multi-Layer Perceptron (MLP) mapping `(x, t) → T(x,t)`
+* **Training strategy:** physics collocation sampling across space–time
+* **Physics enforcement:** automatic differentiation
+* **Loss components:**
 
-* One-dimensional conduction
-* Constant thermal properties
-* No internal heat generation (baseline)
-
-**Training inputs**
-
-* Physics collocation points (space–time)
-* Boundary condition points
-* Initial condition points
-* Optional sparse sensor data
+  * PDE residual loss
+  * Boundary condition loss
+  * Initial condition loss
+  * *(Optional)* sparse sensor data loss
 
 ---
 
-### 🧠 Model Development
+## 📈 Key Outputs
 
-* Neural network: Multi-Layer Perceptron (MLP)
-* Inputs: spatial coordinate (x), time (t)
-* Output: temperature T(x,t)
-
-**Loss components**
-
-* PDE residual loss (physics enforcement)
-* Boundary condition loss
-* Initial condition loss
-* Optional data loss
-
-Automatic differentiation is used to compute temporal and spatial derivatives.
-
----
-
-### 📈 Results & Interpretation
-
-The model produces:
+The project generates:
 
 * Loss convergence curves
 * PINN vs analytical temperature profiles
@@ -118,225 +84,42 @@ All outputs are stored in the `results/` directory.
 
 ---
 
-### 💼 Business & Operational Impact
+## 💼 Applications
 
-**Chemical & Industrial Systems**
-
-* Hot-spot detection
-* Reduced sensor requirements
-* Faster thermal design iteration
-
-**Data Centers**
-
-* Thermal digital twins
-* Cooling optimization (CRAC/CRAH, liquid loops)
-
-**Energy & Aerospace**
-
-* Lightweight thermal solvers
-* Rapid what-if scenario analysis
+* **Chemical Engineering:** hot-spot detection, reactor thermal safety
+* **Industrial AI:** physics-guided surrogate modeling
+* **Data Centers:** thermal digital twins, cooling optimization (CRAC/CRAH, liquid loops)
+* **Energy & Aerospace:** fast thermal solvers for what-if analysis
 
 ---
 
-### 🔮 Future Extensions
+## 🛠 Tools & Technologies
+
+* Python
+* PyTorch (automatic differentiation)
+* NumPy
+* Matplotlib
+
+---
+
+## 📁 Project Files
+
+* `train.py` — training, evaluation, and plotting
+* `pinn.py` — PINN architecture and PDE residual
+* `utils.py` — analytical solution and helpers
+* `results/` — generated figures and metrics
+
+---
+
+## 🚀 Future Extensions
 
 * 2D / 3D geometries
 * Convection and reaction heat generation
-* Inverse problems (estimate α or boundary heat flux)
+* Inverse problems (estimate `α` or boundary heat flux)
 * Reinforcement-learning-based control
 * Streamlit or cloud-based dashboards
 
 ---
-
-## 4️⃣ What this fix achieves
-
-✅ GitHub-native math rendering
-✅ Consistent with **Projects 2–7**
-✅ No LaTeX rendering bugs
-✅ Cleaner recruiter experience
-✅ Stronger engineering credibility
-
----
-
-## 5️⃣ Strong recommendation (next step)
-
-If you want to be **elite-level clean**:
-
-* Keep **README = engineering + narrative**
-* Put **full LaTeX PDE derivations** in:
-
-  * `/docs/derivation.pdf` or
-  * The Jupyter notebook itself
-
-That’s exactly how **top PhD portfolios and industry ML repos** do it.
-
-If you want, I can:
-
-* Normalize **ALL projects** to this same template
-* Create a **table of contents + skill mapping**
-* Split this into **multi-repo vs monorepo strategy**
-
-Just say the word.
-
-
----
-# Data Science Projects
-
-#  📊 Project 1 - Physics-Informed Neural Networks (PINNs) for Heat Transfer Modeling in Chemical Reactors
-
-This repository implements a **Physics-Informed Neural Network (PINN)** to solve the **1D transient heat diffusion equation**:
-
-\[
-\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-\]
-
-with Dirichlet boundary conditions and an initial condition.  
-Unlike purely data-driven models, PINNs embed **first-principles physics directly into the learning process**, enabling accurate solutions even with sparse or noisy data.
-
----
-
-## 📌 Problem Statement
-
-Traditional numerical methods such as **Finite Difference (FDM)**, **Finite Volume (FVM)**, or **Computational Fluid Dynamics (CFD)** can be computationally expensive and slow, especially for:
-
-- Iterative design
-- Real-time optimization
-- Digital twin deployment
-
-This project demonstrates how **Physics-Informed Neural Networks** can serve as a **fast, physics-consistent surrogate model** for transient heat transfer problems in chemical reactors.
-
----
-
-## ⚗️ Chemical Engineering Background
-
-Temperature distribution inside reactors critically affects:
-
-- Reaction kinetics (Arrhenius dependence)
-- Catalyst activity and degradation
-- Hot-spot formation
-- Thermal runaway and safety risks
-
-Classically, these systems are modeled using **energy balances and PDEs**.  
-PINNs offer a modern alternative that preserves physical fidelity while enabling **machine-learning-based acceleration**.
-
----
-
-## 📐 Governing Equations
-
-### Heat Diffusion Equation (1D, Transient)
-
-\[
-T_t = \alpha T_{xx}
-\]
-
-Where:
-
-- \( T(x,t) \) = temperature  
-- \( \alpha = \frac{k}{\rho c_p} \) = thermal diffusivity  
-
-### Boundary Conditions
-\[
-T(0,t) = 0, \quad T(1,t) = 0
-\]
-
-### Initial Condition
-\[
-T(x,0) = \sin(\pi x)
-\]
-
-### Analytical Solution (Validation Case)
-\[
-T(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x)
-\]
-
-This analytical form allows direct comparison between **PINN predictions and ground truth**.
-
----
-
-## 📊 Data & Assumptions
-
-**Assumptions**
-- One-dimensional conduction
-- Constant thermal properties
-- No internal heat generation (baseline case)
-
-**Training Data**
-- Physics collocation points sampled across space–time
-- Boundary condition points
-- Initial condition points
-- Optional sparse synthetic sensor data
-
-PINNs allow learning **without full-field labeled datasets**.
-
----
-
-## 🧠 Model Development
-
-- Neural network: Multi-Layer Perceptron (MLP)
-- Inputs: spatial coordinate \(x\), time \(t\)
-- Output: temperature \(T(x,t)\)
-
-### Loss Function Components
-- **PDE residual loss** (physics enforcement)
-- **Boundary condition loss**
-- **Initial condition loss**
-- *(Optional)* data loss from sensors
-
-Automatic differentiation is used to compute \( T_t \) and \( T_{xx} \).
-
----
-
-## 📈 Results & Interpretation
-
-The training script produces:
-
-- Loss convergence curves
-- Temperature profile comparisons (PINN vs analytical)
-- Absolute error heatmap over space and time
-- Quantitative metrics (RMSE, max error)
-
-Results are saved to the `results/` directory after training.
-
----
-
-## 💼 Business / Operational Impact
-
-**Chemical & Industrial Systems**
-- Hot-spot detection
-- Reduced sensor requirements
-- Faster design iteration
-
-**Data Centers**
-- Thermal digital twins
-- Cooling optimization (CRAC/CRAH, liquid loops)
-- Reliability and energy efficiency analysis
-
-**Energy & Aerospace**
-- Lightweight thermal solvers
-- Rapid what-if scenario testing
-- Predictive reliability modeling
-
----
-
-## 🔮 Future Improvements
-
-- Extend to **2D / 3D geometries**
-- Add **convection and reaction heat generation**
-- Solve **inverse problems** (estimate \( \alpha \), heat flux)
-- Integrate **reinforcement learning** for control optimization
-- Deploy as a **Streamlit or cloud-based dashboard**
-
----
-
-## 🚀 Quickstart
-
-### 1️⃣ Create a virtual environment
-```bash
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-# macOS / Linux:
-source .venv/bin/activate
 
 # 📊 Project 2 — Dynamic Temperature & Velocity Analysis in Engineering Systems
 
