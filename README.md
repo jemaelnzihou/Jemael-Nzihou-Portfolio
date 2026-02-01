@@ -101,7 +101,7 @@ Absolute error heatmaps
 Quantitative metrics (RMSE, mean error, max error)
 ---
 
-## 📈 Key Outputs
+##**📈 Key Outputs**
 
 The project generates:
 
