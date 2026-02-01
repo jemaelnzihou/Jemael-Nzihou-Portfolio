@@ -68,7 +68,6 @@ T(x,t) = exp(-α·π²·t) · sin(πx)
   * Boundary condition loss
   * Initial condition loss
   * *(Optional)* sparse sensor data loss
-🧠 Methods & Model Development
 
 ## **📊 Visual Results**
 
@@ -78,21 +77,22 @@ Shows stable convergence of the physics-constrained loss components.
 
 ![Training Loss Curves](resultsloss_curves.png) 
 
+
 **🔍 What you see**
 
 All loss components (PDE, Boundary, Initial) decrease by several orders of magnitude
 
-The total loss converges to ~10⁻⁴
+The total loss converges to **~10⁻⁴**
 
 Periodic spikes appear in the loss curves
 
-**🧠 Interpretation**
+### **🧠 Interpretation**
 
-The PDE loss decreasing confirms the network is learning a function that satisfies the heat equation
+- The PDE loss decreasing confirms the network is learning a function that satisfies the heat equation
 
-The BC and IC losses dropping faster indicates that boundary and initial constraints are easier to satisfy than interior physics
+- The BC and IC losses dropping faster indicates that boundary and initial constraints are easier to satisfy than interior physics
 
-The periodic spikes are normal in PINNs and occur because:
+### **The periodic spikes are normal in PINNs and occur because:**
 
 - The optimizer alternates between satisfying different competing constraints
 
@@ -100,63 +100,47 @@ The periodic spikes are normal in PINNs and occur because:
 
 - Overall downward trend → stable, convergent training
 
-**🔬 Physical meaning**
+
+### **🔬 Physical meaning**
 
 The network is not just fitting data — it is learning a temperature field that obeys energy conservation throughout the domain.
 
-✔️ This confirms successful physics enforcement, not just numerical curve fitting.
+**✔️ This confirms successful physics enforcement, not just numerical curve fitting.**
 
-**🌡️ Temperature Profiles — PINN vs Analytical**
+
+### **🌡️ Temperature Profiles — PINN vs Analytical**
 
 Comparison across multiple time slices validates physical accuracy.
 
 ![PINN vs Analytical Solution](resultstime_slices.png)
 
-PINN vs Analytical Solution (Time Slices)
-🔍 What you see
+## **PINN vs Analytical Solution (Time Slices)**
 
-PINN predictions (solid lines) overlap almost perfectly with analytical solutions (dashed)
+### **🔍 What we see**
+
+- PINN predictions (solid lines) overlap almost perfectly with analytical solutions (dashed)
 
 Agreement holds across all time slices:
 
-𝑡
-=
-0.00
-t=0.00
+**𝑡=0.00**
+**t=0.25**
+**t=0.50**
+**t=0.75**
+**t=1.00**
 
-𝑡
-=
-0.25
-t=0.25
+### **🧠 Interpretation**
 
-𝑡
-=
-0.50
-t=0.50
+**The PINN accurately captures:**
 
-𝑡
-=
-0.75
-t=0.75
+- Spatial shape (sinusoidal mode)
 
-𝑡
-=
-1.00
-t=1.00
+- Temporal decay (exponential damping)
 
-🧠 Interpretation
+- No phase shift, no amplitude drift — even at later times
 
-The PINN accurately captures:
+### **🔬 Physical meaning**
 
-Spatial shape (sinusoidal mode)
-
-Temporal decay (exponential damping)
-
-No phase shift, no amplitude drift — even at later times
-
-**🔬 Physical meaning**
-
-The model has learned:
+**The model has learned:**
 
 - The **dominant eigenmode** of the heat equation
 
@@ -164,47 +148,47 @@ The model has learned:
 
 This shows the PINN has internalized the governing physics, not memorized discrete points.
 
-✔️ This level of overlap is equivalent to a high-resolution numerical solver.
+**✔️ This level of overlap is equivalent to a high-resolution numerical solver.**
 
 
-**🔥 Absolute Error Heatmap (Space–Time)**
+### **🔥 Absolute Error Heatmap (Space–Time)**
 
-Highlights regions of higher error and overall solution fidelity.
+**Highlights regions of higher error and overall solution fidelity.**
 
 ![Absolute Error Heatmap](resultserror_heatmap.png) 
 
 Absolute Error Heatmap (Space–Time)
-🔍 What see
+🔍 What we see
 
-Errors are uniformly low across most of the domain
+- Errors are uniformly low across most of the domain
 
-Slightly higher errors near:
+- Slightly higher errors near:
 
-Early time 𝑡≈0
+Early time **𝑡≈0**
 
-Boundaries x≈0 and x≈1
+Boundaries **x≈0 and x≈1**
 
 Maximum error ≈ **6.6 × 10⁻³**
 
-**🧠 Interpretation**
+### **🧠 Interpretation**
 
-Higher error near t=0 is common because:
+Higher error near **t=0** is common because:
 
-The solution transitions sharply from the initial condition
+- The solution transitions sharply from the initial condition
 
 Boundary regions are more sensitive due to:
 
-Competing enforcement of BCs and PDE constraints
+- Competing enforcement of BCs and PDE constraints
 
-Importantly:
+### **Importantly:**
 
 - No error blow-up
 
 - No instability over time
 
-**🔬 Physical meaning**
+### **🔬 Physical meaning**
 
-The PINN provides a globally consistent thermal field, suitable for:
+**The PINN provides a globally consistent thermal field, suitable for:**
 
 - Design analysis
 
@@ -215,22 +199,24 @@ The PINN provides a globally consistent thermal field, suitable for:
 The smooth error structure indicates **numerical stability**, not overfitting.
 
 ##**📊 Quantitative Summary (From Metrics)**
-RMSE ≈ 1.2 × 10⁻³
-Max absolute error ≈ 6.6 × 10⁻³
 
-**Interpretation**
+- RMSE ≈ 1.2 × 10⁻³
 
-Errors are <1% of peak temperature
+- Max absolute error ≈ 6.6 × 10⁻³
 
-Comparable to (or better than) coarse CFD / FDM grids
+### **Interpretation**
 
-Achieved without mesh generation
+- Errors are <1% of peak temperature
 
-✔️ This validates PINNs as a credible alternative to traditional solvers.
+- Comparable to (or better than) coarse CFD / FDM grids
 
-##**🧠 Big-Picture Insight (What This Demonstrates)**
+- Achieved without mesh generation
 
-This experiment shows that the PINN:
+**✔️ This validates PINNs as a credible alternative to traditional solvers.**
+
+##**🧠 Big-Picture Insight**
+
+**This experiment shows that the PINN:**
 
 - Learns physical laws, not just data
 
@@ -242,11 +228,11 @@ This experiment shows that the PINN:
 
 **In other words:**
 
-We have built a working scientific machine learning solver.
+- We have built a working scientific machine learning solver.
 
-**📌 Final Insight**
+### **📌 Final Insight**
 
-“A Physics-Informed Neural Network was trained to solve the 1D transient heat equation, achieving sub-percent error and near-perfect agreement with analytical solutions across the full space–time domain.”
+**A Physics-Informed Neural Network was trained to solve the 1D transient heat equation, achieving sub-percent error and near-perfect agreement with analytical solutions across the full space–time domain.**
 
 ## **📈 Key Outputs**
 
@@ -257,6 +243,7 @@ We have built a working scientific machine learning solver.
 - Absolute error heatmaps
 
 - Quantitative metrics (RMSE, mean error, max error)
+  
 ---
 
 ## **📈 Key Outputs**
