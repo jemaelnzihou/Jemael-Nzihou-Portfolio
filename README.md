@@ -64,11 +64,41 @@ T(x,t) = exp(-α·π²·t) · sin(πx)
 * **Physics enforcement:** automatic differentiation
 * **Loss components:**
 
-  * PDE residual loss
+  * PDE residual loss (physics enforcement)
   * Boundary condition loss
   * Initial condition loss
   * *(Optional)* sparse sensor data loss
+🧠 Methods & Model Development
 
+##**📊 Visual Results**
+
+**🔁 Training Loss Convergence**
+
+Shows stable convergence of the physics-constrained loss components.
+
+![Training Loss Curves](resultsloss_curves.png)
+
+**🌡️ Temperature Profiles — PINN vs Analytical**
+
+Comparison across multiple time slices validates physical accuracy.
+
+![PINN vs Analytical Solution](resultstime_slices.png)
+
+**🔥 Absolute Error Heatmap (Space–Time)**
+
+Highlights regions of higher error and overall solution fidelity.
+
+![Absolute Error Heatmap](resultserror_heatmap.png)
+
+##**📈 Key Outputs**
+
+Loss convergence curves
+
+PINN vs analytical temperature profiles
+
+Absolute error heatmaps
+
+Quantitative metrics (RMSE, mean error, max error)
 ---
 
 ## 📈 Key Outputs
@@ -79,8 +109,6 @@ The project generates:
 * PINN vs analytical temperature profiles
 * Absolute error heatmaps
 * Quantitative metrics (RMSE, max error)
-
-All outputs are stored in the `results/` directory.
 
 ---
 
@@ -104,10 +132,10 @@ All outputs are stored in the `results/` directory.
 
 ## 📁 Project Files
 
+* Physics-Informed Neural Networks (PINNs).ipynb
 * `train.py` — training, evaluation, and plotting
 * `pinn.py` — PINN architecture and PDE residual
 * `utils.py` — analytical solution and helpers
-* `results/` — generated figures and metrics
 
 ---
 
