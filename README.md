@@ -1,82 +1,73 @@
 # 📊 Data Science Projects
 
-### *Engineering-Driven Analytics, Physics-Aware AI, and Real-World Systems Modeling*
-
-This repository showcases a curated set of **data science, AI, and engineering analytics projects** spanning:
-
-* Chemical & thermal systems
-* Manufacturing & semiconductor processes
-* Reliability & survival analysis
-* Data center operations
-* Communication & network performance
-* Governance & institutional accountability
-
-Each project integrates **domain physics, statistical reasoning, and machine learning** to support **decision-making in complex real-world systems**.
-
----
-
 ## 🧠 Project 1 — Physics-Informed Neural Networks (PINNs)
 
-### *Heat Transfer Modeling in Chemical Reactors*
+### Heat Transfer Modeling in Chemical Reactors
 
 ### 🔍 Overview
 
-This project implements a **Physics-Informed Neural Network (PINN)** to solve the **1D transient heat diffusion equation**:
+This project implements a **Physics-Informed Neural Network (PINN)** to model **transient heat diffusion** in a chemical reactor using **first-principles physics embedded into a neural network**.
 
-[
-\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2}
-]
-
-Unlike purely data-driven models, PINNs embed **first-principles physics directly into the learning process**, enabling accurate predictions with **sparse or noisy data**.
+Rather than relying purely on data, the model enforces the **1D heat equation** directly during training, enabling **physically consistent predictions even with sparse or noisy measurements**.
 
 ---
 
 ### 🎯 Problem Statement
 
-Traditional numerical methods (FDM, FVM, CFD) are computationally expensive for:
+Traditional numerical solvers (FDM, FVM, CFD) are accurate but often:
 
-* Iterative design
-* Real-time optimization
-* Digital-twin deployment
+* Computationally expensive
+* Too slow for real-time optimization
+* Difficult to deploy as digital twins
 
-This project demonstrates how **PINNs act as fast, physics-consistent surrogate models** for transient heat transfer problems in chemical reactors.
+This project demonstrates how **PINNs act as fast, physics-consistent surrogate models** for reactor thermal behavior.
 
 ---
 
 ### ⚗️ Chemical Engineering Context
 
-Temperature profiles govern:
+Reactor temperature profiles directly affect:
 
 * Reaction kinetics (Arrhenius behavior)
 * Catalyst activity and degradation
 * Hot-spot formation
 * Thermal runaway risk
 
-PINNs preserve **physical fidelity** while enabling **machine-learning acceleration**.
+Embedding physical laws into ML preserves **engineering realism** while enabling **data-driven acceleration**.
 
 ---
 
-### 📐 Governing Equations
+### 📐 Governing Physics (Engineering Form)
 
 **Heat diffusion (1D, transient):**
-[
-T_t = \alpha T_{xx}
-]
+
+```
+∂T/∂t = α · ∂²T/∂x²
+```
+
+Where:
+
+* T(x,t) = temperature
+* α = k / (ρ · cₚ) = thermal diffusivity
 
 **Boundary conditions:**
-[
-T(0,t) = 0,\quad T(1,t) = 0
-]
+
+```
+T(0,t) = 0
+T(1,t) = 0
+```
 
 **Initial condition:**
-[
-T(x,0) = \sin(\pi x)
-]
+
+```
+T(x,0) = sin(πx)
+```
 
 **Analytical validation solution:**
-[
-T(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x)
-]
+
+```
+T(x,t) = exp(-α·π²·t) · sin(πx)
+```
 
 ---
 
@@ -86,12 +77,13 @@ T(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x)
 
 * One-dimensional conduction
 * Constant thermal properties
-* No internal heat generation (baseline case)
+* No internal heat generation (baseline)
 
 **Training inputs**
 
-* Physics collocation points
-* Boundary and initial condition points
+* Physics collocation points (space–time)
+* Boundary condition points
+* Initial condition points
 * Optional sparse sensor data
 
 ---
@@ -100,37 +92,39 @@ T(x,t) = e^{-\alpha \pi^2 t} \sin(\pi x)
 
 * Neural network: Multi-Layer Perceptron (MLP)
 * Inputs: spatial coordinate (x), time (t)
-* Output: temperature (T(x,t))
+* Output: temperature T(x,t)
 
 **Loss components**
 
-* PDE residual loss
+* PDE residual loss (physics enforcement)
 * Boundary condition loss
 * Initial condition loss
 * Optional data loss
+
+Automatic differentiation is used to compute temporal and spatial derivatives.
 
 ---
 
 ### 📈 Results & Interpretation
 
-Outputs include:
+The model produces:
 
 * Loss convergence curves
 * PINN vs analytical temperature profiles
 * Absolute error heatmaps
 * Quantitative metrics (RMSE, max error)
 
-Results are stored in the `results/` directory.
+All outputs are stored in the `results/` directory.
 
 ---
 
 ### 💼 Business & Operational Impact
 
-**Chemical & Industrial**
+**Chemical & Industrial Systems**
 
 * Hot-spot detection
 * Reduced sensor requirements
-* Faster design iteration
+* Faster thermal design iteration
 
 **Data Centers**
 
@@ -140,126 +134,50 @@ Results are stored in the `results/` directory.
 **Energy & Aerospace**
 
 * Lightweight thermal solvers
-* Rapid what-if analysis
+* Rapid what-if scenario analysis
 
 ---
 
 ### 🔮 Future Extensions
 
 * 2D / 3D geometries
-* Convection & reaction heat generation
-* Inverse problems (estimate ( \alpha ), heat flux)
+* Convection and reaction heat generation
+* Inverse problems (estimate α or boundary heat flux)
 * Reinforcement-learning-based control
-* Streamlit or cloud dashboards
+* Streamlit or cloud-based dashboards
 
 ---
 
-## 🌡️ Project 2 — Dynamic Temperature & Velocity Analysis
+## 4️⃣ What this fix achieves
 
-### *Heat Exchangers and Chemical Reactors*
-
-### Overview
-
-This project applies **EDA, physics-based simulation, and predictive analysis** to study **thermal and fluid dynamic behavior** in:
-
-* Heat exchangers
-* Chemical reactors
-
-**Key goals**
-
-* Monitor system stability
-* Detect deviations
-* Support operational decisions
+✅ GitHub-native math rendering
+✅ Consistent with **Projects 2–7**
+✅ No LaTeX rendering bugs
+✅ Cleaner recruiter experience
+✅ Stronger engineering credibility
 
 ---
 
-## 📊 Project 3 — Photolithography Yield Risk Prediction
+## 5️⃣ Strong recommendation (next step)
 
-### *AI-Driven Pass/Fail Modeling for Semiconductor Manufacturing*
+If you want to be **elite-level clean**:
 
-This project develops an **explainable AI model** to predict **manufacturing yield risk** using the SECOM semiconductor dataset.
+* Keep **README = engineering + narrative**
+* Put **full LaTeX PDE derivations** in:
 
-**Highlights**
+  * `/docs/derivation.pdf` or
+  * The Jupyter notebook itself
 
-* High-dimensional, imbalanced industrial data
-* Ensemble learning (Random Forest)
-* ROC-AUC improvement from ~0.64 → ~0.78
-* Explainability via sensor importance
-* Drift monitoring using PSI
+That’s exactly how **top PhD portfolios and industry ML repos** do it.
 
----
+If you want, I can:
 
-## 🛠 Project 4 — Reliability Analysis & Survival Modeling
+* Normalize **ALL projects** to this same template
+* Create a **table of contents + skill mapping**
+* Split this into **multi-repo vs monorepo strategy**
 
-### *Kaplan–Meier, Hazard Functions, and Batch Comparison*
+Just say the word.
 
-Focuses on **time-to-failure modeling** using:
-
-* Kaplan–Meier survival estimation
-* Censoring analysis
-* Hazard function comparison
-
-Applied to **manufacturing batch reliability assessment**.
-
----
-
-## ⚖️ Project 5 — Oath–Outcome Alignment Analysis
-
-### *From Constitutional Promises to Measurable Outcomes*
-
-A unique project combining **data science, NLP, and policy analytics** to quantify alignment between **constitutional oaths** and **institutional outcomes**.
-
-Uses:
-
-* Radar charts
-* Heatmaps
-* Distribution analysis
-
----
-
-## 🏢 Project 6 — Data Center Insights
-
-### *Operational Intelligence, Reliability, and Performance Optimization*
-
-Applies engineering-aware analytics to:
-
-* Thermal behavior
-* Power consumption
-* Communication latency
-
-Directly relevant to **modern hyperscale data centers**.
-
----
-
-## 📡 Project 7 — Wi-Fi Optimization & Communication Performance
-
-### *Signal Quality, Reliability, and Network Efficiency*
-
-Analyzes:
-
-* SNR vs BER relationships
-* Spatial Wi-Fi coverage quality
-* Throughput optimization
-
-Grounded in **communication theory and network engineering**.
-
----
-
-## 👤 Author
-
-**Jemael Nzihou**
-PhD Student — Data Science
-Chemical Engineer | Business Analytics | Quality Champion
-
-🔗 Portfolio: [https://jemaelnzihou.github.io/Jemael-Nzihou-Portfolio/](https://jemaelnzihou.github.io/Jemael-Nzihou-Portfolio/)
-🔗 LinkedIn: [https://www.linkedin.com/in/jemaelnzihou](https://www.linkedin.com/in/jemaelnzihou)
-
----
-
-## 📜 License
-
-Released for **research and educational use**.
-Please cite appropriately if used in academic or professional work.
 
 ---
 # Data Science Projects
