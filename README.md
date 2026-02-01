@@ -1,16 +1,3 @@
-Great portfolio — the content is strong, it just needs **structural and stylistic consistency** so it reads like a **cohesive GitHub flagship README**, not stitched sections.
-
-Below is a **cleaned, consistent, and unified version** that:
-
-* Uses **one hierarchy** of headings
-* Standardizes **project naming, emojis, and tone**
-* Keeps **technical rigor** while improving readability
-* Makes each project feel part of a **Data Science + Engineering program**, not standalone notes
-
-You can paste this directly as your **root `README.md`**.
-
----
-
 # 📊 Data Science Projects
 
 ### *Engineering-Driven Analytics, Physics-Aware AI, and Real-World Systems Modeling*
