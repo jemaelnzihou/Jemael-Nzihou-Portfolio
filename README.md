@@ -78,13 +78,11 @@ Shows stable convergence of the physics-constrained loss components.
 ![Training Loss Curves](resultsloss_curves.png) 
 
 
-**🔍 What you see**
+- All loss components (PDE, Boundary, Initial) decrease by several orders of magnitude
 
-All loss components (PDE, Boundary, Initial) decrease by several orders of magnitude
+- The total loss converges to **~10⁻⁴**
 
-The total loss converges to **~10⁻⁴**
-
-Periodic spikes appear in the loss curves
+- Periodic spikes appear in the loss curves
 
 ### **🧠 Interpretation**
 
@@ -114,19 +112,20 @@ Comparison across multiple time slices validates physical accuracy.
 
 ![PINN vs Analytical Solution](resultstime_slices.png)
 
-## **PINN vs Analytical Solution (Time Slices)**
-
-### **🔍 What we see**
 
 - PINN predictions (solid lines) overlap almost perfectly with analytical solutions (dashed)
 
 Agreement holds across all time slices:
 
-**𝑡=0.00**
-**t=0.25**
-**t=0.50**
-**t=0.75**
-**t=1.00**
+- **𝑡=0.00**
+  
+- **t=0.25**
+  
+- **t=0.50**
+
+- **t=0.75**
+
+- **t=1.00**
 
 ### **🧠 Interpretation**
 
@@ -157,26 +156,24 @@ This shows the PINN has internalized the governing physics, not memorized discre
 
 ![Absolute Error Heatmap](resultserror_heatmap.png) 
 
-Absolute Error Heatmap (Space–Time)
-🔍 What we see
 
 - Errors are uniformly low across most of the domain
 
-- Slightly higher errors near:
+- **Slightly higher errors near:**
 
-Early time **𝑡≈0**
+- Early time **𝑡≈0**
 
-Boundaries **x≈0 and x≈1**
+- Boundaries **x≈0 and x≈1**
 
-Maximum error ≈ **6.6 × 10⁻³**
+- Maximum error ≈ **6.6 × 10⁻³**
 
 ### **🧠 Interpretation**
 
-Higher error near **t=0** is common because:
+**Higher error near **t=0** is common because:**
 
 - The solution transitions sharply from the initial condition
 
-Boundary regions are more sensitive due to:
+**Boundary regions are more sensitive due to:**
 
 - Competing enforcement of BCs and PDE constraints
 
@@ -214,7 +211,7 @@ The smooth error structure indicates **numerical stability**, not overfitting.
 
 **✔️ This validates PINNs as a credible alternative to traditional solvers.**
 
-##**🧠 Big-Picture Insight**
+## **🧠 Big-Picture Insight**
 
 **This experiment shows that the PINN:**
 
