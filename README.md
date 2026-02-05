@@ -63,9 +63,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Overall Churn Rate**
 
-```
 ![churn_rate](churn_rate.png) 
-```
 
 *~26% churn → material revenue risk requiring targeted intervention*
 
