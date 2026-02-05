@@ -91,7 +91,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Elbow Method for K-Means**
 
-![elbow method ](elbow_method.png)
+![elbow method](elbow_method.png)
 
 *Four stable, interpretable segments selected*
 
@@ -203,35 +203,6 @@ What this project demonstrates:
 * Decision intelligence
 * Explainable AI
 * Production-ready analytics
-
----
-
-## 🛠️ Tech Stack
-
-* Python, Pandas, NumPy
-* Scikit-Learn
-* Matplotlib / Seaborn
-* Jupyter
-
----
-
-## 📁 Repo Structure
-
-```
-├── assets/
-│   ├── churn_rate.png
-│   ├── churn_by_contract.png
-│   ├── churn_by_tenure.png
-│   ├── segment_profiles.png
-│   ├── churn_drivers.png
-│   └── retention_targets.png
-├── notebooks/
-│   └── Segmentation_and_Retention.ipynb
-├── src/
-│   └── pipeline/
-└── README.md
-```
----
 
 ### 🔍 other Visuals
 
