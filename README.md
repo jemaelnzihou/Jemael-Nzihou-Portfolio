@@ -91,7 +91,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Elbow Method for K-Means**
 
-![elbow_method](elbow_method.png)
+![elbow_method](elbow_method.png) 
 
 *Four stable, interpretable segments selected*
 
