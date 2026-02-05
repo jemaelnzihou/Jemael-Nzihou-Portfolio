@@ -63,32 +63,25 @@ Segment × Churn Risk × Customer Value
 
 📊 **Overall Churn Rate**
 
-
 ![churn_rate](churn_rate.png) 
 
-*~26% churn → material revenue risk requiring targeted intervention*
+*~27% churn → material revenue risk requiring targeted intervention*
 
 📊 **Churn by Contract Type**
 
-```
-/assets/churn_by_contract.png
-```
+![Churn by Contract](churn_by_contract.png) 
 
 *Month-to-month customers churn 3–4× more than long-term contracts*
 
 📊 **Churn by Tenure Band**
 
-```
-/assets/churn_by_tenure.png
-```
+![churn by tenure](churn_by_tenure.png)
 
 *Highest churn occurs in the first 6–12 months*
 
 📊 **Churn by Internet Service**
 
-```
-/assets/churn_by_service.png
-```
+![churn by service](churn_by_service.png) 
 
 *Fiber optic users show elevated churn → expectation gap*
 
@@ -100,25 +93,32 @@ Segment × Churn Risk × Customer Value
 
 📊 **Elbow Method for K-Means**
 
-```
-/assets/elbow_method.png
-```
+![elbow method ](elbow_method.png)
 
 *Four stable, interpretable segments selected*
 
+👥 **Customer Segmentation — K-Means (PCA Projection)**
+
+![kmeans_pca_projection](kmeans_pca_projection.png)
+
+**Customers cluster into four distinct behavioral personas based on tenure, spend, and service usage.**
+
+🎯 **Segment Centers — K-Means with Centroids**
+
+![kmeans pca centroids](kmeans_pca_centroids.png)
+
+**Centroids represent the behavioral “center” of each segment, enabling stable personas and consistent downstream decision-making.**
+
 📊 **Segment Distribution**
 
-```
-/assets/segment_distribution.png
-```
+![segment distribution](segment_distribution.png)
 
 *Balanced segments — no noise clusters*
 
 📊 **Segment Profiles**
 
-```
-/assets/segment_profiles.png
-```
+![segment profiles](segment_profiles.png)
+
 
 | Segment                 | Churn | Value     | Business Meaning   |
 | ----------------------- | ----- | --------- | ------------------ |
@@ -135,9 +135,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Global Model Performance**
 
-```
-/assets/global_model_metrics.png
-```
+![global model metrics](global_model_metrics.png)
 
 * ROC-AUC ≈ **0.85**
 * Accuracy ≈ **80%**
@@ -145,9 +143,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Top Churn Drivers**
 
-```
-/assets/churn_drivers.png
-```
+![churn drivers](churn_drivers.png)
 
 **Increases churn**
 
@@ -172,9 +168,9 @@ Segment × Churn Risk × Customer Value
 
 📊 **Segment Strategy Matrix**
 
-```
-/assets/segment_strategy.png
-```
+
+![segment strategy](segment_strategy.png)
+
 
 | Segment Type            | Action               |
 | ----------------------- | -------------------- |
@@ -185,9 +181,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Customer-Level Retention Priority**
 
-```
-/assets/top_retention_targets.png
-```
+![top retention targets](top_retention_targets.png)
 
 Each customer receives:
 
@@ -201,7 +195,7 @@ This output is **CRM-ready**.
 
 ---
 
-## 🧠 Executive Impact
+## 🧠 Impact
 
 > This system enables leadership to **reduce churn while protecting margin**, by acting only where ROI is positive.
 
@@ -220,7 +214,6 @@ What this project demonstrates:
 * Scikit-Learn
 * Matplotlib / Seaborn
 * Jupyter
-* (Optional) Streamlit
 
 ---
 
@@ -240,35 +233,9 @@ What this project demonstrates:
 │   └── pipeline/
 └── README.md
 ```
-
 ---
 
-# 🌐 Portfolio Landing Page (Markdown / GitHub Pages)
-
-You can use this as `index.md` or homepage content.
-
----
-
-## 📊 Telco Churn — Decision Intelligence Case Study
-
-**Problem**
-Churn prediction alone does not reduce churn. Decisions do.
-
-**Approach**
-
-* Segmented customers into behavioral personas
-* Built explainable churn models
-* Designed a retention decision engine combining risk, value, and feasibility
-
-**Outcome**
-
-* Clear prioritization of retention spend
-* Reduced false positives
-* Business-aligned intervention strategies
-
----
-
-### 🔍 Key Visuals
+### 🔍 other Visuals
 
 ![Churn by Contract](/assets/churn_by_contract.png)
 *Contract commitment is the strongest churn lever*
@@ -285,26 +252,9 @@ This project answers **“who should we act on, and why.”**
 
 That distinction is what separates **academic ML** from **production data science**.
 
----
-
-### 🔗 Explore
-
-* 📘 Notebook walkthrough
-* 📂 Decision outputs
-* 📊 Segment insights
-
----
-
-## 🏁 Final Note (Recruiter Signal)
+## 🏁 Final Note 
 
 > This project mirrors how churn analytics is built and deployed in real organizations — combining modeling, segmentation, and business decision-making into one system.
-
-
-
-
-
-
-
 
 ---
 
