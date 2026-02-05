@@ -1,5 +1,315 @@
 # 📊 Data Science Projects
 
+# 📉 Telco Customer Churn — End-to-End Decision Intelligence System
+
+*(FAANG-style README)*
+
+> **Designing a production-grade churn system that converts ML signals into revenue-preserving decisions**
+
+This project demonstrates how modern data science is applied **inside real companies**:
+from ambiguous business problems to **clear, defensible actions**.
+
+Unlike tutorial projects, this system emphasizes:
+
+* business framing
+* behavioral segmentation
+* explainable modeling
+* ROI-aware decision logic
+
+---
+
+## 🎯 Problem Statement
+
+Subscription businesses lose millions annually to churn.
+The challenge is **not predicting churn**, but deciding:
+
+* **Which customers are worth saving**
+* **Which churn is unavoidable**
+* **How to intervene without destroying margin**
+
+This project operationalizes churn management using a decision framework aligned with how teams at **Google, Meta, Amazon, Netflix, and Microsoft** work.
+
+---
+
+## 🧠 System Architecture (High Level)
+
+```
+Raw Customer Data
+        ↓
+Business EDA (Phase 1)
+        ↓
+Behavioral Segmentation (Phase 2)
+        ↓
+Churn Modeling (Phase 3)
+        ↓
+Decision Layer (Phase 4)
+        ↓
+Retention Actions (CRM / Ops Ready)
+```
+
+Core decision logic:
+
+```
+Segment × Churn Risk × Customer Value
+```
+
+---
+
+## 🔍 Phase 1 — Business EDA
+
+**Understand churn as an economic problem**
+
+### Key Visuals
+
+📊 **Overall Churn Rate**
+
+```
+/assets/churn_rate.png
+```
+
+*~26% churn → material revenue risk requiring targeted intervention*
+
+📊 **Churn by Contract Type**
+
+```
+/assets/churn_by_contract.png
+```
+
+*Month-to-month customers churn 3–4× more than long-term contracts*
+
+📊 **Churn by Tenure Band**
+
+```
+/assets/churn_by_tenure.png
+```
+
+*Highest churn occurs in the first 6–12 months*
+
+📊 **Churn by Internet Service**
+
+```
+/assets/churn_by_service.png
+```
+
+*Fiber optic users show elevated churn → expectation gap*
+
+---
+
+## 👥 Phase 2 — Behavioral Segmentation
+
+**Move from “all customers” to decision-ready personas**
+
+📊 **Elbow Method for K-Means**
+
+```
+/assets/elbow_method.png
+```
+
+*Four stable, interpretable segments selected*
+
+📊 **Segment Distribution**
+
+```
+/assets/segment_distribution.png
+```
+
+*Balanced segments — no noise clusters*
+
+📊 **Segment Profiles**
+
+```
+/assets/segment_profiles.png
+```
+
+| Segment                 | Churn | Value     | Business Meaning   |
+| ----------------------- | ----- | --------- | ------------------ |
+| High value + Low churn  | Low   | Very high | Core revenue base  |
+| High value + High churn | High  | Moderate  | Revenue at risk    |
+| Low value + High churn  | High  | Low       | Poor ROI           |
+| Low value + Low churn   | Low   | Low       | Stable, low margin |
+
+---
+
+## 🤖 Phase 3 — Churn Modeling
+
+**Predict churn with explainability**
+
+📊 **Global Model Performance**
+
+```
+/assets/global_model_metrics.png
+```
+
+* ROC-AUC ≈ **0.85**
+* Accuracy ≈ **80%**
+* Conservative by design → minimizes wasted retention spend
+
+📊 **Top Churn Drivers**
+
+```
+/assets/churn_drivers.png
+```
+
+**Increases churn**
+
+* Fiber optic service
+* Month-to-month contracts
+* Early tenure
+* Lack of tech support
+
+**Reduces churn**
+
+* Two-year contracts
+* Longer tenure
+* Lower monthly charges
+
+📌 The model explains **what to fix**, not just *who might leave*.
+
+---
+
+## 🎯 Phase 4 — Decision Layer
+
+**From prediction → action**
+
+📊 **Segment Strategy Matrix**
+
+```
+/assets/segment_strategy.png
+```
+
+| Segment Type            | Action               |
+| ----------------------- | -------------------- |
+| High value + High churn | Aggressive retention |
+| High value + Low churn  | Loyalty rewards      |
+| Low value + High churn  | Minimal spend        |
+| Low value + Low churn   | Maintain             |
+
+📊 **Customer-Level Retention Priority**
+
+```
+/assets/top_retention_targets.png
+```
+
+Each customer receives:
+
+* churn probability (segment-aware)
+* value proxy
+* actionability score
+* ranked retention priority
+* recommended action
+
+This output is **CRM-ready**.
+
+---
+
+## 🧠 Executive Impact
+
+> This system enables leadership to **reduce churn while protecting margin**, by acting only where ROI is positive.
+
+What this project demonstrates:
+
+* Strategic thinking (not just ML)
+* Decision intelligence
+* Explainable AI
+* Production-ready analytics
+
+---
+
+## 🛠️ Tech Stack
+
+* Python, Pandas, NumPy
+* Scikit-Learn
+* Matplotlib / Seaborn
+* Jupyter
+* (Optional) Streamlit
+
+---
+
+## 📁 Repo Structure
+
+```
+├── assets/
+│   ├── churn_rate.png
+│   ├── churn_by_contract.png
+│   ├── churn_by_tenure.png
+│   ├── segment_profiles.png
+│   ├── churn_drivers.png
+│   └── retention_targets.png
+├── notebooks/
+│   └── Segmentation_and_Retention.ipynb
+├── src/
+│   └── pipeline/
+└── README.md
+```
+
+---
+
+# 🌐 Portfolio Landing Page (Markdown / GitHub Pages)
+
+You can use this as `index.md` or homepage content.
+
+---
+
+## 📊 Telco Churn — Decision Intelligence Case Study
+
+**Problem**
+Churn prediction alone does not reduce churn. Decisions do.
+
+**Approach**
+
+* Segmented customers into behavioral personas
+* Built explainable churn models
+* Designed a retention decision engine combining risk, value, and feasibility
+
+**Outcome**
+
+* Clear prioritization of retention spend
+* Reduced false positives
+* Business-aligned intervention strategies
+
+---
+
+### 🔍 Key Visuals
+
+![Churn by Contract](/assets/churn_by_contract.png)
+*Contract commitment is the strongest churn lever*
+
+![Segment Strategy](/assets/segment_strategy.png)
+*Retention actions driven by ROI, not emotion*
+
+---
+
+### 🧠 Why This Matters
+
+Most churn projects stop at **“who might churn.”**
+This project answers **“who should we act on, and why.”**
+
+That distinction is what separates **academic ML** from **production data science**.
+
+---
+
+### 🔗 Explore
+
+* 📘 Notebook walkthrough
+* 📂 Decision outputs
+* 📊 Segment insights
+
+---
+
+## 🏁 Final Note (Recruiter Signal)
+
+> This project mirrors how churn analytics is built and deployed in real organizations — combining modeling, segmentation, and business decision-making into one system.
+
+
+
+
+
+
+
+
+---
+
+
 # 🧠 Project 1 — Physics-Informed Neural Networks (PINNs)
 
 ## *Heat Transfer Modeling in Chemical Reactors*
