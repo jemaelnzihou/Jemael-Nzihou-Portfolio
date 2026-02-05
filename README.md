@@ -2,8 +2,6 @@
 
 # 📉 Telco Customer Churn — End-to-End Decision Intelligence System
 
-*(FAANG-style README)*
-
 > **Designing a production-grade churn system that converts ML signals into revenue-preserving decisions**
 
 This project demonstrates how modern data science is applied **inside real companies**:
