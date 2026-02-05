@@ -91,7 +91,7 @@ Segment × Churn Risk × Customer Value
 
 📊 **Elbow Method for K-Means**
 
-![elbow method](elbow_method.png)
+![elbow_method](elbow_method.png)
 
 *Four stable, interpretable segments selected*
 
@@ -106,12 +106,6 @@ Segment × Churn Risk × Customer Value
 ![kmeans pca centroids](kmeans_pca_centroids.png)
 
 **Centroids represent the behavioral “center” of each segment, enabling stable personas and consistent downstream decision-making.**
-
-📊 **Segment Distribution**
-
-![segment distribution](segment_distribution.png)
-
-*Balanced segments — no noise clusters*
 
 📊 **Segment Profiles**
 
@@ -203,15 +197,6 @@ What this project demonstrates:
 * Decision intelligence
 * Explainable AI
 * Production-ready analytics
-
-### 🔍 other Visuals
-
-![Churn by Contract](/assets/churn_by_contract.png)
-*Contract commitment is the strongest churn lever*
-
-![Segment Strategy](/assets/segment_strategy.png)
-*Retention actions driven by ROI, not emotion*
-
 ---
 
 ### 🧠 Why This Matters
