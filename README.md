@@ -1285,7 +1285,10 @@ Chemical Engineer | Business Analytics | Quality Champion certified
 🔗 Portfolio: https://jemaelnzihou.github.io/Jemael-Nzihou-Portfolio/  
 🔗 LinkedIn: https://www.linkedin.com/in/jemaelnzihou
 
-[![Quality Champion Credential](https://img.shields.io/badge/Quality%20Champion-Professional%20Credential-blue)](https://www.credential.net/e04c82b4-44d7-4315-8131-e6c3873e5143#acc.mToFZaKE)
+[![Quality Champion Credential](https://img.shields.io/badge/Quality%20Champion-Professional%20Credential-blue)](https://www.credential.net/e04c82b4-44d7-4315-8131-e6c3873e5143#acc.mToFZaKE) 
+
+[![IBM Data Science Professional Certificate](https://img.shields.io/badge/IBM%20Data%20Science-Professional%20Certificate-blue)](https://www.coursera.org/account/accomplishments/professional-cert/KAR555JBRMQD)
+
 
 ---
 
