@@ -1289,6 +1289,9 @@ Chemical Engineer | Business Analytics | Quality Champion certified
 
 [![IBM Data Science Professional Certificate](https://img.shields.io/badge/IBM%20Data%20Science-Professional%20Certificate-blue)](https://www.coursera.org/account/accomplishments/professional-cert/KAR555JBRMQD)
 
+[![Business Intelligence Professional Certificate](https://img.shields.io/badge/Business%20Intelligence-Professional%20Certificate-blue)](https://www.coursera.org/account/accomplishments/professional-cert/A993OS5I15RU)
+
+[![Google Advanced Data Analytics](https://img.shields.io/badge/Coursera-Professional%20Certificate-blue)](https://www.coursera.org/account/accomplishments/professional-cert/6XQJN95NRRB2)
 
 ---
 
