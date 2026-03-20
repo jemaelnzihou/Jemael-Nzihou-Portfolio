@@ -1,5 +1,149 @@
 # 📊 Data Science Projects
 
+# 🔐 AI-Powered Cyber Risk Scoring Engine
+
+## 📌 Overview
+This project develops a machine learning-based cyber risk scoring engine that classifies enterprise assets into **Low, Medium, High, and Critical** risk categories.
+
+It integrates cybersecurity, governance, and data science to move beyond traditional spreadsheet-based risk assessments toward **predictive, data-driven decision-making**.
+
+---
+
+## 🎯 Business Problem
+Organizations often rely on manual and subjective methods to assess cyber risk, which are:
+- inconsistent
+- time-consuming
+- difficult to scale
+
+This project demonstrates how machine learning can improve:
+- risk prioritization
+- remediation strategies
+- governance and compliance processes
+
+---
+
+## 🧠 Objectives
+- Build a predictive cyber risk classification model
+- Identify key drivers of cyber risk
+- Support GRC decision-making using data science
+- Demonstrate real-world cybersecurity analytics capability
+
+---
+
+## 📊 Features Used
+
+- CVSS Score (vulnerability severity)
+- Patch Delay (days)
+- Incident Frequency
+- System Criticality
+- Third-Party Risk Score
+- Compliance Score
+- Failed Login Rate
+- Data Sensitivity
+- Open Security Findings
+
+---
+
+## ⚙️ Model
+
+A **Random Forest Classifier** was used for multiclass classification.
+
+- Handles complex feature interactions
+- Robust against overfitting
+- Suitable for tabular cybersecurity data
+
+---
+
+## 📈 Model Performance
+
+- **Accuracy:** 86%
+- **ROC-AUC:** 0.94 (excellent classification capability)
+
+### Key Observations:
+- Strong performance for **Critical risk detection**
+- Reduced performance for **Low/Medium classes** due to class imbalance
+
+---
+
+## 🔍 Key Findings
+
+The most influential drivers of cyber risk include:
+
+- CVSS score
+- Patch delay
+- Open findings
+- Failed login rate
+- Compliance score
+- Third-party risk score
+
+These findings confirm that:
+> **Delayed remediation, weak control posture, and unresolved vulnerabilities significantly increase cyber risk exposure.**
+
+---
+
+## ⚙️ Practical Impact (GRC)
+
+This model enables:
+
+- Risk-based prioritization of assets
+- Faster remediation decision-making
+- Improved audit targeting
+- Better third-party risk evaluation
+
+---
+
+## 💼 Executive Value
+
+This solution supports:
+
+- Data-driven cyber risk governance
+- Board-level reporting dashboards
+- Regulatory compliance (NIST, ISO 27001)
+- Operational risk visibility
+
+It demonstrates how AI can transform cybersecurity from reactive to **proactive and predictive**.
+
+---
+
+## ⚠️ Limitations
+
+- Dataset imbalance affects minority class prediction
+- Synthetic dataset (simulated environment)
+
+### Future Improvements:
+- Apply SMOTE for class balancing
+- Integrate real-world CVE/NVD data
+- Add SIEM log analytics
+- Deploy as a Streamlit web application
+- Build Power BI dashboard for executives
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- pandas, numpy
+- scikit-learn
+- matplotlib
+- Jupyter Notebook
+
+---
+
+## 🚀 Future Enhancements
+
+- Real-time risk scoring pipeline
+- Cloud deployment (AWS)
+- Integration with security monitoring systems
+- AI Governance and Risk modeling extension
+
+---
+
+## 🔗 Keywords
+
+Cybersecurity, GRC, Risk Management, Machine Learning, Data Science, AI, Governance, Compliance, Cyber Risk, Predictive Analytics
+
+---
+
 # 📉 Telco Customer Churn — End-to-End Decision Intelligence System
 
 > **Designing a production-grade churn system that converts ML signals into revenue-preserving decisions**
