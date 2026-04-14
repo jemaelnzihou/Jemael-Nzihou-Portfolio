@@ -83,7 +83,7 @@ Random Forest Regressor
 
 ## 📊 Model Visualization
 
-![ActualvsPredictedOilProductionRate](ActualvsPredictedOilProductionRate.png) 
+![Actual vs Predicted Oil Production Rate](Actual_vs_Predicted_Oil_Production_Rate.png) 
 
 👉 The model shows strong alignment between actual and predicted values, indicating reliable forecasting performance.
 
