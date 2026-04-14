@@ -125,31 +125,17 @@ Built with **Streamlit**, the dashboard provides:
 
 ## 🧮 Engineering & Mathematical Concepts
 
-This project integrates core engineering principles:
-
 ### 🔹 Production Flow (Reservoir Engineering)
-
-[
-q = \frac{kA}{\mu} \frac{dP}{dx}
-]
+$q = \frac{kA}{\mu} \frac{dP}{dx}$
 
 ### 🔹 Heat Transfer (Refining)
-
-[
-Q = \dot{m} C_p \Delta T
-]
+$Q = \dot{m} C_p \Delta T$
 
 ### 🔹 Thermodynamics (Gas Behavior)
-
-[
-PV = nRT
-]
+$PV = nRT$
 
 ### 🔹 System Representation
-
-[
-\text{Output} = f(\text{Operating Conditions})
-]
+$\text{Output} = f(\text{Operating Conditions})$
 
 ---
 
@@ -226,9 +212,13 @@ This project is designed to align with roles such as:
 Unlike typical ML projects, this work demonstrates:
 
 ✔ Engineering domain expertise
+
 ✔ End-to-end system thinking
+
 ✔ Real-world industrial applications
+
 ✔ Business impact awareness
+
 ✔ Integration of AI with physical systems
 
 ---
