@@ -37,27 +37,74 @@ Engineering System → Data → Machine Learning → Dashboard → Decisions
 
 ## 🛢️ A. Upstream Model — Production Forecasting
 
-### 🎯 Goal
-
+### 🎯 Goal  
 Predict oil production rates using reservoir and operational parameters
 
-### 📊 Inputs
+### 📊 Inputs  
+- Reservoir pressure  
+- Choke size  
+- Gas-oil ratio  
+- Water cut  
+- CO₂ injection (EOR)  
 
-* Reservoir pressure
-* Choke size
-* Gas-oil ratio
-* Water cut
-* CO₂ injection (EOR)
+### 🤖 Model  
+Random Forest Regressor  
 
-### 🤖 Model
+---
 
-Random Forest Regressor
+## 📈 Model Performance
 
-### 💡 Impact
+| Metric | Value |
+|--------|------|
+| MAE    | 42.84 |
+| RMSE   | 55.28 |
+| R²     | 0.8355 |
 
-* Optimize extraction strategies
-* Forecast production decline
-* Improve well performance
+👉 The model explains **~83.5% of production variability**, showing strong predictive capability.
+
+---
+
+## 🔍 Feature Importance
+
+| Feature               | Importance |
+|----------------------|-----------|
+| Reservoir Pressure   | 0.3799 |
+| Water Cut            | 0.3281 |
+| Choke Size           | 0.2292 |
+| CO₂ Injection Rate   | 0.0370 |
+| Gas-Oil Ratio        | 0.0259 |
+
+💡 **Key Insight:**
+- Reservoir pressure and water cut are the **dominant drivers of production**
+- Water cut negatively impacts efficiency
+- CO₂ injection provides **secondary enhancement (EOR effect)**
+
+---
+
+## 📊 Model Visualization
+
+![Actual vs Predicted Oil Production](images/upstream_actual_vs_pred.png)
+
+👉 The model shows strong alignment between actual and predicted values, indicating reliable forecasting performance.
+
+---
+
+## 💡 Business Impact
+
+- Optimize well performance using pressure & choke adjustments  
+- Identify production decline early  
+- Improve Enhanced Oil Recovery (EOR) strategies  
+- Enable data-driven reservoir management  
+
+---
+
+## 🧮 Engineering Concept
+
+Production flow is governed by:
+
+$q = \frac{kA}{\mu} \frac{dP}{dx}$
+
+This model approximates how operational and reservoir conditions influence production behavior using machine learning.
 
 ---
 
