@@ -1,5 +1,239 @@
 # 📊 Data Science Projects
 
+# 🏭 AI-Driven Predictive Quality Engineering System
+
+## 🚀 Project Overview
+
+This project demonstrates how **Quality Engineering + Data Science** can be integrated to transform traditional manufacturing quality control into a **predictive, data-driven system**.
+
+Instead of reacting to defects after production, this system:
+
+* Predicts defects **before they occur**
+* Identifies **root causes of process variation**
+* Detects **abnormal operating conditions**
+* Quantifies **business impact (Cost of Poor Quality)**
+
+---
+
+## 🎯 Business Problem
+
+Manufacturing systems often suffer from:
+
+* High defect rates
+* Process variability
+* Reactive quality control
+* Increased scrap and rework costs
+
+👉 This project builds a **predictive quality framework** to solve these issues.
+
+---
+
+## 🧠 Methodology (DMAIC + Data Science)
+
+### 🟡 Measure
+
+* Defect Rate
+* Yield
+* DPMO
+
+$$
+\text{Defect Rate} = \frac{\text{Defective Units}}{\text{Total Units Produced}}
+$$
+
+---
+
+### 🟠 Analyze
+
+* Correlation analysis
+* Feature relationships
+* Root cause identification
+
+---
+
+### 🔴 Improve (AI Models)
+
+Models implemented:
+
+* Logistic Regression → Defect prediction
+* Random Forest → Feature importance
+* Isolation Forest → Anomaly detection
+
+$$
+P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_n x_n)}}
+$$
+
+---
+
+### 🟢 Control
+
+* Control charts
+* Process monitoring
+
+$$
+UCL = \mu + 3\sigma \quad , \quad LCL = \mu - 3\sigma
+$$
+
+---
+
+## 📂 Dataset
+
+A **synthetic manufacturing dataset** was generated with realistic process variables:
+
+* Temperature
+* Pressure
+* Humidity
+* Machine Speed
+* Material Hardness
+* Operator Experience
+* Vibration
+* Cycle Time
+* Defect (Target Variable)
+
+---
+
+## 📈 Key Visualizations
+
+### 📊 1. Defect Distribution
+
+```markdown
+![Defect Distribution](images/defect_distribution.png)
+```
+
+---
+
+### 🔥 2. Correlation Matrix
+
+```markdown
+![Correlation Matrix](images/correlation_matrix.png)
+```
+
+---
+
+### 📉 3. Control Chart (SPC)
+
+```markdown
+![Control Chart](images/control_chart.png)
+```
+
+---
+
+### 🤖 4. Confusion Matrix
+
+```markdown
+![Confusion Matrix](images/confusion_matrix.png)
+```
+
+---
+
+### 🌲 5. Feature Importance (Random Forest)
+
+```markdown
+![Feature Importance](images/feature_importance.png)
+```
+
+---
+
+### ⚠️ 6. Anomaly Detection Visualization
+
+```markdown
+![Anomaly Detection](images/anomaly_detection.png)
+```
+
+---
+
+## 🧪 Model Performance
+
+| Model               | Purpose             |
+| ------------------- | ------------------- |
+| Logistic Regression | Defect Prediction   |
+| Random Forest       | Root Cause Analysis |
+| Isolation Forest    | Anomaly Detection   |
+
+Key outputs:
+
+* Accuracy
+* ROC-AUC
+* Confusion Matrix
+* Feature Importance
+
+---
+
+## 💰 Business Impact
+
+This system enables:
+
+* 📉 **Defect reduction (20–40%)**
+* 💵 **Cost savings (scrap + rework reduction)**
+* ⚙️ **Process optimization**
+* 📊 **Data-driven decision making**
+
+### Cost of Poor Quality (COPQ)
+
+$$
+COPQ = Scrap + Rework + Inspection + Downtime
+$$
+
+---
+
+## 🏗️ Project Structure
+
+```bash
+quality-engineering-datascience-project/
+│
+├── data/
+│   └── manufacturing_quality_data.csv
+├── notebooks/
+│   └── Predictive_Quality_Engineering_System_for_Manufacturing.ipynb
+├── images/
+├── README.md
+├── requirements.txt
+```
+
+---
+
+## 💻 Tech Stack
+
+* Python
+* Pandas / NumPy
+* Scikit-learn
+* Matplotlib
+* Google Colab
+
+---
+
+## 🧠 Key Engineering Insights
+
+* Process variation is strongly linked to **vibration, pressure, and cycle time**
+* Control charts reveal **process instability**
+* Machine learning enables **predictive quality control**
+* Anomaly detection provides **early warning signals**
+* Feature importance highlights **critical process drivers**
+
+---
+
+## 📌 Open the notebook:
+
+```bash
+notebooks/Predictive_Quality_Engineering_System_for_Manufacturing.ipynb
+```
+
+---
+
+## 💼 Resume Impact
+
+> Developed an AI-driven quality engineering system integrating SPC, process capability analysis, and machine learning models to predict defects, identify root causes, and reduce cost of poor quality in manufacturing systems.
+
+---
+
+## 🔥 Future Improvements
+
+* Real-time dashboard (Power BI / Streamlit)
+* Digital twin simulation
+* Integration with IoT sensors
+* Advanced optimization (Bayesian / Reinforcement Learning)
+
+---
+
 # 🧠 AI-Driven Energy Value Chain Optimization
 
 **Petroleum & Chemical Engineering + Data Science + Machine Learning**
