@@ -59,9 +59,7 @@ Models implemented:
 - Isolation Forest → Anomaly detection
 
 $$
-
 P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1x_1 + \dots + \beta_nx_n)}}
-
 $$
 
 ---
@@ -72,9 +70,7 @@ $$
 - Process monitoring
 
 $$
-
 UCL = \mu + 3\sigma \quad,\quad LCL = \mu - 3\sigma
-
 $$
 
 ---
@@ -162,9 +158,7 @@ This system enables:
 ### Cost of Poor Quality (COPQ)
 
 $$
-
 COPQ = Scrap + Rework + Inspection + Downtime
-
 $$
 
 ---
