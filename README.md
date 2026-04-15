@@ -119,13 +119,13 @@ A **synthetic manufacturing dataset** was generated with realistic process varia
 
 ### 🌲 5. Feature Importance (Random Forest)
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
 
 ---
 
 ### ⚠️ 6. Anomaly Detection Visualization
 
-![Anomaly Detection](images/anomaly_detection.png)
+![Anomaly Detection](anomaly_detection.png)
 
 ---
 
