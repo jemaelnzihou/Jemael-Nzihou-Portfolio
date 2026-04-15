@@ -57,7 +57,7 @@ Models implemented:
 <p align="center">
 
 $$
-P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_n x_n)}
+\P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_n x_n)}
 $$
 
 </p>
