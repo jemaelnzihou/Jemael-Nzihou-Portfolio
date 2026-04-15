@@ -59,7 +59,9 @@ Models implemented:
 - Isolation Forest → Anomaly detection
 
 $$
+
 P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1x_1 + \dots + \beta_nx_n)}}
+
 $$
 
 ---
@@ -70,7 +72,9 @@ $$
 - Process monitoring
 
 $$
+
 UCL = \mu + 3\sigma \quad,\quad LCL = \mu - 3\sigma
+
 $$
 
 ---
@@ -158,7 +162,9 @@ This system enables:
 ### Cost of Poor Quality (COPQ)
 
 $$
+
 COPQ = Scrap + Rework + Inspection + Downtime
+
 $$
 
 ---
@@ -325,7 +331,7 @@ Random Forest Regressor
 Production flow is governed by:
 
 $$
-$q = \frac{kA}{\mu} \frac{dP}{dx}$
+q = \frac{kA}{\mu} \frac{dP}{dx}
 $$
 
 This model approximates how operational and reservoir conditions influence production behavior using machine learning.
@@ -399,25 +405,25 @@ Built with **Streamlit**, the dashboard provides:
 ### 🔹 Production Flow (Reservoir Engineering)
 
 $$
-$q = \frac{kA}{\mu} \frac{dP}{dx}$
+q = \frac{kA}{\mu} \frac{dP}{dx}
 $$
 
 ### 🔹 Heat Transfer (Refining)
 
 $$
-$Q = \dot{m} C_p \Delta T$
+Q = \dot{m} C_p \Delta T
 $$
 
 ### 🔹 Thermodynamics (Gas Behavior)
 
 $$
-$PV = nRT$
+PV = nRT
 $$
 
 ### 🔹 System Representation
 
 $$
-$\text{Output} = f(\text{Operating Conditions})$
+\text{Output} = f(\text{Operating Conditions})
 $$
 
 ---
