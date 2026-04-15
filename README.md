@@ -34,8 +34,9 @@ Manufacturing systems often suffer from:
 
 - Defect Rate  
 - Yield  
-- DPMO  
-
+- DPMO
+  
+---
 <p align="center">
 
 $$
@@ -43,7 +44,7 @@ $$
 $$
 
 </p>
-
+--
 ---
 
 ## 🔴 Improve (AI Models)
@@ -52,8 +53,9 @@ Models implemented:
 
 - Logistic Regression → Defect prediction  
 - Random Forest → Feature importance  
-- Isolation Forest → Anomaly detection  
+- Isolation Forest → Anomaly detection
 
+---
 <p align="center">
 
 $$
@@ -61,6 +63,7 @@ $$
 $$
 
 </p>
+---
 
 ---
 
@@ -68,7 +71,7 @@ $$
 
 - Control charts  
 - Process monitoring  
-
+---
 <p align="center">
 
 $$
@@ -76,6 +79,7 @@ UCL = \mu + 3\sigma \quad , \quad LCL = \mu - 3\sigma
 $$
 
 </p>
+---
 
 ### 🟡 Measure
 
@@ -105,10 +109,11 @@ Models implemented:
 * Random Forest → Feature importance
 * Isolation Forest → Anomaly detection
 
+---
 $$
 P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_n x_n)}}
 $$
-
+---
 ---
 
 ### 🟢 Control
@@ -116,10 +121,12 @@ $$
 * Control charts
 * Process monitoring
 
+---
 $$
 UCL = \mu + 3\sigma \quad , \quad LCL = \mu - 3\sigma
 $$
 
+---
 ---
 
 ## 📂 Dataset
