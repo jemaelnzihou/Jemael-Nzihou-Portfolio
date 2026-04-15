@@ -36,9 +36,9 @@ Manufacturing systems often suffer from:
 - Yield
 - DPMO
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\textbf{Defect\ Rate}=\frac{\text{Defective\ Units}}{\text{Total\ Units\ Produced}}" alt="Defect Rate Formula" />
-</p>
+$$
+\text{Defect Rate} = \frac{\text{Defective Units}}{\text{Total Units Produced}}
+$$
 
 ---
 
@@ -58,9 +58,9 @@ Models implemented:
 - Random Forest → Feature importance
 - Isolation Forest → Anomaly detection
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?P(y=1)=\frac{1}{1+e^{-(\beta_0+\beta_1x_1+\dots+\beta_nx_n)}}" alt="Logistic Regression Formula" />
-</p>
+$$
+P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1x_1 + \dots + \beta_nx_n)}}
+$$
 
 ---
 
@@ -69,9 +69,10 @@ Models implemented:
 - Control charts
 - Process monitoring
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?UCL=\mu+3\sigma\quad,\quad LCL=\mu-3\sigma" alt="Control Limits Formula" />
-</p>
+$$
+UCL = \mu + 3\sigma \quad,\quad LCL = \mu - 3\sigma
+$$
+
 ---
 
 ## 📂 Dataset
