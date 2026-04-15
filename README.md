@@ -95,49 +95,37 @@ A **synthetic manufacturing dataset** was generated with realistic process varia
 
 ### 📊 1. Defect Distribution
 
-```markdown
-![Defect Distribution](images/defect_distribution.png)
-```
+![Defect Distribution](defect_distribution.png) 
 
 ---
 
 ### 🔥 2. Correlation Matrix
 
-```markdown
-![Correlation Matrix](images/correlation_matrix.png)
-```
+![Correlation Matrix](correlation_matrix.png)
 
 ---
 
 ### 📉 3. Control Chart (SPC)
 
-```markdown
-![Control Chart](images/control_chart.png)
-```
+![Control Chart](control_chart.png)
 
 ---
 
 ### 🤖 4. Confusion Matrix
 
-```markdown
-![Confusion Matrix](images/confusion_matrix.png)
-```
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
 ### 🌲 5. Feature Importance (Random Forest)
 
-```markdown
 ![Feature Importance](images/feature_importance.png)
-```
 
 ---
 
 ### ⚠️ 6. Anomaly Detection Visualization
 
-```markdown
 ![Anomaly Detection](images/anomaly_detection.png)
-```
 
 ---
 
