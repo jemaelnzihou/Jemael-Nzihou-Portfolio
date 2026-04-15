@@ -324,7 +324,9 @@ Random Forest Regressor
 
 Production flow is governed by:
 
+$$
 $q = \frac{kA}{\mu} \frac{dP}{dx}$
+$$
 
 This model approximates how operational and reservoir conditions influence production behavior using machine learning.
 
@@ -395,16 +397,28 @@ Built with **Streamlit**, the dashboard provides:
 ## 🧮 Engineering & Mathematical Concepts
 
 ### 🔹 Production Flow (Reservoir Engineering)
+
+$$
 $q = \frac{kA}{\mu} \frac{dP}{dx}$
+$$
 
 ### 🔹 Heat Transfer (Refining)
+
+$$
 $Q = \dot{m} C_p \Delta T$
+$$
 
 ### 🔹 Thermodynamics (Gas Behavior)
+
+$$
 $PV = nRT$
+$$
 
 ### 🔹 System Representation
+
+$$
 $\text{Output} = f(\text{Operating Conditions})$
+$$
 
 ---
 
