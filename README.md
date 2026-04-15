@@ -30,6 +30,53 @@ Manufacturing systems often suffer from:
 
 ## 🧠 Methodology (DMAIC + Data Science)
 
+## 🟡 Measure
+
+- Defect Rate  
+- Yield  
+- DPMO  
+
+<p align="center">
+
+$$
+\text{Defect Rate} = \frac{\text{Defective Units}}{\text{Total Units Produced}}
+$$
+
+</p>
+
+---
+
+## 🔴 Improve (AI Models)
+
+Models implemented:
+
+- Logistic Regression → Defect prediction  
+- Random Forest → Feature importance  
+- Isolation Forest → Anomaly detection  
+
+<p align="center">
+
+$$
+P(y=1) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x_1 + \dots + \beta_n x_n)}
+$$
+
+</p>
+
+---
+
+## 🟢 Control
+
+- Control charts  
+- Process monitoring  
+
+<p align="center">
+
+$$
+UCL = \mu + 3\sigma \quad , \quad LCL = \mu - 3\sigma
+$$
+
+</p>
+
 ### 🟡 Measure
 
 * Defect Rate
