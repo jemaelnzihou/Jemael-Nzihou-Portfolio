@@ -6,6 +6,7 @@ Impact on Cyberspace Operations & Defensive Engineering
 
 ## 📌 Overview
 SQL Injection (SQLi) is one of the most critical vulnerabilities in modern web applications. It occurs when an attacker injects malicious SQL code into user input fields, causing the system to execute unintended database commands.
+
 ⚠️ Core Failure: Inability to separate data from executable logic
 
 ### ⚙️ How SQL Injection Works
@@ -19,10 +20,15 @@ SELECT * FROM users WHERE username = 'admin' OR '1'='1';
 **➡️ This forces authentication logic to evaluate as TRUE, bypassing security.**
 
 🎯 Attacker Objectives
+
 🔓 Bypass Authentication
+
 📂 Extract Sensitive Data (PII, credentials, financial records)
+
 ✏️ Modify or Delete Data
+
 ⚡ Escalate Privileges & Disrupt Systems
+
 📊 As shown in document (page 3), attackers can perform all of this from a single input field.
 
 ## 🚀 Deployment Vectors
@@ -48,6 +54,7 @@ SQL injection can occur through:
 - Loss of intellectual property
 - Exposure of classified or sensitive data
 - Nation-state level cyber exploitation
+
 ➡️ Example (from page 5): Large-scale breaches like Sony Pictures
 
 ### 2. ⚙️ Operational Impact
@@ -90,6 +97,7 @@ As highlighted in document (page 7):
 **1. Boolean Logic**
 
 OR 1=1  Always TRUE
+
 AND 1=0 Alaways FALSE
 
 ➡️ Attackers manipulate logical expressions
@@ -97,6 +105,7 @@ AND 1=0 Alaways FALSE
 **2. Formal Languages & Parsing**
 
 SQL = structured grammar
+
 Injection = breaking syntax boundaries
 
 **3. Probability & Information Theory**
@@ -105,14 +114,16 @@ Injection = breaking syntax boundaries
 - Reduces uncertainty (entropy) about hidden data
 
 **4. Set Theory**
-SELECT → subset
-UNION → union
-JOIN → relational mapping
+- SELECT → subset
+- UNION → union
+- JOIN → relational mapping
+
 ➡️ SQL = mathematical operations on datasets
 
 **🛡️ Prevention Strategies**
 
 ✅**1. Parameterized Queries (MOST IMPORTANT)**
+
 SELECT * FROM users WHERE username = ? AND password = ?
 
 
@@ -134,9 +145,9 @@ SELECT * FROM users WHERE username = ? AND password = ?
 **🧩 Engineering Perspective**
 
 SQL Injection can be framed as:
-🔬 Data Integrity Failure
-⚙️ Process Control Failure (DMAIC – Control Phase Weakness)
-🔐 Boundary Violation (Input vs Execution Layer)
+- 🔬 Data Integrity Failure
+- ⚙️ Process Control Failure (DMAIC – Control Phase Weakness)
+- 🔐 Boundary Violation (Input vs Execution Layer)
 
 **🚨 Key Takeaways**
 
@@ -150,17 +161,25 @@ Least privilege access
 For a portfolio expansian we could extend this into:
 
 🔍 Anomaly Detection (Isolation Forest for SQL logs)
+
 📊 Machine Learning-based Intrusion Detection Systems
+
 🛰️ Cyber Risk Scoring Models
+
 ⚡ Real-time SQL Query Monitoring Dashboards (Grafana / AWS)
 
 📂 Repository Structure 
+
 SQL-Injection-Deep-Dive/
+
 │── README.md
+
 │── docs/
+
 │   └── SQL-Injection-Attack.pdf
 
 **⭐ Final Insight**
+
 “SQL Injection is not just a coding flaw — it is a systems engineering failure in cyberspace operations.”
 
 ---
