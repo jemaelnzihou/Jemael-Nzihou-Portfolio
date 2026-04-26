@@ -159,7 +159,7 @@ Parameterized queries
 Least privilege access
 
 **🧠 Future Integration (Advanced)**
-For a portfolio expansian we could extend this into:
+For a portfolio expansion we could extend this into:
 
 🔍 Anomaly Detection (Isolation Forest for SQL logs)
 
