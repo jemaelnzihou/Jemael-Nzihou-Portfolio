@@ -1,5 +1,282 @@
 # 📊 Data Science Projects
 
+# Complete Six Sigma DMAIC Project Portfolio Example
+
+## Project Title
+**Reducing Defects and Process Variation Using Lean Six Sigma DMAIC**
+
+## Project Overview
+This project demonstrates a complete Six Sigma improvement project using the **DMAIC framework: Define, Measure, Analyze, Improve, and Control**. The goal is to identify process inefficiencies, reduce defects, improve quality performance, and create a sustainable control plan.
+
+This project is designed for a **Quality Engineer, Process Engineer, Industrial Engineer, or Lean Six Sigma Black Belt portfolio**.
+
+---
+
+## Business Problem
+A manufacturing or service process is experiencing high defect rates, inconsistent cycle time, customer complaints, and operational waste. These issues increase cost, reduce productivity, and negatively impact customer satisfaction.
+
+---
+
+## Project Goal
+Reduce process defects and variation by applying Lean Six Sigma tools across all DMAIC phases.
+
+### Goal Statement
+Reduce defect rate by **30% within 90 days** while improving process stability and customer satisfaction.
+
+---
+
+# DMAIC Methodology
+
+## 1. Define Phase
+
+### Tools Used
+- Voice of Customer / Voice of Business
+- Project Charter
+- COPIS / SIPOC
+- ARMI Stakeholder Matrix
+- Communication Plan
+
+### Key Deliverables
+- Problem statement
+- Business case
+- Project scope
+- Customer requirements
+- Stakeholder roles
+
+### Example CTQ Requirement
+| Customer Need | CTQ Metric | Target |
+|---|---:|---:|
+| High-quality product | Defect Rate | < 3% |
+| Faster delivery | Cycle Time | < 5 days |
+| Reliable process | Process Variation | Reduce by 25% |
+
+---
+
+## 2. Measure Phase
+
+### Tools Used
+- Fishbone Diagram
+- Data Collection Plan
+- Gage R&R
+- Baseline Metrics
+
+### Key Metrics
+
+```text
+Defect Rate = Defective Units / Total Units Produced
+
+DPMO = (Defects / (Units × Opportunities)) × 1,000,000
+
+Yield = Good Units / Total Units Produced
+
+Example Baseline
+
+Metric	Baseline
+
+Defect Rate	8.5%
+DPMO	85,000
+First Pass Yield	91.5%
+Avg Cycle Time	7.2 days
+
+
+
+---
+
+## 3. Analyze Phase
+
+**Tools Used**
+
+Normality Test
+
+Run Chart
+
+Hypothesis Testing
+
+Root Cause Analysis
+
+
+Example Hypothesis Test
+
+Null Hypothesis H₀: Supplier type has no effect on defect rate.
+Alternative Hypothesis H₁: Supplier type has a significant effect on defect rate.
+
+Example Findings
+
+Root Cause	Evidence
+
+Inconsistent material quality	Higher defects from Supplier B
+Operator variation	Different defect rates by shift
+Measurement error	Gage R&R above acceptable threshold
+Machine downtime	Defects increase after maintenance delays
+
+
+
+---
+
+## 4. Improve Phase
+
+**Tools Used**
+
+5 Why Analysis
+
+Solution Prioritization Matrix
+
+4W1H Action Plan
+
+
+Example 5 Why Analysis
+
+Why	Answer
+
+Why are defects increasing?	Parts are failing inspection.
+Why are parts failing?	Dimensions are out of tolerance.
+Why are dimensions out of tolerance?	Machine calibration is inconsistent.
+Why is calibration inconsistent?	No standard calibration schedule exists.
+Why is there no schedule?	Preventive maintenance process is not controlled.
+
+
+4W1H Action Plan
+
+What	Who	When	Where	How
+
+Create calibration schedule	Quality Engineer	Week 1	Production Line	Standard PM checklist
+Train operators	Process Engineer	Week 2	Shop Floor	SOP and visual work instructions
+Monitor defects daily	Quality Team	Daily	Inspection Area	Control chart
+
+---
+
+## 5. Control Phase
+
+**Tools Used**
+
+Control Chart
+
+Control Plan
+
+Standard Operating Procedure
+
+KPI Dashboard
+
+
+### Control Chart Formula
+
+UCL = Mean + 3σ
+LCL = Mean - 3σ
+
+### Control Plan
+
+Process Step	Metric	Control Method	Frequency	Owner
+
+Material inspection	Defect Rate	Incoming inspection	Daily	Quality Inspector
+Machine setup	Calibration Status	PM checklist	Weekly	Maintenance
+Final inspection	First Pass Yield	Quality audit	Daily	Quality Engineer
+Customer feedback	Complaints	VOC review	Monthly	Quality Manager
+
+---
+
+**Expected Results**
+
+Metric	Before	After	Improvement
+
+Defect Rate	8.5%	4.9%	42% reduction
+DPMO	85,000	49,000	42% improvement
+First Pass Yield	91.5%	95.1%	+3.6%
+Cycle Time	7.2 days	5.8 days	19% reduction
+
+---
+
+### Tools and Technologies
+
+Lean Six Sigma DMAIC
+
+Excel / Minitab
+
+Python
+
+Power BI / Tableau
+
+Control Charts
+
+Hypothesis Testing
+
+Root Cause Analysis
+
+Process Mapping
+
+KPI Dashboarding
+
+---
+
+Python Analysis Example
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {
+    "Week": [1,2,3,4,5,6,7,8],
+    "Defect_Rate": [8.5, 8.1, 7.8, 7.2, 6.3, 5.8, 5.2, 4.9]
+}
+
+df = pd.DataFrame(data)
+
+mean = df["Defect_Rate"].mean()
+std = df["Defect_Rate"].std()
+
+df["UCL"] = mean + 3 * std
+df["LCL"] = mean - 3 * std
+
+plt.plot(df["Week"], df["Defect_Rate"], marker="o", label="Defect Rate")
+plt.axhline(mean, linestyle="--", label="Mean")
+plt.axhline(df["UCL"].iloc[0], linestyle="--", label="UCL")
+plt.axhline(df["LCL"].iloc[0], linestyle="--", label="LCL")
+plt.xlabel("Week")
+plt.ylabel("Defect Rate (%)")
+plt.title("Defect Rate Control Chart")
+plt.legend()
+plt.show()
+
+---
+
+### Portfolio Value
+
+**This project demonstrates ability to:**
+
+Lead a structured Lean Six Sigma improvement project
+
+Translate customer and business needs into measurable CTQs
+
+Use statistical tools to identify root causes
+
+Apply hypothesis testing and process capability thinking
+
+Build sustainable control plans
+
+Connect quality engineering with business analytics and data science
+
+---
+
+### Career Relevance
+
+**This project supports roles such as:**
+
+Quality Engineer
+
+Process Engineer
+
+Industrial Engineer
+
+Manufacturing Engineer
+
+Continuous Improvement Specialist
+
+Lean Six Sigma Black Belt
+
+Quality Manager
+
+Operations Analyst
+
+---
+
 ## 🔐 SQL Injection Attack: Cybersecurity Deep Dive
 Impact on Cyberspace Operations & Defensive Engineering
 
