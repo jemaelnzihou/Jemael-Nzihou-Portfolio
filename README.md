@@ -9,7 +9,7 @@
 This project demonstrates a complete Six Sigma improvement project using the **DMAIC framework: Define, Measure, Analyze, Improve, and Control**. The goal is to identify process inefficiencies, reduce defects, improve quality performance, and create a sustainable control plan.
 
 This project is designed for:
-- **Quality Engineer
+-  Quality Engineer
 -  Process Engineer
 -  Industrial Engineer
 -  Lean Six Sigma Black Belt portfolio.
