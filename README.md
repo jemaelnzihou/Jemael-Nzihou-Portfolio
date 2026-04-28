@@ -128,7 +128,7 @@ Reduce defect rate by **30% within 90 days** while improving process stability a
 - 4W1H Action Plan
 
 
-###**5 Why Analysis**
+### **5 Why Analysis**
 
 | Why                                  | Answer                                            |
 | ------------------------------------ | ------------------------------------------------- |
@@ -139,7 +139,7 @@ Reduce defect rate by **30% within 90 days** while improving process stability a
 | Why is there no schedule?            | Preventive maintenance process is not controlled. |
 
 
-#### 4W1H Action Plan
+### 4W1H Action Plan
 
 | What                        | Who              | When   | Where           | How                              |
 | --------------------------- | ---------------- | ------ | --------------- | -------------------------------- |
@@ -161,7 +161,7 @@ Reduce defect rate by **30% within 90 days** while improving process stability a
 
 - KPI Dashboard
 
-###**Control Chart Formula**
+### **Control Chart Formula**
 
 UCL = Mean + 3σ
 
@@ -209,7 +209,7 @@ LCL = Mean - 3σ
 
 - KPI Dashboarding
 
-###**Analysis** 
+### **Analysis** 
 
 import pandas as pd
 import matplotlib.pyplot as plt
