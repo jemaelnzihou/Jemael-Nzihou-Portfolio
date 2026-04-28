@@ -62,14 +62,13 @@ Reduce defect rate by **30% within 90 days** while improving process stability a
 
 ### Key Metrics
 
-```text
 Defect Rate = Defective Units / Total Units Produced
 
 DPMO = (Defects / (Units × Opportunities)) × 1,000,000
 
 Yield = Good Units / Total Units Produced
 
-Example Baseline
+**Baseline**
 
 Metric	Baseline
 
@@ -90,7 +89,7 @@ Avg Cycle Time	7.2 days
 
 - Hypothesis Testing
 
-###**Root Cause Analysis**
+### **Root Cause Analysis**
 
 **Hypothesis Test**
 
@@ -98,7 +97,7 @@ Avg Cycle Time	7.2 days
 
 **Alternative Hypothesis H₁:** Supplier type has a significant effect on defect rate.
 
-###**Findings**
+### **Findings**
 
 **Root Cause	Evidence**
 
@@ -116,35 +115,31 @@ Machine downtime	Defects increase after maintenance delays
 
 **Tools Used**
 
-5 Why Analysis
+- 5 Why Analysis
 
-Solution Prioritization Matrix
+- Solution Prioritization Matrix
 
-4W1H Action Plan
+- 4W1H Action Plan
 
 
 ###**5 Why Analysis**
 
-Why	Answer
-
-Why are defects increasing?	Parts are failing inspection.
-
-Why are parts failing?	Dimensions are out of tolerance.
-
-Why are dimensions out of tolerance?	Machine calibration is inconsistent.
-
-Why is calibration inconsistent?	No standard calibration schedule exists.
-
-Why is there no schedule?	Preventive maintenance process is not controlled.
+| Why                                  | Answer                                            |
+| ------------------------------------ | ------------------------------------------------- |
+| Why are defects increasing?          | Parts are failing inspection.                     |
+| Why are parts failing?               | Dimensions are out of tolerance.                  |
+| Why are dimensions out of tolerance? | Machine calibration is inconsistent.              |
+| Why is calibration inconsistent?     | No standard calibration schedule exists.          |
+| Why is there no schedule?            | Preventive maintenance process is not controlled. |
 
 
-4W1H Action Plan
+#### 4W1H Action Plan
 
-What	Who	When	Where	How
-
-Create calibration schedule	Quality Engineer	Week 1	Production Line	Standard PM checklist
-Train operators	Process Engineer	Week 2	Shop Floor	SOP and visual work instructions
-Monitor defects daily	Quality Team	Daily	Inspection Area	Control chart
+| What                        | Who              | When   | Where           | How                              |
+| --------------------------- | ---------------- | ------ | --------------- | -------------------------------- |
+| Create calibration schedule | Quality Engineer | Week 1 | Production Line | Standard PM checklist            |
+| Train operators             | Process Engineer | Week 2 | Shop Floor      | SOP and visual work instructions |
+| Monitor defects daily       | Quality Team     | Daily  | Inspection Area | Control chart                    |
 
 ---
 
@@ -167,23 +162,23 @@ LCL = Mean - 3σ
 
 ### Control Plan
 
-Process Step	Metric	Control Method	Frequency	Owner
-
-Material inspection	Defect Rate	Incoming inspection	Daily	Quality Inspector
-Machine setup	Calibration Status	PM checklist	Weekly	Maintenance
-Final inspection	First Pass Yield	Quality audit	Daily	Quality Engineer
-Customer feedback	Complaints	VOC review	Monthly	Quality Manager
+| Process Step        | Metric             | Control Method      | Frequency | Owner             |
+| ------------------- | ------------------ | ------------------- | --------- | ----------------- |
+| Material inspection | Defect Rate        | Incoming inspection | Daily     | Quality Inspector |
+| Machine setup       | Calibration Status | PM checklist        | Weekly    | Maintenance       |
+| Final inspection    | First Pass Yield   | Quality audit       | Daily     | Quality Engineer  |
+| Customer feedback   | Complaints         | VOC review          | Monthly   | Quality Manager   |
 
 ---
 
 **Expected Results**
 
-Metric	Before	After	Improvement
-
-Defect Rate	8.5%	4.9%	42% reduction
-DPMO	85,000	49,000	42% improvement
-First Pass Yield	91.5%	95.1%	+3.6%
-Cycle Time	7.2 days	5.8 days	19% reduction
+| Metric           |   Before |    After |     Improvement |
+| ---------------- | -------: | -------: | --------------: |
+| Defect Rate      |     8.5% |     4.9% |   42% reduction |
+| DPMO             |   85,000 |   49,000 | 42% improvement |
+| First Pass Yield |    91.5% |    95.1% |           +3.6% |
+| Cycle Time       | 7.2 days | 5.8 days |   19% reduction |
 
 ---
 
