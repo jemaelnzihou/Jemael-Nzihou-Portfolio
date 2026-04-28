@@ -216,25 +216,36 @@ import matplotlib.pyplot as plt
 
 data = {
     "Week": [1,2,3,4,5,6,7,8],
+    
     "Defect_Rate": [8.5, 8.1, 7.8, 7.2, 6.3, 5.8, 5.2, 4.9]
 }
 
 df = pd.DataFrame(data)
 
 mean = df["Defect_Rate"].mean()
+
 std = df["Defect_Rate"].std()
 
 df["UCL"] = mean + 3 * std
+
 df["LCL"] = mean - 3 * std
 
 plt.plot(df["Week"], df["Defect_Rate"], marker="o", label="Defect Rate")
+
 plt.axhline(mean, linestyle="--", label="Mean")
+
 plt.axhline(df["UCL"].iloc[0], linestyle="--", label="UCL")
+
 plt.axhline(df["LCL"].iloc[0], linestyle="--", label="LCL")
+
 plt.xlabel("Week")
+
 plt.ylabel("Defect Rate (%)")
+
 plt.title("Defect Rate Control Chart")
+
 plt.legend()
+
 plt.show()
 
 <img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/51d28ded-8aa4-4973-9123-ca2779cf1b12" />
