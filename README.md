@@ -78,38 +78,37 @@ DPMO	85,000
 First Pass Yield	91.5%
 Avg Cycle Time	7.2 days
 
-
-
 ---
 
 ## 3. Analyze Phase
 
 **Tools Used**
 
-Normality Test
+- Normality Test
 
-Run Chart
+- Run Chart
 
-Hypothesis Testing
+- Hypothesis Testing
 
-Root Cause Analysis
+###**Root Cause Analysis**
 
+**Hypothesis Test**
 
-Example Hypothesis Test
+**Null Hypothesis H₀:** Supplier type has no effect on defect rate.
 
-Null Hypothesis H₀: Supplier type has no effect on defect rate.
-Alternative Hypothesis H₁: Supplier type has a significant effect on defect rate.
+**Alternative Hypothesis H₁:** Supplier type has a significant effect on defect rate.
 
-Example Findings
+###**Findings**
 
-Root Cause	Evidence
+**Root Cause	Evidence**
 
 Inconsistent material quality	Higher defects from Supplier B
+
 Operator variation	Different defect rates by shift
+
 Measurement error	Gage R&R above acceptable threshold
+
 Machine downtime	Defects increase after maintenance delays
-
-
 
 ---
 
@@ -124,14 +123,18 @@ Solution Prioritization Matrix
 4W1H Action Plan
 
 
-Example 5 Why Analysis
+###**5 Why Analysis**
 
 Why	Answer
 
 Why are defects increasing?	Parts are failing inspection.
+
 Why are parts failing?	Dimensions are out of tolerance.
+
 Why are dimensions out of tolerance?	Machine calibration is inconsistent.
+
 Why is calibration inconsistent?	No standard calibration schedule exists.
+
 Why is there no schedule?	Preventive maintenance process is not controlled.
 
 
@@ -149,16 +152,15 @@ Monitor defects daily	Quality Team	Daily	Inspection Area	Control chart
 
 **Tools Used**
 
-Control Chart
+- Control Chart
 
-Control Plan
+- Control Plan
 
-Standard Operating Procedure
+- Standard Operating Procedure
 
-KPI Dashboard
+- KPI Dashboard
 
-
-### Control Chart Formula
+###**Control Chart Formula**
 
 UCL = Mean + 3σ
 LCL = Mean - 3σ
@@ -185,29 +187,27 @@ Cycle Time	7.2 days	5.8 days	19% reduction
 
 ---
 
-### Tools and Technologies
+###**Tools and Technologies**
 
-Lean Six Sigma DMAIC
+- Lean Six Sigma DMAIC
 
-Excel / Minitab
+- Excel / Minitab
 
-Python
+- Python
 
-Power BI / Tableau
+- Power BI / Tableau
 
-Control Charts
+- Control Charts
 
-Hypothesis Testing
+- Hypothesis Testing
 
-Root Cause Analysis
+- Root Cause Analysis
 
-Process Mapping
+- Process Mapping
 
-KPI Dashboarding
+- KPI Dashboarding
 
----
-
-Python Analysis Example
+###**Analysis** 
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -235,45 +235,46 @@ plt.title("Defect Rate Control Chart")
 plt.legend()
 plt.show()
 
----
+<img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/51d28ded-8aa4-4973-9123-ca2779cf1b12" />
 
-### Portfolio Value
+
+###**Portfolio Value**
 
 **This project demonstrates ability to:**
 
-Lead a structured Lean Six Sigma improvement project
+- Lead a structured Lean Six Sigma improvement project
 
-Translate customer and business needs into measurable CTQs
+- Translate customer and business needs into measurable CTQs
 
-Use statistical tools to identify root causes
+- Use statistical tools to identify root causes
 
-Apply hypothesis testing and process capability thinking
+- Apply hypothesis testing and process capability thinking
 
-Build sustainable control plans
+- Build sustainable control plans
 
-Connect quality engineering with business analytics and data science
+- Connect quality engineering with business analytics and data science
 
 ---
 
-### Career Relevance
+###**Career Relevance**
 
 **This project supports roles such as:**
 
-Quality Engineer
+- Quality Engineer
 
-Process Engineer
+- Process Engineer
 
-Industrial Engineer
+- Industrial Engineer
 
-Manufacturing Engineer
+- Manufacturing Engineer
 
-Continuous Improvement Specialist
+- Continuous Improvement Specialist
 
-Lean Six Sigma Black Belt
+- Lean Six Sigma Black Belt
 
-Quality Manager
+- Quality Manager
 
-Operations Analyst
+- Operations Analyst
 
 ---
 
