@@ -8,12 +8,20 @@
 ## Project Overview
 This project demonstrates a complete Six Sigma improvement project using the **DMAIC framework: Define, Measure, Analyze, Improve, and Control**. The goal is to identify process inefficiencies, reduce defects, improve quality performance, and create a sustainable control plan.
 
-This project is designed for a **Quality Engineer, Process Engineer, Industrial Engineer, or Lean Six Sigma Black Belt portfolio**.
+This project is designed for:
+- **Quality Engineer
+-  Process Engineer
+-  Industrial Engineer
+-  Lean Six Sigma Black Belt portfolio.
 
 ---
 
 ## Business Problem
-A manufacturing or service process is experiencing high defect rates, inconsistent cycle time, customer complaints, and operational waste. These issues increase cost, reduce productivity, and negatively impact customer satisfaction.
+A manufacturing or service process is experiencing high defect rates, inconsistent cycle time, customer complaints, and operational waste. 
+These issues increase 
+- cost
+- reduce productivity
+- negatively impact customer satisfaction.
 
 ---
 
@@ -55,6 +63,7 @@ Reduce defect rate by **30% within 90 days** while improving process stability a
 ## 2. Measure Phase
 
 ### Tools Used
+
 - Fishbone Diagram
 - Data Collection Plan
 - Gage R&R
@@ -62,20 +71,20 @@ Reduce defect rate by **30% within 90 days** while improving process stability a
 
 ### Key Metrics
 
-Defect Rate = Defective Units / Total Units Produced
+**Defect Rate** = Defective Units / Total Units Produced
 
-DPMO = (Defects / (Units × Opportunities)) × 1,000,000
+**DPMO** = (Defects / (Units × Opportunities)) × 1,000,000
 
-Yield = Good Units / Total Units Produced
+**Yield** = Good Units / Total Units Produced
 
 **Baseline**
 
-Metric	Baseline
-
-Defect Rate	8.5%
-DPMO	85,000
-First Pass Yield	91.5%
-Avg Cycle Time	7.2 days
+| Metric           | Baseline |
+| ---------------- | -------: |
+| Defect Rate      |     8.5% |
+| DPMO             |   85,000 |
+| First Pass Yield |    91.5% |
+| Avg Cycle Time   | 7.2 days |
 
 ---
 
@@ -93,21 +102,18 @@ Avg Cycle Time	7.2 days
 
 **Hypothesis Test**
 
-**Null Hypothesis H₀:** Supplier type has no effect on defect rate.
+**Null Hypothesis H₀:**  Supplier type has no effect on defect rate.
 
-**Alternative Hypothesis H₁:** Supplier type has a significant effect on defect rate.
+**Alternative Hypothesis H₁:**  Supplier type has a significant effect on defect rate.
 
 ### **Findings**
 
-**Root Cause	Evidence**
-
-Inconsistent material quality	Higher defects from Supplier B
-
-Operator variation	Different defect rates by shift
-
-Measurement error	Gage R&R above acceptable threshold
-
-Machine downtime	Defects increase after maintenance delays
+| Root Cause                    | Evidence                                  |
+| ----------------------------- | ----------------------------------------- |
+| Inconsistent material quality | Higher defects from Supplier B            |
+| Operator variation            | Different defect rates by shift           |
+| Measurement error             | Gage R&R above acceptable threshold       |
+| Machine downtime              | Defects increase after maintenance delays |
 
 ---
 
@@ -158,6 +164,7 @@ Machine downtime	Defects increase after maintenance delays
 ###**Control Chart Formula**
 
 UCL = Mean + 3σ
+
 LCL = Mean - 3σ
 
 ### Control Plan
@@ -182,7 +189,7 @@ LCL = Mean - 3σ
 
 ---
 
-###**Tools and Technologies**
+### **Tools and Technologies**
 
 - Lean Six Sigma DMAIC
 
@@ -233,7 +240,7 @@ plt.show()
 <img width="562" height="455" alt="image" src="https://github.com/user-attachments/assets/51d28ded-8aa4-4973-9123-ca2779cf1b12" />
 
 
-###**Portfolio Value**
+### **Portfolio Value**
 
 **This project demonstrates ability to:**
 
@@ -251,7 +258,7 @@ plt.show()
 
 ---
 
-###**Career Relevance**
+### **Career Relevance**
 
 **This project supports roles such as:**
 
