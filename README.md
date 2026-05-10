@@ -1772,6 +1772,11 @@ This project demonstrates how **data science bridges theory and real-world engin
   
 ---
 
+# 📊 Project 3: [Photolithography Yield Risk Prediction](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Photolithography_Project_1.ipynb)
+
+## [AI-Driven Pass/Fail Modeling for Semiconductor Manufacturing](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/Photolithography_Project_1.ipynb)
+
+
 # 📊 Project 3: Photolithography Yield Risk Prediction  
 ## AI-Driven Pass/Fail Modeling for Semiconductor Manufacturing
 
