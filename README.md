@@ -288,7 +288,7 @@ This project can be extended into advanced systems:
 
 ## 🔷 12. Final Statement
 
-> This project demonstrates how mathematical signal processing enables reliable communication systems that power modern society—from RF engineering and telecommunications to cloud computing and artificial intelligence. Understanding how to separate signal from noise is not just a technical skill; it is a foundational capability for building resilient digital infrastructure.
+> **This project demonstrates how mathematical signal processing enables reliable communication systems that power modern society—from RF engineering and telecommunications to cloud computing and artificial intelligence. Understanding how to separate signal from noise is not just a technical skill; it is a foundational capability for building resilient digital infrastructure.**
 
 ---
 
