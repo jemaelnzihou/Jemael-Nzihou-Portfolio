@@ -1,10 +1,5 @@
 # 📊 Data Science Projects
 
-Here is a clean, **GitHub-ready `README.md`** version of your project with proper structure, formatting, and professional presentation:
-
----
-
-````markdown
 # 📡 Signal Noise Filtering System (RF Engineering + Signal Processing)
 
 ## 🔷 Project Overview
