@@ -6,18 +6,16 @@ An interactive chemical-engineering mini application demonstrating how
 artificial intelligence and mathematical modeling can support industrial
 process decisions.
 
-![AI Process Optimization Copilot](assetsapp-preview.png)
-
 ## Live Demonstration
 
-[Launch the AI Process Optimization Copilot](https://cautious-eureka-q77x5456g6r5c4pjg-8501.app.github.dev/)
+[Launch the AI Process Optimization Copilot](https://cautious-eureka-q77x5456g6r5c4pjg-8502.app.github.dev/)
 
-> Note: This is a public GitHub Codespaces development deployment. The link
-> works while the Codespace and Streamlit server are active.
+> This is a public GitHub Codespaces development demonstration. The link is
+> available while the Codespace and Streamlit server are running.
 
-## Source Code
+## Source Code and Portfolio
 
-[View the GitHub repository](https://github.com/YOUR-USERNAME/ai-process-optimization-copilot)
+[View the project in Jemael Nzihou's GitHub Portfolio](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio)
 
 ## Industrial Problem
 
@@ -30,7 +28,7 @@ Chemical plants must balance several competing objectives:
 - Maintain safe operating conditions
 
 The application allows users to change process conditions and immediately
-observe their estimated effect on performance.
+observe their estimated effect on process performance.
 
 ## Engineering Foundation
 
@@ -49,11 +47,12 @@ X = 1-e^{-k\tau}
 where:
 
 - \(k\) is the reaction-rate constant
-- \(E_a\) is activation energy
-- \(R\) is the gas constant
-- \(T\) is absolute temperature
-- \(\tau\) is residence time
-- \(X\) is conversion
+- \(A\) is the pre-exponential factor
+- \(E_a\) is the activation energy
+- \(R\) is the universal gas constant
+- \(T\) is the absolute temperature
+- \(\tau\) is the residence time
+- \(X\) is the reactor conversion
 
 ## AI and Industrial Impact
 
@@ -66,11 +65,19 @@ This prototype demonstrates how an intelligent process assistant can help:
 - Support faster engineering decisions
 - Provide a foundation for future machine-learning optimization
 
-In an industrial environment, this concept could be expanded by connecting
-the application to validated plant historian data, laboratory results, and
-real-time sensor measurements. Machine-learning models could then support
-yield prediction, energy optimization, anomaly detection, predictive
-maintenance, and environmental-performance monitoring.
+In a real industrial environment, this concept could be expanded by connecting
+the application to validated process historian data, laboratory results, and
+real-time sensor measurements.
+
+Future machine-learning models could support:
+
+- Product-yield prediction
+- Energy-use optimization
+- Abnormal-condition detection
+- Predictive equipment maintenance
+- Carbon-emission monitoring
+- Process-quality forecasting
+- Recommended operating setpoints
 
 ## Technologies
 
@@ -82,11 +89,19 @@ maintenance, and environmental-performance monitoring.
 - Artificial Intelligence
 - Sustainability Analytics
 
+## Project Author
+
+**Jemael Nzihou**
+
+[Visit the Jemael Nzihou Portfolio](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio)
+
 ## Disclaimer
 
 This project is an educational prototype. It is not intended for direct
 industrial process control without validated plant data, safety analysis,
-model verification, and qualified engineering review.
+model verification, cybersecurity controls, and qualified engineering review.
+
+
 
 
 
