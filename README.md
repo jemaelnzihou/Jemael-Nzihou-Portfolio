@@ -6,7 +6,7 @@ An interactive chemical-engineering mini application demonstrating how
 artificial intelligence and mathematical modeling can support industrial
 process decisions.
 
-![AI Process Optimization Copilot](assets/app-preview.png)
+![AI Process Optimization Copilot](assetsapp-preview.png)
 
 ## Live Demonstration
 
