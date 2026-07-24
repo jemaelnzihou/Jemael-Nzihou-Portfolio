@@ -91,24 +91,11 @@ Future machine-learning models could support:
 - Artificial Intelligence
 - Sustainability Analytics
 
-## Project Author
-
-**Jemael Nzihou**
-
-[Visit the Jemael Nzihou Portfolio](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio)
-
 ## Disclaimer
 
 This project is an educational prototype. It is not intended for direct
 industrial process control without validated plant data, safety analysis,
 model verification, cybersecurity controls, and qualified engineering review.
-
-
-
-
-
-
-
 
 ---
 
