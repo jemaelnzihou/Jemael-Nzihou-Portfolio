@@ -17,6 +17,8 @@ process decisions.
 
 ## Source Code 
 
+[source code on the App](https://cautious-eureka-q77x5456g6r5c4pjg.github.dev/)
+
 ## Industrial Problem
 
 Chemical plants must balance several competing objectives:
