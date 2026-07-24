@@ -15,10 +15,6 @@ process decisions.
 > This is a public GitHub Codespaces development demonstration. The link is
 > available while the Codespace and Streamlit server are running.
 
-## Source Code 
-
-[source code on the App](https://cautious-eureka-q77x5456g6r5c4pjg.github.dev/)
-
 ## Industrial Problem
 
 Chemical plants must balance several competing objectives:
