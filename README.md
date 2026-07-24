@@ -15,9 +15,7 @@ process decisions.
 > This is a public GitHub Codespaces development demonstration. The link is
 > available while the Codespace and Streamlit server are running.
 
-## Source Code and Portfolio
-
-[View the project in Jemael Nzihou's GitHub Portfolio](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio)
+## Source Code 
 
 ## Industrial Problem
 
