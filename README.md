@@ -8,13 +8,6 @@ process decisions.
 
 ![AI Process Optimization Copilot](assetsapp-preview.png)
 
-## Live Demonstration
-
-[Launch the AI Process Optimization Copilot](https://cautious-eureka-q77x5456g6r5c4pjg-8502.app.github.dev/) 
-
-> This is a public GitHub Codespaces development demonstration. The link is
-> available while the Codespace and Streamlit server are running.
-
 ## Industrial Problem
 
 Chemical plants must balance several competing objectives:
