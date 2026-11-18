@@ -2,35 +2,19 @@
 
 # AI-Driven Aerospace Predictive Maintenance & Manufacturing Big Data Integration
 
-Maintenance prédictive aéronautique — Big Data Integration & IA
+## Projet Data Science en français : intégration de six sources synthétiques, ETL Bronze/Silver/Gold, contrôle qualité, Random Forest, Isolation Forest, RUL et décisions de maintenance et stocks.
 
-Projet portfolio | Données entièrement synthétiques, sans affiliation avec Boeing. 
-
-**Unité :** moteur-cycle de vol. 
-
-**Objectif :** prédire une fin de vie simulée dans les 20 prochains cycles et estimer la RUL. 
-
-Ce prototype ne constitue pas un système certifié de sécurité aérienne.
-
-# AI-Driven Aerospace Predictive Maintenance & Manufacturing Big Data Integration
-
-## **Projet Data Science en français : intégration de six sources synthétiques, ETL Bronze/Silver/Gold, contrôle qualité, Random Forest, Isolation Forest, RUL et décisions de maintenance et stocks.
-
-### **Exécution**
+### Exécution
 Télécharger le notebook et l'ouvrir sur Google Colab. Exécuter toutes les cellules dans l'ordre. Les données sont générées automatiquement. 
 
-En local : pip install -r requirements.txt, puis ouvrir le notebook avec Jupyter.
-
-### **Architecture**
+### Architecture
 CSV/JSON → contrôles de clés et qualité → Parquet Silver → caractéristiques Gold → IA → tableau de décisions.
 
-### **Évaluation**
-Séparation par moteur, average precision, ROC-AUC, précision/rappel, MAE RUL et comparaison capteurs seuls contre intégration. Aucun score industriel revendiqué.
+### Évaluation
+Séparation par moteur, average precision, ROC-AUC, précision/rappel, MAE RUL et comparaison des capteurs seuls contre l’intégration. Aucun score industriel revendiqué.
 
-### **Limites**
+### Limites
 Données synthétiques, aucun lien officiel avec Boeing. Coûts hypothétiques. Prototype non certifié. Spark facultatif en local.
-
-### **Ressources**
 
 ## 📚 Ressources et formations complémentaires
 
