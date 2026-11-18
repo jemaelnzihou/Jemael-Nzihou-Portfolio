@@ -16,14 +16,6 @@ Séparation par moteur, average precision, ROC-AUC, précision/rappel, MAE RUL e
 ### Limites
 Données synthétiques, aucun lien officiel avec Boeing. Coûts hypothétiques. Prototype non certifié. Spark facultatif en local.
 
-## 📚 Ressources et formations complémentaires
-
-- [NASA Prognostics Center of Excellence](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
-- [Apache Spark — Quick Start](https://spark.apache.org/docs/latest/quick-start.html)
-- [Scikit-learn — User Guide](https://scikit-learn.org/stable/user_guide.html)
-- [Databricks Free Edition — Mon projet pratique](https://dbc-c0b76d43-142e.cloud.databricks.com/editor/notebooks/2181439429692708?o=7474660769183521#command/6245934407738365)
-
-
 ## 📚 Ressources scientifiques et technologiques
 
 | Ressource | Application dans le projet |
