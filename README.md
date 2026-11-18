@@ -23,6 +23,19 @@ Données synthétiques, aucun lien officiel avec Boeing. Coûts hypothétiques. 
 - [Scikit-learn — User Guide](https://scikit-learn.org/stable/user_guide.html)
 - [Databricks Free Edition — Mon projet pratique](https://dbc-c0b76d43-142e.cloud.databricks.com/editor/notebooks/2181439429692708?o=7474660769183521#command/6245934407738365)
 
+
+## 📚 Ressources scientifiques et technologiques
+
+| Ressource | Application dans le projet |
+|---|---|
+| [NASA Prognostics Center of Excellence](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/) | Données de dégradation des moteurs, maintenance prédictive et estimation de la durée de vie restante (RUL). |
+| [Apache Spark](https://spark.apache.org/docs/latest/quick-start.html) | Big Data Integration, ETL, calcul distribué et traitement des données industrielles. |
+| [Scikit-learn](https://scikit-learn.org/stable/user_guide.html) | Machine Learning, Random Forest, Isolation Forest et évaluation des modèles prédictifs. |
+| [Mon Notebook Databricks](https://dbc-c0b76d43-142e.cloud.databricks.com/editor/notebooks/2181439429692708?o=7474660769183521#command/6245934407738365) | Implémentation pratique du Data Engineering et de l'architecture Lakehouse. |
+| [Databricks Free Edition](https://www.databricks.com/learn/free-edition) | Plateforme gratuite pour pratiquer le Big Data, PySpark, SQL et l'intelligence artificielle. |
+| [Google Colab](https://colab.research.google.com/) | Simulation industrielle, analyse statistique et développement des modèles d'IA. |
+
+
 ---
 
 # AI Process Optimization Copilot
