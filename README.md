@@ -1,5 +1,46 @@
 # 📊 Data Science Projects
 
+# AI-Driven Aerospace Predictive Maintenance & Manufacturing Big Data Integration
+
+Maintenance prédictive aéronautique — Big Data Integration & IA
+
+Projet portfolio | Données entièrement synthétiques, sans affiliation avec Boeing. 
+
+**Unité :** moteur-cycle de vol. 
+
+**Objectif :** prédire une fin de vie simulée dans les 20 prochains cycles et estimer la RUL. 
+
+Ce prototype ne constitue pas un système certifié de sécurité aérienne.
+
+# AI-Driven Aerospace Predictive Maintenance & Manufacturing Big Data Integration
+
+## **Projet Data Science en français : intégration de six sources synthétiques, ETL Bronze/Silver/Gold, contrôle qualité, Random Forest, Isolation Forest, RUL et décisions de maintenance et stocks.
+
+### **Exécution**
+Télécharger le notebook et l'ouvrir sur Google Colab. Exécuter toutes les cellules dans l'ordre. Les données sont générées automatiquement. 
+
+En local : pip install -r requirements.txt, puis ouvrir le notebook avec Jupyter.
+
+### **Architecture**
+CSV/JSON → contrôles de clés et qualité → Parquet Silver → caractéristiques Gold → IA → tableau de décisions.
+
+### **Évaluation**
+Séparation par moteur, average precision, ROC-AUC, précision/rappel, MAE RUL et comparaison capteurs seuls contre intégration. Aucun score industriel revendiqué.
+
+### **Limites**
+Données synthétiques, aucun lien officiel avec Boeing. Coûts hypothétiques. Prototype non certifié. Spark facultatif en local.
+
+### **Ressources**
+
+## 📚 Ressources et formations complémentaires
+
+- [NASA Prognostics Center of Excellence](https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/)
+- [Apache Spark — Quick Start](https://spark.apache.org/docs/latest/quick-start.html)
+- [Scikit-learn — User Guide](https://scikit-learn.org/stable/user_guide.html)
+- [Databricks Free Edition — Mon projet pratique](https://dbc-c0b76d43-142e.cloud.databricks.com/editor/notebooks/2181439429692708?o=7474660769183521#command/6245934407738365)
+
+---
+
 # AI Process Optimization Copilot
 
 An interactive chemical-engineering mini application demonstrating how
