@@ -25,8 +25,12 @@ Données synthétiques, aucun lien officiel avec Boeing. Coûts hypothétiques. 
 | [Scikit-learn](https://scikit-learn.org/stable/user_guide.html) | Machine Learning, Random Forest, Isolation Forest et évaluation des modèles prédictifs. |
 | [Mon Notebook Databricks](https://dbc-c0b76d43-142e.cloud.databricks.com/editor/notebooks/2181439429692708?o=7474660769183521#command/6245934407738365) | Implémentation pratique du Data Engineering et de l'architecture Lakehouse. |
 | [Databricks Free Edition](https://www.databricks.com/learn/free-edition) | Plateforme gratuite pour pratiquer le Big Data, PySpark, SQL et l'intelligence artificielle. |
-| [Google Colab](https://colab.research.google.com/) | Simulation industrielle, analyse statistique et développement des modèles d'IA. |
 
+## 🚀 Implémentation pratique — Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1s9XiNriqKG0XnYj5IMVVZ3gn1vScr_6S?usp=sharing)
+
+📓 [Accéder au notebook complet — Maintenance prédictive aéronautique](https://colab.research.google.com/drive/1s9XiNriqKG0XnYj5IMVVZ3gn1vScr_6S?usp=sharing)
 
 ---
 
