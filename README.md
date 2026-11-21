@@ -24,19 +24,19 @@ The project designs a monitored treatment pilot and produces an evidence-based r
 | Target energy intensity | 0.72 → 0.52 kWh/m³ |
 | Target reagent cost | $0.28 → $0.10/m³ |
 
-## **Project life cycle (as in an MS Project example)**
+## **Project life cycle **
 
-1. Initiate: business case, stakeholders, charter, approval gates.
+1. **Initiate:** business case, stakeholders, charter, approval gates.
    
-2. Plan scope: requirements, six-level-1 WBS deliverables, WBS dictionary, deliverable acceptance criteria.
+2. **Plan scope:** requirements, six-level-1 WBS deliverables, WBS dictionary, deliverable acceptance criteria.
  
-3. Plan schedule: durations, start/finish windows, milestones, predecessor logic (CSV for Microsoft Project import).
+3. **Plan schedule:** durations, start/finish windows, milestones, predecessor logic (CSV for Microsoft Project import).
    
-5. Plan resources/cost: role-based RBS, RACI, work-package estimates, contingency, cost baseline.
+5. **Plan resources/cost:** role-based RBS, RACI, work-package estimates, contingency, cost baseline.
  
-6. Execute and monitor: conceptual design, approved pilot planning, baseline metrics, synthetic analytical example, risk/change control.
+6. **Execute and monitor:** conceptual design, approved pilot planning, baseline metrics, synthetic analytical example, risk/change control.
    
-7. Close: operator-training plan, financial review, closeout package, lessons learned.
+7. **Close:** operator-training plan, financial review, closeout package, lessons learned.
 
 ## **Repository structure**
 
