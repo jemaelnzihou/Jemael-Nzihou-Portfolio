@@ -42,22 +42,39 @@ The project designs a monitored treatment pilot and produces an evidence-based r
 
 Chemical_Engineering_PMP_Portfolio/
 ├── README.md
+
 ├── diagrams/
+
 │   ├── 01_work_breakdown_structure.drawio
+
 │   └── 02_resource_breakdown_structure.drawio
+
 ├── docs/
+
 │   ├── 01_PROJECT_CHARTER.md
+
 │   ├── 02_WBS_DICTIONARY.md
+
 │   ├── 03_SCHEDULE_BASELINE.md
+
 │   ├── 04_COST_BASELINE.md
+
 │   ├── 05_RISK_REGISTER.md
+
 │   ├── 06_RACI_MATRIX.md
+
 │   └── 07_STAKEHOLDER_COMMUNICATIONS.md
+
 ├── data/
+
 │   ├── schedule_msproject_import.csv
+
 │   └── synthetic_wastewater_baseline.csv
+
 ├── notebooks/
+
 │   └── wastewater_optimization_demo.ipynb
+
 └── requirements.txt
 
 ## **Engineering methodology**
