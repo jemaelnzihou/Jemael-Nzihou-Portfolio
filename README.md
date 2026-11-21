@@ -98,6 +98,8 @@ conceptual PFD/P&ID, water/material balance, pump energy model, treatment kineti
 - **Project:** schedule variance (SV=EV−PV), cost variance (CV=EV−AC), SPI=EV/PV, CPI=EV/AC, risk action completion, signed acceptance gates.
 - **Finance:** annual energy/reagent savings, avoided rework, simple payback; extend to NPV with discount rate and recurring O&M costs.
 
+📓 [Open the Wastewater Optimization Notebook here](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/wastewater_optimization.ipynb)
+
 ---
 
 # AI-Driven Aerospace Predictive Maintenance & Manufacturing Big Data Integration
