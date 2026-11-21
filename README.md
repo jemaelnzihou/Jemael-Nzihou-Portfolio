@@ -1,5 +1,87 @@
 # 📊 Data Science Projects
 
+## **Industrial Wastewater Treatment Optimization — PMP × Chemical Engineering × Data Analytics**
+
+Portfolio case study (fictional facility; synthetic measurements). 
+This repository demonstrates how a chemical engineer can plan and evaluate an industrial process improvement project with PMP-style management artifacts, DMAIC, economic evaluation and Python analytics. 
+It does not report a deployed project or verified industrial savings.
+
+## **Project brief (initiation)**
+
+A hypothetical chemical manufacturing plant needs to reduce wastewater treatment energy and reagent spending while protecting effluent quality. 
+The project designs a monitored treatment pilot and produces an evidence-based recommendation.
+
+| Project KPI | Planned target / assumption |
+|---|---|
+| Sponsor | Plant Director (fictional role) |
+| PM | Portfolio author |
+| Delivery | 24-week illustrative baseline, Jan–Jun 2027 |
+| Cost baseline (including contingency) | **$160,000** |
+| Annual gross benefit target (not verified) | **$174,880/yr** |
+| Simple annual benefit-to-cost ratio | **1.09** |
+| Simple payback | **0.91 years** |
+| Flow assumption | 1,500 m³/day |
+| Target energy intensity | 0.72 → 0.52 kWh/m³ |
+| Target reagent cost | $0.28 → $0.10/m³ |
+
+## **Project life cycle (as in an MS Project example)**
+
+1. Initiate: business case, stakeholders, charter, approval gates.
+   
+2. Plan scope: requirements, six-level-1 WBS deliverables, WBS dictionary, deliverable acceptance criteria.
+ 
+3. Plan schedule: durations, start/finish windows, milestones, predecessor logic (CSV for Microsoft Project import).
+   
+5. Plan resources/cost: role-based RBS, RACI, work-package estimates, contingency, cost baseline.
+ 
+6. Execute and monitor: conceptual design, approved pilot planning, baseline metrics, synthetic analytical example, risk/change control.
+   
+7. Close: operator-training plan, financial review, closeout package, lessons learned.
+
+## **Repository structure**
+
+Chemical_Engineering_PMP_Portfolio/
+├── README.md
+├── diagrams/
+│   ├── 01_work_breakdown_structure.drawio
+│   └── 02_resource_breakdown_structure.drawio
+├── docs/
+│   ├── 01_PROJECT_CHARTER.md
+│   ├── 02_WBS_DICTIONARY.md
+│   ├── 03_SCHEDULE_BASELINE.md
+│   ├── 04_COST_BASELINE.md
+│   ├── 05_RISK_REGISTER.md
+│   ├── 06_RACI_MATRIX.md
+│   └── 07_STAKEHOLDER_COMMUNICATIONS.md
+├── data/
+│   ├── schedule_msproject_import.csv
+│   └── synthetic_wastewater_baseline.csv
+├── notebooks/
+│   └── wastewater_optimization_demo.ipynb
+└── requirements.txt
+
+## **Engineering methodology**
+
+DMAIC: 
+- Define the process and CTQs
+-  → Measure baseline flow/quality/intensity
+-  → Analyze energy, reagent and variability
+-  → Improve using approved pilot/DOE and engineering reviews
+-   → Control with calibrated instrumentation, process capability checks, SOPs and weekly review.
+
+## **Engineering technical artifacts for future extension:** 
+conceptual PFD/P&ID, water/material balance, pump energy model, treatment kinetics, FMEA/HAZOP, simple regression/DOE, control charts, and validated lifecycle-cost scenarios.
+
+**Safety:** Never apply the toy model to an operating treatment process without site-specific engineering review, management of change, environmental permit review and authorized testing.
+
+## **Success metrics and earned value**
+
+- **Engineering:** kWh/m³, reagent USD/m³, process variability, sample completeness, permit-specific effluent indicators.
+- **Project:** schedule variance (SV=EV−PV), cost variance (CV=EV−AC), SPI=EV/PV, CPI=EV/AC, risk action completion, signed acceptance gates.
+- **Finance:** annual energy/reagent savings, avoided rework, simple payback; extend to NPV with discount rate and recurring O&M costs.
+
+---
+
 # AI-Driven Aerospace Predictive Maintenance & Manufacturing Big Data Integration
 
 ## Projet Data Science en français : intégration de six sources synthétiques, ETL Bronze/Silver/Gold, contrôle qualité, Random Forest, Isolation Forest, RUL et décisions de maintenance et stocks.
