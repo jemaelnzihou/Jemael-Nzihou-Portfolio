@@ -81,11 +81,11 @@ Chemical_Engineering_PMP_Portfolio/
 ## **Engineering methodology**
 
 DMAIC: 
-- Define the process and CTQs
+-  →  Define the process and CTQs
 -  → Measure baseline flow/quality/intensity
 -  → Analyze energy, reagent and variability
 -  → Improve using approved pilot/DOE and engineering reviews
--   → Control with calibrated instrumentation, process capability checks, SOPs and weekly review.
+-  → Control with calibrated instrumentation, process capability checks, SOPs and weekly review.
 
 ## **Engineering technical artifacts for future extension:** 
 conceptual PFD/P&ID, water/material balance, pump energy model, treatment kinetics, FMEA/HAZOP, simple regression/DOE, control charts, and validated lifecycle-cost scenarios.
