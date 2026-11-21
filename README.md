@@ -24,7 +24,7 @@ The project designs a monitored treatment pilot and produces an evidence-based r
 | Target energy intensity | 0.72 → 0.52 kWh/m³ |
 | Target reagent cost | $0.28 → $0.10/m³ |
 
-## **Project life cycle **
+## **Project life cycle**
 
 1. **Initiate:** business case, stakeholders, charter, approval gates.
    
