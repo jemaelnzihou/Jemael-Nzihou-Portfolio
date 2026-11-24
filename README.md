@@ -461,11 +461,19 @@ Chemical_Engineering_PMP_Portfolio/
 | Estimated annual gross savings | — | **~$89,998/year** | Dashboard scenario, not observed savings |
 | Simple payback on $160,000 project budget | — | **~1.78 years** | Illustrative ratio before ongoing expenses |
 
-**Business-case reconciliation:** The original project charter contains a **$174,880/year benefit target** and a **0.91-year target payback**, based partly on an assumed avoided-rework benefit. The Databricks dashboard instead estimates about **$89,998/year** of simulated energy and reagent savings and a **1.78-year simple payback**. These two scenarios have different assumptions and must not be reported as equivalent or achieved results. The dashboard's two savings components (approximately $10,711 for electricity and $79,286 for chemicals) should be summed once; do not stack the total as a third additional contribution.
+**Business-case reconciliation:** The original project charter contains a **$174,880/year benefit target** and a **0.91-year target payback**, based partly on an assumed avoided-rework benefit. 
+
+The Databricks dashboard instead estimates about **$89,998/year** of simulated energy and reagent savings and a **1.78-year simple payback**. 
+
+These two scenarios have different assumptions and must not be reported as equivalent or achieved results. 
+
+The dashboard's two savings components (approximately $10,711 for electricity and $79,286 for chemicals) should be summed once; do not stack the total as a third additional contribution.
 
 ### **Project management and career relevance**
 
-This extension connects chemical engineering metrics to data engineering, business intelligence, and PMP-style reporting: baselines, control metrics, KPI verification, cost-benefit evaluation, risk communication, and stakeholder-ready visual reporting. Future extensions can include project milestones, earned value, anomaly detection, sensor streaming, and verified engineering acceptance criteria.
+This extension connects chemical engineering metrics to data engineering, business intelligence, and PMP-style reporting: baselines, control metrics, KPI verification, cost-benefit evaluation, risk communication, and stakeholder-ready visual reporting. 
+
+Future extensions can include project milestones, earned value, anomaly detection, sensor streaming, and verified engineering acceptance criteria.
 
 ### **13. Tools and competencies demonstrated**
 
