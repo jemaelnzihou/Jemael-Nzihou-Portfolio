@@ -47,7 +47,7 @@ industrial wastewater treatment performance.
 ### 🔗 Interactive Databricks Dashboard
 <img width="1676" height="304" alt="image" src="https://github.com/user-attachments/assets/ddd38fde-5e32-4d04-8cb5-7eec32df2096" />
 <img width="1664" height="707" alt="image" src="https://github.com/user-attachments/assets/67431b4e-f0e3-481a-9217-5a6ab78e01c0" />
-**Figure 1.** *Overview of the engineering and business KPI dashboard.*
+**Figure** *Overview of the engineering and business KPI dashboard.*
 
 [Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
 
@@ -101,21 +101,7 @@ industrial wastewater treatment performance.
 
 *Figure 6. Breakdown of projected annual savings from reduced energy consumption and chemical treatment costs, supporting engineering investment and PMP business-case evaluation.*
 
----
-
-
 **Disclaimer:** All measurements and financial results are based on synthetic demonstration data and do not represent verified industrial performance.
-
-
-![Engineering Methodology and Success Metrics](./readme-preview-04.webp)
-
-*Figure 8. Engineering methodology, performance evaluation, and project reporting.*
- 
-### **2. Project initiation — business case and charter**
-
-The sponsor evaluates whether improved treatment monitoring, operational controls, and chemical dosing could generate enough benefits to justify a limited optimization project.
-
-### **Key deliverables:**
 
 - Problem statement, business case, and measurable success criteria
 - Project charter and stakeholder register
@@ -124,15 +110,15 @@ The sponsor evaluates whether improved treatment monitoring, operational control
   
 ### **Sample SMART goals (targets, not actual results):**
 
-1. Complete conceptual design, authorized-pilot plan, evaluation, and closeout package within **24 weeks**.
+**1.** Complete conceptual design, authorized-pilot plan, evaluation, and closeout package within **24 weeks**.
    
-2. Evaluate a reduction of energy intensity from **0.72 to 0.52 kWh/m³**, approximately **27.8%**.
+**2.** Evaluate a reduction of energy intensity from **0.72 to 0.52 kWh/m³**, approximately **27.8%**.
    
-3. Evaluate a reduction of chemical expenditure from **$0.28 to $0.10/m³** under comparable treatment conditions.
+**3.** Evaluate a reduction of chemical expenditure from **$0.28 to $0.10/m³** under comparable treatment conditions.
    
-4. Maintain all relevant **site-specific effluent-quality and safety requirements** during any properly authorized future pilot.
+**4.** Maintain all relevant **site-specific effluent-quality and safety requirements** during any properly authorized future pilot.
    
-5. Provide traceable analytics, risk decisions, operator SOPs, and documented acceptance criteria.
+**5.** Provide traceable analytics, risk decisions, operator SOPs, and documented acceptance criteria.
 
 ### **3. Resource Breakdown Structure (RBS)**
 
@@ -230,10 +216,13 @@ To edit either diagram, open **diagrams.net**, choose **File → Open From → D
 | **Total planned cost** | **$160,000** |
 
 The planning estimate includes engineering, risk/safety analysis, instrumentation, pilot installation, dashboard configuration, evaluation, and training. No vendor quotations are represented.
+[Access Additional Project Resources on Google Drive](https://drive.google.com/drive/project/1K-1pU3-YP0DsRU2ztTkUaJ_1ALq-rSAG?usp=sharing)
 - [`docs/04_COST_BASELINE.md`](docs/04_COST_BASELINE.md)
 - [`docs/06_RACI_MATRIX.md`](docs/06_RACI_MATRIX.md)
 - [`docs/07_STAKEHOLDER_COMMUNICATIONS.md`](docs/07_STAKEHOLDER_COMMUNICATIONS.md)
-7. Chemical engineering analysis
+
+### **7. Chemical engineering analysis**
+
 The analytics example uses fictional baseline and illustrative-pilot observations, not measured industrial plant results.
 
 ### **7.1 Core calculations**
@@ -281,7 +270,8 @@ pip install -r requirements.txt
 jupyter notebook notebooks/wastewater_optimization_demo.ipynb
 
 ### **8. Financial evaluation — forecast, not measured savings**
-Planning throughput: 1,500 m³/day × 365 days = 547,500 m³/year.
+
+Planning throughput: **1,500 m³/day × 365 days = 547,500 m³/year.**
 
 | Illustrative annual benefit | Calculation | Annual USD |
 |:---|:---|---:|
