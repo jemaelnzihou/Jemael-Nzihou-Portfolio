@@ -333,8 +333,9 @@ These are arithmetic planning examples, not observations.
 ### **7.3 Run the demo**
 **Local environment:**
 
-pip install -r requirements.txt
-jupyter notebook notebooks/wastewater_optimization_demo.ipynb
+`pip install -r requirements.txt`
+
+`jupyter notebook notebooks/wastewater_optimization_demo.ipynb`
 
 ### **8. Financial evaluation — forecast, not measured savings**
 
