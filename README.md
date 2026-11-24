@@ -47,7 +47,7 @@ industrial wastewater treatment performance.
 ### 🔗 Interactive Databricks Dashboard
 <img width="1676" height="304" alt="image" src="https://github.com/user-attachments/assets/ddd38fde-5e32-4d04-8cb5-7eec32df2096" />
 <img width="1664" height="707" alt="image" src="https://github.com/user-attachments/assets/67431b4e-f0e3-481a-9217-5a6ab78e01c0" />
-*Figure 1. Overview of the engineering and business KPI dashboard.*
+**Figure 1.** *Overview of the engineering and business KPI dashboard.*
 
 [Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
 
@@ -63,50 +63,53 @@ industrial wastewater treatment performance.
 
 **Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings
 
-### 2. Wastewater Flow and Energy Efficiency
+## 📊 Industrial Wastewater Treatment Optimization — Databricks Dashboard
 
-![Wastewater Flow and Energy Intensity](./dashboard-flow-energy.webp)
+### 1. Wastewater Throughput
 
-*Figure 2. Baseline versus illustrative pilot: wastewater throughput and energy intensity.*
+![Wastewater Throughput](./Wastewater%20throughput.png)
 
-### 3. Chemical Treatment and Effluent Quality
+*Figure 1. Wastewater flow comparison between baseline and illustrative pilot, demonstrating treatment capacity in m³/day.*
 
-![Chemical Cost and Effluent Quality](./dashboard-chemical-quality.webp)
+### 2. Energy Intensity by Treatment Phase
 
-*Figure 3. Comparison of chemical treatment costs and effluent quality indicators.*
+![Energy Intensity by Treatment Phase](./Energy%20Intensity%20by%20Treatment%20Phase%20%28kWh_m%C2%B3%29.png)
 
-### 4. Financial Performance and Annual Savings
+*Figure 2. Energy intensity decreases from 0.715 to 0.551 kWh/m³, representing approximately a 22.9% simulated improvement in energy efficiency.*
 
-![Annual Operating Costs and Estimated Savings](./dashboard-financial.webp)
+### 3. Chemical Treatment Cost
 
-*Figure 4. Simulated operating costs, energy savings, chemical savings, and financial impact.*
+![Chemical Cost by Treatment Phase](./Chemical%20Cost%20by%20Phase%20%28Chemical%20treatment%29.png)
 
-### 5. Project Documentation — Part 1
+*Figure 3. Chemical treatment cost decreases from $0.281 to $0.136/m³, representing approximately 51.6% in simulated cost savings per unit of wastewater.*
+
+### 4. Effluent Quality Index
+
+![Effluent Quality Index](./Effluent%20Quality%20Index%20by%20Treatment%20Phase.png)
+
+*Figure 4. The simulated effluent quality index decreases from 0.674 to 0.622, representing a 7.7% change. A lower value indicates improvement under the assumed index definition.*
+
+### 5. Annual Operating Costs
+
+![Annual Operating Costs by Phase](./Annual%20Operating%20Costs%20by%20Phase%20%28USD%29.png)
+
+*Figure 5. Annual operating cost comparison between baseline and illustrative pilot, showing potential reductions in electricity and chemical expenses.*
+
+### 6. Estimated Annual Savings
+
+![Estimated Annual Savings by Component](./Estimated%20Annual%20Savings%20by%20Component%20%28USD%29.png)
+
+*Figure 6. Breakdown of projected annual savings from reduced energy consumption and chemical treatment costs, supporting engineering investment and PMP business-case evaluation.*
+
+---
 
 
+**Disclaimer:** All measurements and financial results are based on synthetic demonstration data and do not represent verified industrial performance.
 
 
 ![Engineering Methodology and Success Metrics](./readme-preview-04.webp)
 
 *Figure 8. Engineering methodology, performance evaluation, and project reporting.*
-
----
-
-### 🔗 Interactive Databricks Dashboard
-
-[Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
-
-### 🧠 Skills Demonstrated
-
-- **Chemical Engineering:** Process optimization, energy efficiency, wastewater treatment analytics.
-- **Data Engineering:** PySpark, Delta Lake, Bronze–Silver–Gold architecture.
-- **SQL & Business Intelligence:** Databricks SQL, data visualization, engineering KPI dashboards.
-- **Project Management:** PMP methodologies, project planning, monitoring, and benefits realization.
-- **Lean Six Sigma:** DMAIC, process improvement, statistical analysis.
-- **Financial Analytics:** Operating cost analysis, estimated annual savings, and simple payback.
-- **AI Readiness:** Structured industrial datasets supporting future anomaly detection and predictive modeling.
-
-**Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings.
  
 ### **2. Project initiation — business case and charter**
 
@@ -388,13 +391,6 @@ Chemical_Engineering_PMP_Portfolio/
 
 **Business-case reconciliation:** The original project charter contains a **$174,880/year benefit target** and a **0.91-year target payback**, based partly on an assumed avoided-rework benefit. The Databricks dashboard instead estimates about **$89,998/year** of simulated energy and reagent savings and a **1.78-year simple payback**. These two scenarios have different assumptions and must not be reported as equivalent or achieved results. The dashboard's two savings components (approximately $10,711 for electricity and $79,286 for chemicals) should be summed once; do not stack the total as a third additional contribution.
 
-### **Databricks dashboard Visualization**
-**Flow and energy intensity** — Similar modeled throughput with reduced energy use per cubic meter.
-
-**Chemical treatment cost and effluent index** — Illustrative operating-expense improvement and the accompanying treatment quality index.
-
-**Annual operating expenses and savings** — Modeled financial outcome and component-level savings visualization; see the double-counting note above.
-
 ### **Project management and career relevance**
 
 This extension connects chemical engineering metrics to data engineering, business intelligence, and PMP-style reporting: baselines, control metrics, KPI verification, cost-benefit evaluation, risk communication, and stakeholder-ready visual reporting. Future extensions can include project milestones, earned value, anomaly detection, sensor streaming, and verified engineering acceptance criteria.
@@ -419,14 +415,6 @@ This case study showcases the ability to **connect process engineering with proj
 - [Project Management Institute (PMI)](https://www.pmi.org/)
 - [diagrams.net — Draw.io](https://app.diagrams.net/)
 - [Google Colab](https://colab.research.google.com/)
-
-## **Success metrics and earned value**
-
-- **Engineering:** kWh/m³, reagent USD/m³, process variability, sample completeness, permit-specific effluent indicators.
-- **Project:** schedule variance (SV=EV−PV), cost variance (CV=EV−AC), SPI=EV/PV, CPI=EV/AC, risk action completion, signed acceptance gates.
-- **Finance:** annual energy/reagent savings, avoided rework, simple payback; extend to NPV with discount rate and recurring O&M costs.
-
-📓 [Open the Wastewater Optimization Notebook here](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/wastewater_optimization.ipynb) 
 
 ## 📁 Additional Project Files and Resources
 
