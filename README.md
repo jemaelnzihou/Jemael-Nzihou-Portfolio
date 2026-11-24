@@ -167,7 +167,7 @@ Plant Director — Project Sponsor
 
 Editable diagram: [`diagrams/02_resource_breakdown_structure.drawio`](diagrams/02_resource_breakdown_structure.drawio)
 
-Responsibility matrix: [`docs/06_RACI_MATRIX.md`](docs/06_RACI_MATRIX.md)
+Responsibility matrix: [`RACI_MATRIX.md`](https://docs.google.com/document/d/1JgiNP-Omtyuf3OG6ERKv156oosuzlg24/edit#heading=h.cr71vajqegj9))
 
 ### **4. Scope management — Work Breakdown Structure (WBS)**
 The scope is organized into **six Level-1 deliverable groups:**
