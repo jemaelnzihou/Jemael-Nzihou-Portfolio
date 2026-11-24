@@ -32,6 +32,78 @@ Portfolio case study — simulated project. This repository models the initiatio
 | Illustrative simple payback | **0.91 years** |
 
  **Status:** Conceptual portfolio case study; no executed pilot or verified operating outcome.
+
+## 📊 Databricks & Engineering Dashboard
+
+This project integrates Chemical Engineering, PMP, Lean Six Sigma,
+PySpark, Delta Lake, SQL, and Databricks AI/BI to evaluate
+industrial wastewater treatment performance.
+
+### 1. Complete Engineering Dashboard
+
+![Industrial Wastewater Optimization Dashboard](./dashboard-overview.webp)
+
+*Figure 1. Overview of the engineering and business KPI dashboard.*
+
+### 2. Wastewater Flow and Energy Efficiency
+
+![Wastewater Flow and Energy Intensity](./dashboard-flow-energy.webp)
+
+*Figure 2. Baseline versus illustrative pilot: wastewater throughput and energy intensity.*
+
+### 3. Chemical Treatment and Effluent Quality
+
+![Chemical Cost and Effluent Quality](./dashboard-chemical-quality.webp)
+
+*Figure 3. Comparison of chemical treatment costs and effluent quality indicators.*
+
+### 4. Financial Performance and Annual Savings
+
+![Annual Operating Costs and Estimated Savings](./dashboard-financial.webp)
+
+*Figure 4. Simulated operating costs, energy savings, chemical savings, and financial impact.*
+
+### 5. Project Documentation — Part 1
+
+![Project README Overview](./readme-preview-01.webp)
+
+*Figure 5. Project overview, business case, and initiation.*
+
+### 6. Project Documentation — Part 2
+
+![Project Life Cycle](./readme-preview-02.webp)
+
+*Figure 6. Project management lifecycle, scope, and planning.*
+
+### 7. Project Documentation — Part 3
+
+![Project Structure and Deliverables](./readme-preview-03.webp)
+
+*Figure 7. Repository structure and supporting project deliverables.*
+
+### 8. Project Documentation — Part 4
+
+![Engineering Methodology and Success Metrics](./readme-preview-04.webp)
+
+*Figure 8. Engineering methodology, performance evaluation, and project reporting.*
+
+---
+
+### 🔗 Interactive Databricks Dashboard
+
+[Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
+
+### 🧠 Skills Demonstrated
+
+- **Chemical Engineering:** Process optimization, energy efficiency, wastewater treatment analytics.
+- **Data Engineering:** PySpark, Delta Lake, Bronze–Silver–Gold architecture.
+- **SQL & Business Intelligence:** Databricks SQL, data visualization, engineering KPI dashboards.
+- **Project Management:** PMP methodologies, project planning, monitoring, and benefits realization.
+- **Lean Six Sigma:** DMAIC, process improvement, statistical analysis.
+- **Financial Analytics:** Operating cost analysis, estimated annual savings, and simple payback.
+- **AI Readiness:** Structured industrial datasets supporting future anomaly detection and predictive modeling.
+
+**Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings.
  
 ### **2. Project initiation — business case and charter**
 
@@ -55,8 +127,6 @@ The sponsor evaluates whether improved treatment monitoring, operational control
 4. Maintain all relevant **site-specific effluent-quality and safety requirements** during any properly authorized future pilot.
    
 5. Provide traceable analytics, risk decisions, operator SOPs, and documented acceptance criteria.
-
-**See docs/01_Project_CHARTER.md**
 
 ### **3. Resource Breakdown Structure (RBS)**
 
@@ -166,18 +236,22 @@ The analytics example uses fictional baseline and illustrative-pilot observation
 \[
 L_{COD}\;(kg/day)=\frac{Q\;(m^3/day)\;C_{COD}\;(mg/L)}{1000}
 \]
+
 **Removal efficiency** (when inlet and outlet concentrations are comparable):
 \[
 \eta_{COD}(\%)=100\frac{C_{in}-C_{out}}{C_{in}}
 \]
+
 **Energy intensity:**
 \[
 EI\;(kWh/m^3)=\frac{E\;(kWh)}{V\;(m^3)}
 \]
+
 **Chemical cost intensity:**
 \[
 CI\;(USD/m^3)=\frac{\text{Chemical spending (USD)}}{V\;(m^3)}
 \]
+
 For an assumed **1,500 m³/day** and **0.72 kWh/m³**, baseline electricity consumption would be **1,080 kWh/day**; at the 0.52 kWh/m³ target, it would be **780 kWh/day**. 
 These are arithmetic planning examples, not observations.
 
@@ -216,7 +290,7 @@ Planning throughput: 1,500 m³/day × 365 days = 547,500 m³/year.
 \[
 \text{Annual gross benefit / one-time cost}=\frac{174,880}{160,000}\approx1.09
 \]
-Limitations: These figures omit some possible operating costs, downtime, taxes, financing effects and uncertainty. The disposal/rework estimate is particularly speculative. A real investment decision would require verified baseline and pilot data, equipment pricing, sensitivity analysis, and life-cycle NPV.
+**Limitations:** These figures omit some possible operating costs, downtime, taxes, financing effects and uncertainty. The disposal/rework estimate is particularly speculative. A real investment decision would require verified baseline and pilot data, equipment pricing, sensitivity analysis, and life-cycle NPV.
 
 ### **9. Project risk, safety, and quality**
 
@@ -296,118 +370,24 @@ Chemical_Engineering_PMP_Portfolio/
 
 └── requirements.txt
 
-
-## 📊 Databricks Lakehouse & Engineering Dashboard
-
-This project integrates Chemical Engineering, PMP, Lean Six Sigma,
-PySpark, Delta Lake, SQL, and Databricks AI/BI to evaluate
-industrial wastewater treatment performance.
-
-### 1. Complete Engineering Dashboard
-
-![Industrial Wastewater Optimization Dashboard](./dashboard-overview.webp)
-
-*Figure 1. Overview of the engineering and business KPI dashboard.*
-
-### 2. Wastewater Flow and Energy Efficiency
-
-![Wastewater Flow and Energy Intensity](./dashboard-flow-energy.webp)
-
-*Figure 2. Baseline versus illustrative pilot: wastewater throughput and energy intensity.*
-
-### 3. Chemical Treatment and Effluent Quality
-
-![Chemical Cost and Effluent Quality](./dashboard-chemical-quality.webp)
-
-*Figure 3. Comparison of chemical treatment costs and effluent quality indicators.*
-
-### 4. Financial Performance and Annual Savings
-
-![Annual Operating Costs and Estimated Savings](./dashboard-financial.webp)
-
-*Figure 4. Simulated operating costs, energy savings, chemical savings, and financial impact.*
-
-### 5. Project Documentation — Part 1
-
-![Project README Overview](./readme-preview-01.webp)
-
-*Figure 5. Project overview, business case, and initiation.*
-
-### 6. Project Documentation — Part 2
-
-![Project Life Cycle](./readme-preview-02.webp)
-
-*Figure 6. Project management lifecycle, scope, and planning.*
-
-### 7. Project Documentation — Part 3
-
-![Project Structure and Deliverables](./readme-preview-03.webp)
-
-*Figure 7. Repository structure and supporting project deliverables.*
-
-### 8. Project Documentation — Part 4
-
-![Engineering Methodology and Success Metrics](./readme-preview-04.webp)
-
-*Figure 8. Engineering methodology, performance evaluation, and project reporting.*
-
----
-
-### 🔗 Interactive Databricks Dashboard
-
-[Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
-
-### 🧠 Skills Demonstrated
-
-- **Chemical Engineering:** Process optimization, energy efficiency, wastewater treatment analytics.
-- **Data Engineering:** PySpark, Delta Lake, Bronze–Silver–Gold architecture.
-- **SQL & Business Intelligence:** Databricks SQL, data visualization, engineering KPI dashboards.
-- **Project Management:** PMP methodologies, project planning, monitoring, and benefits realization.
-- **Lean Six Sigma:** DMAIC, process improvement, statistical analysis.
-- **Financial Analytics:** Operating cost analysis, estimated annual savings, and simple payback.
-- **AI Readiness:** Structured industrial datasets supporting future anomaly detection and predictive modeling.
-
-**Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings.
-
-
-## **Databricks Lakehouse & AI/BI Dashboard — Engineering and Business KPIs**
-
-**Live dashboard (Databricks):** Open Industrial Wastewater Optimization — Engineering & Business KPIs
-
-**Original analysis notebook:** Open wastewater_optimization.ipynb
-
 **Synthetic case study:** The linked dashboard uses illustrative wastewater-treatment observations; results are not actual plant savings, regulatory compliance evidence, or proof of causality. The Databricks dashboard may require workspace authentication and sharing permissions. Screenshots below provide a static public portfolio preview.
 
 ### **Data engineering and analytics architecture**
 
 Synthetic wastewater data / engineering measurements
-
                 |
-                
                 v
-                
 Bronze Delta table — raw measurements
-
                 |
-                
                 v
-                
 Silver Delta table — validated and derived features
-
-                |
-                
+                |          
                 v
-                
 Gold Delta table — engineering and cost KPIs
-
                 |
-                
                 +--> Databricks SQL --> AI/BI dashboard
-                
                 +--> Python / PySpark --> exploratory modeling
-                
                 +--> PMP benefits tracking and stakeholder reporting
-
 
 - **Catalog / schema:** workspace.wastewater_optimization
 - **Bronze:** bronze_wastewater
@@ -428,25 +408,18 @@ Gold Delta table — engineering and cost KPIs
 | Simple payback on $160,000 project budget | — | **~1.78 years** | Illustrative ratio before ongoing expenses |
 
 **Business-case reconciliation:** The original project charter contains a **$174,880/year benefit target** and a **0.91-year target payback**, based partly on an assumed avoided-rework benefit. The Databricks dashboard instead estimates about **$89,998/year** of simulated energy and reagent savings and a **1.78-year simple payback**. These two scenarios have different assumptions and must not be reported as equivalent or achieved results. The dashboard's two savings components (approximately $10,711 for electricity and $79,286 for chemicals) should be summed once; do not stack the total as a third additional contribution.
+
 ### **Databricks dashboard Visualization**
 Flow and energy intensity — Similar modeled throughput with reduced energy use per cubic meter.
-**image**
 
 **Chemical treatment cost and effluent index** — Illustrative operating-expense improvement and the accompanying treatment quality index.
-**image**
 
 **Annual operating expenses and savings** — Modeled financial outcome and component-level savings visualization; see the double-counting note above.
-**image**
-
-### **Source README previews supplied with the project**
-
-These four captures document the project's existing GitHub README presentation. The Markdown source remains the authoritative, editable description.
-<details>
-<summary>View four README screenshots</summary>
-**4 images**
 
 ### **Project management and career relevance**
+
 This extension connects chemical engineering metrics to data engineering, business intelligence, and PMP-style reporting: baselines, control metrics, KPI verification, cost-benefit evaluation, risk communication, and stakeholder-ready visual reporting. Future extensions can include project milestones, earned value, anomaly detection, sensor streaming, and verified engineering acceptance criteria.
+
 ### **13. Tools and competencies demonstrated**
 
 | Discipline | Tools / methods |
@@ -461,107 +434,12 @@ This extension connects chemical engineering metrics to data engineering, busine
 ### **14. How this project supports an engineering career**
 This case study showcases the ability to **connect process engineering with project delivery and business value**: define project scope, organize cross-functional resources, evaluate schedules and budgets, analyze plant-performance indicators, and communicate a decision-ready business case.
 
-15. Learning resources
+### **15. Learning resources**
 - [EPA — National Pollutant Discharge Elimination System (NPDES)](https://www.epa.gov/npdes)
 - [EPA — Water Research](https://www.epa.gov/water-research)
 - [Project Management Institute (PMI)](https://www.pmi.org/)
 - [diagrams.net — Draw.io](https://app.diagrams.net/)
 - [Google Colab](https://colab.research.google.com/)
-
-**Disclaimer:** Educational and portfolio demonstration using hypothetical assumptions and synthetic data. No real environmental compliance conclusion, plant performance claim, or investment outcome is established.
-
-
-## **Industrial Wastewater Treatment Optimization — PMP × Chemical Engineering × Data Analytics**
-
-Portfolio case study (fictional facility; synthetic measurements). 
-This repository demonstrates how a chemical engineer can plan and evaluate an industrial process improvement project with PMP-style management artifacts, DMAIC, economic evaluation and Python analytics. 
-It does not report a deployed project or verified industrial savings.
-
-## **Project brief (initiation)**
-
-A hypothetical chemical manufacturing plant needs to reduce wastewater treatment energy and reagent spending while protecting effluent quality. 
-The project designs a monitored treatment pilot and produces an evidence-based recommendation.
-
-| Project KPI | Planned target / assumption |
-|---|---|
-| Sponsor | Plant Director (fictional role) |
-| PM | Portfolio author |
-| Delivery | 24-week illustrative baseline, Jan–Jun 2027 |
-| Cost baseline (including contingency) | **$160,000** |
-| Annual gross benefit target (not verified) | **$174,880/yr** |
-| Simple annual benefit-to-cost ratio | **1.09** |
-| Simple payback | **0.91 years** |
-| Flow assumption | 1,500 m³/day |
-| Target energy intensity | 0.72 → 0.52 kWh/m³ |
-| Target reagent cost | $0.28 → $0.10/m³ |
-
-## **Project life cycle**
-
-1. **Initiate:** business case, stakeholders, charter, approval gates.
-   
-2. **Plan scope:** requirements, six-level-1 WBS deliverables, WBS dictionary, deliverable acceptance criteria.
- 
-3. **Plan schedule:** durations, start/finish windows, milestones, predecessor logic (CSV for Microsoft Project import).
-   
-5. **Plan resources/cost:** role-based RBS, RACI, work-package estimates, contingency, cost baseline.
- 
-6. **Execute and monitor:** conceptual design, approved pilot planning, baseline metrics, synthetic analytical example, risk/change control.
-   
-7. **Close:** operator-training plan, financial review, closeout package, lessons learned.
-
-## **Repository structure**
-
-Chemical_Engineering_PMP_Portfolio/
-
-├── README.md
-
-├── diagrams/
-
-│   ├── 01_work_breakdown_structure.drawio
-
-│   └── 02_resource_breakdown_structure.drawio
-
-├── docs/
-
-│   ├── 01_PROJECT_CHARTER.md
-
-│   ├── 02_WBS_DICTIONARY.md
-
-│   ├── 03_SCHEDULE_BASELINE.md
-
-│   ├── 04_COST_BASELINE.md
-
-│   ├── 05_RISK_REGISTER.md
-
-│   ├── 06_RACI_MATRIX.md
-
-│   └── 07_STAKEHOLDER_COMMUNICATIONS.md
-
-├── data/
-
-│   ├── schedule_msproject_import.csv
-
-│   └── synthetic_wastewater_baseline.csv
-
-├── notebooks/
-
-│   └── wastewater_optimization_demo.ipynb
-
-└── requirements.txt
-
-## **Engineering methodology**
-
-DMAIC: 
--  →  Define the process and CTQs
--  → Measure baseline flow/quality/intensity
--  → Analyze energy, reagent and variability
--  → Improve using approved pilot/DOE and engineering reviews
--  → Control with calibrated instrumentation, process capability checks, SOPs and weekly review.
-
-## **Engineering technical artifacts for future extension:** 
-conceptual PFD/P&ID, water/material balance, pump energy model, treatment kinetics, FMEA/HAZOP, simple regression/DOE, control charts, and validated lifecycle-cost scenarios.
-
-**Safety:** Never apply the toy model to an operating treatment process without site-specific engineering review, management of change, environmental permit review and authorized testing.
 
 ## **Success metrics and earned value**
 
@@ -572,8 +450,6 @@ conceptual PFD/P&ID, water/material balance, pump energy model, treatment kineti
 📓 [Open the Wastewater Optimization Notebook here](https://github.com/jemaelnzihou/Jemael-Nzihou-Portfolio/blob/main/wastewater_optimization.ipynb) 
 
 ## 📁 Additional Project Files and Resources
-
-Explore supporting documents, project materials, and additional resources associated with my engineering, data analytics, and AI portfolio.
 
 📂 [Access Additional Project Resources on Google Drive](https://drive.google.com/drive/project/1K-1pU3-YP0DsRU2ztTkUaJ_1ALq-rSAG?usp=sharing)
 
