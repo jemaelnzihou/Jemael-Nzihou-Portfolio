@@ -226,6 +226,94 @@ The analytics example uses fictional baseline and illustrative-pilot observation
 
 ### **7.1 Core calculations**
 
+# Wastewater Treatment Optimization — Engineering Formulas
+
+This section summarizes key chemical engineering calculations for the **Industrial Wastewater Treatment Optimization** portfolio case study.
+
+## 1. Influent pollutant mass loading (COD)
+
+$$
+L_{\mathrm{COD}}\;(\mathrm{kg/day})
+=\frac{Q\;(\mathrm{m^3/day})\times C_{\mathrm{COD}}\;(\mathrm{mg/L})}{1000}
+$$
+
+Where:
+- $L_{\mathrm{COD}}$ = influent chemical oxygen demand (COD) mass loading, in kg/day.
+- $Q$ = wastewater flow rate, in m³/day.
+- $C_{\mathrm{COD}}$ = influent COD concentration, in mg/L.
+
+The factor **1,000** converts the combined units of m³/day and mg/L to kg/day.
+
+## 2. COD removal efficiency
+
+When inlet and outlet COD concentrations are comparable and flow effects do not invalidate a concentration-based comparison:
+
+$$
+\eta_{\mathrm{COD}}\;(\%)
+=100\times\frac{C_{\mathrm{in}}-C_{\mathrm{out}}}{C_{\mathrm{in}}}
+$$
+
+Where:
+- $C_{\mathrm{in}}$ = inlet COD concentration.
+- $C_{\mathrm{out}}$ = outlet COD concentration.
+- $\eta_{\mathrm{COD}}$ = COD removal efficiency, expressed as a percentage.
+
+## 3. Energy intensity
+
+$$
+EI\;(\mathrm{kWh/m^3})
+=\frac{E\;(\mathrm{kWh})}{V\;(\mathrm{m^3})}
+$$
+
+Where:
+- $EI$ = electricity consumption per unit of wastewater treated.
+- $E$ = electricity consumed over the measurement period, in kWh.
+- $V$ = wastewater volume treated during the same period, in m³.
+
+## 4. Chemical cost intensity
+
+$$
+CI\;(\mathrm{USD/m^3})
+=\frac{\text{Chemical spending (USD)}}{V\;(\mathrm{m^3})}
+$$
+
+Where:
+- $CI$ = treatment chemical spending per cubic meter of wastewater.
+- $V$ = wastewater volume treated over the same period.
+
+## 5. Illustrative electricity consumption scenario
+
+Assume:
+
+| Planning input | Value |
+|---|---:|
+| Wastewater flow | 1,500 m³/day |
+| Baseline energy intensity | 0.72 kWh/m³ |
+| Target energy intensity | 0.52 kWh/m³ |
+
+**Baseline daily consumption:**
+
+$$
+E_{\mathrm{baseline}}=1{,}500\;\mathrm{m^3/day}\times0.72\;\mathrm{kWh/m^3}
+=\boxed{1{,}080\;\mathrm{kWh/day}}
+$$
+
+**Target daily consumption:**
+
+$$
+E_{\mathrm{target}}=1{,}500\;\mathrm{m^3/day}\times0.52\;\mathrm{kWh/m^3}
+=\boxed{780\;\mathrm{kWh/day}}
+$$
+
+**Illustrative daily difference:**
+
+$$
+\Delta E=1{,}080-780=\boxed{300\;\mathrm{kWh/day}}
+$$
+
+These are **arithmetic planning examples based on assumed values**, not observed facility measurements, demonstrated process improvements, or verified savings.
+
+
 **Mass loading** of an influent pollutant such as COD:
 \[
 L_{COD}\;(kg/day)=\frac{Q\;(m^3/day)\;C_{COD}\;(mg/L)}{1000}
