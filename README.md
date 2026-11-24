@@ -47,6 +47,7 @@ industrial wastewater treatment performance.
 ### 🔗 Interactive Databricks Dashboard
 <img width="1676" height="304" alt="image" src="https://github.com/user-attachments/assets/ddd38fde-5e32-4d04-8cb5-7eec32df2096" />
 <img width="1664" height="707" alt="image" src="https://github.com/user-attachments/assets/67431b4e-f0e3-481a-9217-5a6ab78e01c0" />
+*Figure 1. Overview of the engineering and business KPI dashboard.*
 
 [Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
 
@@ -61,7 +62,6 @@ industrial wastewater treatment performance.
 - **AI Readiness:** Structured industrial datasets supporting future anomaly detection and predictive modeling.
 
 **Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings
-*Figure 1. Overview of the engineering and business KPI dashboard.*
 
 ### 2. Wastewater Flow and Energy Efficiency
 
