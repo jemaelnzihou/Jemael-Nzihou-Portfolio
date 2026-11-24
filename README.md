@@ -185,10 +185,8 @@ The scope is organized into **six Level-1 deliverable groups:**
 
 **Out of scope:** Whole-plant rebuild, unauthorized setpoint changes, unsupported compliance claims, unapproved deployment of AI controls.
 
-Editable diagram: [`diagrams/01_work_breakdown_structure.drawio`](diagrams/01_work_breakdown_structure.drawio)
-WBS dictionary and acceptance criteria: [`docs/02_WBS_DICTIONARY.md`](docs/02_WBS_DICTIONARY.md)
-
-To edit either diagram, open **diagrams.net**, choose **File → Open From → Device**, and select the .drawio file.
+Project Charter: [`01_Project_Charter.md`](https://docs.google.com/document/d/1Gjimoihy8K1xM-iLOlI9FshgBiDDphjb/edit#heading=h.7tnb6w2izsx2)
+WBS dictionary and acceptance criteria: [`02_WBS_DICTIONARY.md`](https://docs.google.com/document/d/11_Cw5xIifcOB_v4RnvgMcSTJB-ipjlNH/edit#heading=h.q72k62pbtsix)
 
 ### **5. Schedule management — 24-week plan**
 
@@ -203,8 +201,8 @@ To edit either diagram, open **diagrams.net**, choose **File → Open From → D
 
 **Practice topics:** task durations, predecessors, finish-to-start versus start-to-start links, milestone gates, float/slack, critical path, working calendars, baselines, and schedule variance.
 
-- [`docs/03_SCHEDULE_BASELINE.md`](docs/03_SCHEDULE_BASELINE.md)
-- [`data/schedule_msproject_import.csv`](data/schedule_msproject_import.csv)
+- [`03_SCHEDULE_BASELINE.md`](https://docs.google.com/document/d/1gV2c8J7hK3W5DSJKpsBDXzpisbZKk9IW/edit#heading=h.44ishyvyfeb9))
+- [`schedule_msproject_import.csv`](https://drive.google.com/file/d/1GUgoiZD5ABMa8OqDgk_ytquSiBDziMyh/view)
 - 
 **Microsoft Project note:** The CSV uses WBS identifiers in its predecessor field; these are not native Microsoft Project task IDs. Import task details, map resources, then review and remap dependency links before calculating the critical path or saving a baseline. Some activities intentionally overlap and require an explicit review gate.
 
@@ -218,9 +216,9 @@ To edit either diagram, open **diagrams.net**, choose **File → Open From → D
 
 The planning estimate includes engineering, risk/safety analysis, instrumentation, pilot installation, dashboard configuration, evaluation, and training. No vendor quotations are represented.
 [Access Additional Project Resources on Google Drive](https://drive.google.com/drive/project/1K-1pU3-YP0DsRU2ztTkUaJ_1ALq-rSAG?usp=sharing)
-- [`docs/04_COST_BASELINE.md`](docs/04_COST_BASELINE.md)
-- [`docs/06_RACI_MATRIX.md`](docs/06_RACI_MATRIX.md)
-- [`docs/07_STAKEHOLDER_COMMUNICATIONS.md`](docs/07_STAKEHOLDER_COMMUNICATIONS.md)
+- [`04_COST_BASELINE.md`](https://docs.google.com/document/d/1_0ZONHop782_5hMDPHTgDL4qE-S0W1q3/edit#heading=h.op62i7za6h6e)
+- [`06_RACI_MATRIX.md`](https://docs.google.com/document/d/1JgiNP-Omtyuf3OG6ERKv156oosuzlg24/edit#heading=h.cr71vajqegj9)
+- [`07_STAKEHOLDER_COMMUNICATIONS.md`](https://docs.google.com/document/d/1WhPcxHEQfm-PXNtjActtqFzU5KQEe3XP/edit#heading=h.v4zynzi6362u)
 
 ### **7. Chemical engineering analysis**
 
@@ -259,8 +257,7 @@ These are arithmetic planning examples, not observations.
 **4. Improve:** evaluate candidate setpoints or control strategies through approved simulation or authorized DOE; review engineering and safety effects.
 **5. Control:** establish an operating window, instrument checks, dashboards, SOPs and deviation response.
 
-**Dataset:** [`data/synthetic_wastewater_baseline.csv`](data/synthetic_wastewater_baseline.csv)
-**Interactive notebook on GitHub:** wastewater_optimization.ipynb
+**Dataset:** [`synthetic_wastewater_baseline.csv`](https://drive.google.com/file/d/1hJw0FVOJqKPwFjR34nR1P5592U9HTLu1/view)
 
 **Standalone project notebook:** [`notebooks/wastewater_optimization_demo.ipynb`](notebooks/wastewater_optimization_demo.ipynb)
 
@@ -307,7 +304,7 @@ Priority review areas include:
   
 The risk register uses an **ordinal 1–5 probability and impact score**, not a quantitative failure probability. Potential operating changes require site-authorized safety reviews, MOC procedures, HAZOP as appropriate, and applicable permitting checks.
 
-**Risk register:** [`docs/05_RISK_REGISTER.md`](docs/05_RISK_REGISTER.md)
+**Risk register:** [`05_RISK_REGISTER.md`](https://docs.google.com/document/d/1cK4YlNmezUf4BTmWOTaYzezH_l3Z2eL4/edit#heading=h.gwg44o7v5yaw)
 
 ### **10. Monitoring and controlling — PMP performance indicators**
 
@@ -328,12 +325,6 @@ The risk register uses an **ordinal 1–5 probability and impact score**, not a 
 Chemical_Engineering_PMP_Portfolio/
 
 ├── README.md
-
-├── diagrams/
-
-│   ├── 01_work_breakdown_structure.drawio
-
-│   └── 02_resource_breakdown_structure.drawio
 
 ├── docs/
 
