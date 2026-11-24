@@ -47,7 +47,7 @@ industrial wastewater treatment performance.
 ### 🔗 Interactive Databricks Dashboard
 <img width="1676" height="304" alt="image" src="https://github.com/user-attachments/assets/ddd38fde-5e32-4d04-8cb5-7eec32df2096" />
 <img width="1664" height="707" alt="image" src="https://github.com/user-attachments/assets/67431b4e-f0e3-481a-9217-5a6ab78e01c0" />
-**Figure** *Overview of the engineering and business KPI dashboard.*
+**Figure A** Overview of the engineering and business KPI dashboard.
 
 [Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
 
@@ -399,15 +399,13 @@ This extension connects chemical engineering metrics to data engineering, busine
 ### **14. How this project supports an engineering career**
 This case study showcases the ability to **connect process engineering with project delivery and business value**: define project scope, organize cross-functional resources, evaluate schedules and budgets, analyze plant-performance indicators, and communicate a decision-ready business case.
 
-### **15. Learning resources**
+### **📁 Additional Project Files and Resources**
+
 - [EPA — National Pollutant Discharge Elimination System (NPDES)](https://www.epa.gov/npdes)
 - [EPA — Water Research](https://www.epa.gov/water-research)
 - [Project Management Institute (PMI)](https://www.pmi.org/)
 - [diagrams.net — Draw.io](https://app.diagrams.net/)
 - [Google Colab](https://colab.research.google.com/)
-
-## 📁 Additional Project Files and Resources
-
 📂 [Access Additional Project Resources on Google Drive](https://drive.google.com/drive/project/1K-1pU3-YP0DsRU2ztTkUaJ_1ALq-rSAG?usp=sharing)
 
 ---
