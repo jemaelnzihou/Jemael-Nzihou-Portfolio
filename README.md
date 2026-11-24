@@ -311,29 +311,6 @@ $$
 \Delta E=1{,}080-780=\boxed{300\;\mathrm{kWh/day}}
 $$
 
-These are **arithmetic planning examples based on assumed values**, not observed facility measurements, demonstrated process improvements, or verified savings.
-
-
-**Mass loading** of an influent pollutant such as COD:
-\[
-L_{COD}\;(kg/day)=\frac{Q\;(m^3/day)\;C_{COD}\;(mg/L)}{1000}
-\]
-
-**Removal efficiency** (when inlet and outlet concentrations are comparable):
-\[
-\eta_{COD}(\%)=100\frac{C_{in}-C_{out}}{C_{in}}
-\]
-
-**Energy intensity:**
-\[
-EI\;(kWh/m^3)=\frac{E\;(kWh)}{V\;(m^3)}
-\]
-
-**Chemical cost intensity:**
-\[
-CI\;(USD/m^3)=\frac{\text{Chemical spending (USD)}}{V\;(m^3)}
-\]
-
 For an assumed **1,500 m³/day** and **0.72 kWh/m³**, baseline electricity consumption would be **1,080 kWh/day**; at the 0.52 kWh/m³ target, it would be **780 kWh/day**. 
 These are arithmetic planning examples, not observations.
 
@@ -366,13 +343,33 @@ Planning throughput: **1,500 m³/day × 365 days = 547,500 m³/year.**
 | Avoided rework / disposal | Unverified planning assumption | $61,000 |
 | **Total targeted gross benefit** | | **$174,880** |
 
-\[
-\text{Simple payback}=\frac{160,000}{174,880}\approx 0.91\text{ years}
-\]
+## 1. Simple payback period
 
-\[
-\text{Annual gross benefit / one-time cost}=\frac{174,880}{160,000}\approx1.09
-\]
+Simple payback estimates how long it would take for annual gross benefits to recover the one-time project cost, assuming the benefit occurs at a constant annual rate.
+
+$$
+\text{Simple payback}=\frac{\text{One-time project cost}}{\text{Annual gross benefit}}
+$$
+
+$$
+\text{Simple payback}=\frac{160{,}000\ \text{USD}}{174{,}880\ \text{USD/year}}\approx\boxed{0.91\ \text{years}}
+$$
+
+This is approximately **11 months**. It is a *gross-benefit* payback estimate and excludes recurring operating costs, taxes, financing costs, and the time value of money.
+
+## 2. Annual gross benefit-to-one-time-cost ratio
+
+This indicator compares **one year of projected gross benefits** with the initial investment. It is not a lifetime benefit-cost ratio or a net return on investment (ROI).
+
+$$
+\text{Annual gross benefit / one-time cost}=\frac{\text{Annual gross benefit}}{\text{One-time project cost}}
+$$
+
+$$
+\frac{174{,}880}{160{,}000}\approx\boxed{1.09}
+$$
+
+**Interpretation:** The illustrative annual gross benefit equals about **1.09 times** the one-time investment. Under the simplified assumptions, one year's gross benefits would exceed the initial cost.
 
 **Limitations:** These figures omit some possible operating costs, downtime, taxes, financing effects and uncertainty. The disposal/rework estimate is particularly speculative. A real investment decision would require verified baseline and pilot data, equipment pricing, sensitivity analysis, and life-cycle NPV.
 
