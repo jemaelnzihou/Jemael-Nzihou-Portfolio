@@ -449,7 +449,7 @@ Chemical_Engineering_PMP_Portfolio/
 
 └── requirements.txt
 
-### **Dashboard results — baseline vs. illustrative pilot**
+### **12. Dashboard results — baseline vs. illustrative pilot**
 
 | Indicator | Baseline | Illustrative pilot | Interpretation |
 |:---|---:|---:|:---|
