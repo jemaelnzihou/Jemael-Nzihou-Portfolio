@@ -296,6 +296,80 @@ Chemical_Engineering_PMP_Portfolio/
 
 └── requirements.txt
 
+
+## 📊 Databricks Lakehouse & Engineering Dashboard
+
+This project integrates Chemical Engineering, PMP, Lean Six Sigma,
+PySpark, Delta Lake, SQL, and Databricks AI/BI to evaluate
+industrial wastewater treatment performance.
+
+### 1. Complete Engineering Dashboard
+
+![Industrial Wastewater Optimization Dashboard](./dashboard-overview.webp)
+
+*Figure 1. Overview of the engineering and business KPI dashboard.*
+
+### 2. Wastewater Flow and Energy Efficiency
+
+![Wastewater Flow and Energy Intensity](./dashboard-flow-energy.webp)
+
+*Figure 2. Baseline versus illustrative pilot: wastewater throughput and energy intensity.*
+
+### 3. Chemical Treatment and Effluent Quality
+
+![Chemical Cost and Effluent Quality](./dashboard-chemical-quality.webp)
+
+*Figure 3. Comparison of chemical treatment costs and effluent quality indicators.*
+
+### 4. Financial Performance and Annual Savings
+
+![Annual Operating Costs and Estimated Savings](./dashboard-financial.webp)
+
+*Figure 4. Simulated operating costs, energy savings, chemical savings, and financial impact.*
+
+### 5. Project Documentation — Part 1
+
+![Project README Overview](./readme-preview-01.webp)
+
+*Figure 5. Project overview, business case, and initiation.*
+
+### 6. Project Documentation — Part 2
+
+![Project Life Cycle](./readme-preview-02.webp)
+
+*Figure 6. Project management lifecycle, scope, and planning.*
+
+### 7. Project Documentation — Part 3
+
+![Project Structure and Deliverables](./readme-preview-03.webp)
+
+*Figure 7. Repository structure and supporting project deliverables.*
+
+### 8. Project Documentation — Part 4
+
+![Engineering Methodology and Success Metrics](./readme-preview-04.webp)
+
+*Figure 8. Engineering methodology, performance evaluation, and project reporting.*
+
+---
+
+### 🔗 Interactive Databricks Dashboard
+
+[Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
+
+### 🧠 Skills Demonstrated
+
+- **Chemical Engineering:** Process optimization, energy efficiency, wastewater treatment analytics.
+- **Data Engineering:** PySpark, Delta Lake, Bronze–Silver–Gold architecture.
+- **SQL & Business Intelligence:** Databricks SQL, data visualization, engineering KPI dashboards.
+- **Project Management:** PMP methodologies, project planning, monitoring, and benefits realization.
+- **Lean Six Sigma:** DMAIC, process improvement, statistical analysis.
+- **Financial Analytics:** Operating cost analysis, estimated annual savings, and simple payback.
+- **AI Readiness:** Structured industrial datasets supporting future anomaly detection and predictive modeling.
+
+**Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings.
+
+
 ## **Databricks Lakehouse & AI/BI Dashboard — Engineering and Business KPIs**
 
 **Live dashboard (Databricks):** Open Industrial Wastewater Optimization — Engineering & Business KPIs
