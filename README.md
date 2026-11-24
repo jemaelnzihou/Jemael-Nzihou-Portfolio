@@ -165,8 +165,6 @@ Plant Director — Project Sponsor
 
 - **Operations:** operational feasibility, commissioning readiness, training, handover
 
-Editable diagram: [`diagrams/02_resource_breakdown_structure.drawio`](diagrams/02_resource_breakdown_structure.drawio)
-
 Responsibility matrix: [`RACI_MATRIX.md`](https://docs.google.com/document/d/1JgiNP-Omtyuf3OG6ERKv156oosuzlg24/edit#heading=h.cr71vajqegj9))
 
 ### **4. Scope management — Work Breakdown Structure (WBS)**
@@ -203,7 +201,7 @@ WBS dictionary and acceptance criteria: [`02_WBS_DICTIONARY.md`](https://docs.go
 
 - [`03_SCHEDULE_BASELINE.md`](https://docs.google.com/document/d/1gV2c8J7hK3W5DSJKpsBDXzpisbZKk9IW/edit#heading=h.44ishyvyfeb9))
 - [`schedule_msproject_import.csv`](https://drive.google.com/file/d/1GUgoiZD5ABMa8OqDgk_ytquSiBDziMyh/view)
-- 
+  
 **Microsoft Project note:** The CSV uses WBS identifiers in its predecessor field; these are not native Microsoft Project task IDs. Import task details, map resources, then review and remap dependency links before calculating the critical path or saving a baseline. Some activities intentionally overlap and require an explicit review gate.
 
 ### **6. Resource and cost management**
