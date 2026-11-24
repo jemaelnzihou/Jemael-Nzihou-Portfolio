@@ -217,7 +217,7 @@ The planning estimate includes engineering, risk/safety analysis, instrumentatio
 - [`04_COST_BASELINE.md`](https://docs.google.com/document/d/1_0ZONHop782_5hMDPHTgDL4qE-S0W1q3/edit#heading=h.op62i7za6h6e)
 - [`06_RACI_MATRIX.md`](https://docs.google.com/document/d/1JgiNP-Omtyuf3OG6ERKv156oosuzlg24/edit#heading=h.cr71vajqegj9)
 - [`07_STAKEHOLDER_COMMUNICATIONS.md`](https://docs.google.com/document/d/1WhPcxHEQfm-PXNtjActtqFzU5KQEe3XP/edit#heading=h.v4zynzi6362u)
-- [Access Additional Project Resources on Google Drive](https://drive.google.com/drive/project/1K-1pU3-YP0DsRU2ztTkUaJ_1ALq-rSAG?usp=sharing)
+- [`Access Additional Project Resources on Google Drive`](https://drive.google.com/drive/project/1K-1pU3-YP0DsRU2ztTkUaJ_1ALq-rSAG?usp=sharing)
 
 
 ### **7. Chemical engineering analysis**
