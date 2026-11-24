@@ -33,11 +33,34 @@ Portfolio case study — simulated project. This repository models the initiatio
 
  **Status:** Conceptual portfolio case study; no executed pilot or verified operating outcome.
 
+ ## **Success metrics and earned value**
+
+- **Engineering:** kWh/m³, reagent USD/m³, process variability, sample completeness, permit-specific effluent indicators.
+- **Project:** schedule variance (SV=EV−PV), cost variance (CV=EV−AC), SPI=EV/PV, CPI=EV/AC, risk action completion, signed acceptance gates.
+- **Finance:** annual energy/reagent savings, avoided rework, simple payback; extend to NPV with discount rate and recurring O&M costs.
+
 ## 📊 Databricks & Engineering Dashboard
 
-This project integrates Chemical Engineering, PMP, Lean Six Sigma,
-PySpark, Delta Lake, SQL, and Databricks AI/BI to evaluate
+This include PySpark, Delta Lake, SQL, and Databricks AI/BI to evaluate
 industrial wastewater treatment performance.
+
+### 🔗 Interactive Databricks Dashboard
+<img width="1676" height="304" alt="image" src="https://github.com/user-attachments/assets/ddd38fde-5e32-4d04-8cb5-7eec32df2096" />
+
+[Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
+
+### 🧠 Skills Demonstrated
+
+- **Chemical Engineering:** Process optimization, energy efficiency, wastewater treatment analytics.
+- **Data Engineering:** PySpark, Delta Lake, Bronze–Silver–Gold architecture.
+- **SQL & Business Intelligence:** Databricks SQL, data visualization, engineering KPI dashboards.
+- **Project Management:** PMP methodologies, project planning, monitoring, and benefits realization.
+- **Lean Six Sigma:** DMAIC, process improvement, statistical analysis.
+- **Financial Analytics:** Operating cost analysis, estimated annual savings, and simple payback.
+- **AI Readiness:** Structured industrial datasets supporting future anomaly detection and predictive modeling.
+
+**Disclaimer:** This is an educational case study using synthetic data. Results do not represent verified industrial performance or realized savings.
+ 
 
 ### 1. Complete Engineering Dashboard
 
@@ -65,23 +88,8 @@ industrial wastewater treatment performance.
 
 ### 5. Project Documentation — Part 1
 
-![Project README Overview](./readme-preview-01.webp)
 
-*Figure 5. Project overview, business case, and initiation.*
 
-### 6. Project Documentation — Part 2
-
-![Project Life Cycle](./readme-preview-02.webp)
-
-*Figure 6. Project management lifecycle, scope, and planning.*
-
-### 7. Project Documentation — Part 3
-
-![Project Structure and Deliverables](./readme-preview-03.webp)
-
-*Figure 7. Repository structure and supporting project deliverables.*
-
-### 8. Project Documentation — Part 4
 
 ![Engineering Methodology and Success Metrics](./readme-preview-04.webp)
 
@@ -287,9 +295,11 @@ Planning throughput: 1,500 m³/day × 365 days = 547,500 m³/year.
 \[
 \text{Simple payback}=\frac{160,000}{174,880}\approx 0.91\text{ years}
 \]
+
 \[
 \text{Annual gross benefit / one-time cost}=\frac{174,880}{160,000}\approx1.09
 \]
+
 **Limitations:** These figures omit some possible operating costs, downtime, taxes, financing effects and uncertainty. The disposal/rework estimate is particularly speculative. A real investment decision would require verified baseline and pilot data, equipment pricing, sensitivity analysis, and life-cycle NPV.
 
 ### **9. Project risk, safety, and quality**
@@ -370,32 +380,6 @@ Chemical_Engineering_PMP_Portfolio/
 
 └── requirements.txt
 
-**Synthetic case study:** The linked dashboard uses illustrative wastewater-treatment observations; results are not actual plant savings, regulatory compliance evidence, or proof of causality. The Databricks dashboard may require workspace authentication and sharing permissions. Screenshots below provide a static public portfolio preview.
-
-### **Data engineering and analytics architecture**
-
-Synthetic wastewater data / engineering measurements
-                |
-                v
-Bronze Delta table — raw measurements
-                |
-                v
-Silver Delta table — validated and derived features
-                |          
-                v
-Gold Delta table — engineering and cost KPIs
-                |
-                +--> Databricks SQL --> AI/BI dashboard
-                +--> Python / PySpark --> exploratory modeling
-                +--> PMP benefits tracking and stakeholder reporting
-
-- **Catalog / schema:** workspace.wastewater_optimization
-- **Bronze:** bronze_wastewater
-- **Silver:** silver_wastewater
-- **Gold:** gold_wastewater_kpis
-- **Practiced skills:** PySpark DataFrames, Delta Lake managed tables, Medallion Architecture, Unity Catalog organization, SQL KPI queries, data transformation, visual business intelligence, dashboard publishing, operational-cost modeling, and benefits realization.
-- **AI-era relevance:** The reusable, governed data architecture provides a starting point for anomaly detection, predictive modeling, workload automation, and AI-assisted analysis. The dashboard itself is not proof of a deployed or validated machine-learning system.
-
 ### **Dashboard results — baseline vs. illustrative pilot**
 
 | Indicator | Baseline | Illustrative pilot | Interpretation |
@@ -410,7 +394,7 @@ Gold Delta table — engineering and cost KPIs
 **Business-case reconciliation:** The original project charter contains a **$174,880/year benefit target** and a **0.91-year target payback**, based partly on an assumed avoided-rework benefit. The Databricks dashboard instead estimates about **$89,998/year** of simulated energy and reagent savings and a **1.78-year simple payback**. These two scenarios have different assumptions and must not be reported as equivalent or achieved results. The dashboard's two savings components (approximately $10,711 for electricity and $79,286 for chemicals) should be summed once; do not stack the total as a third additional contribution.
 
 ### **Databricks dashboard Visualization**
-Flow and energy intensity — Similar modeled throughput with reduced energy use per cubic meter.
+**Flow and energy intensity** — Similar modeled throughput with reduced energy use per cubic meter.
 
 **Chemical treatment cost and effluent index** — Illustrative operating-expense improvement and the accompanying treatment quality index.
 
