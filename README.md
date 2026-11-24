@@ -47,6 +47,7 @@ industrial wastewater treatment performance.
 ### 🔗 Interactive Databricks Dashboard
 <img width="1676" height="304" alt="image" src="https://github.com/user-attachments/assets/ddd38fde-5e32-4d04-8cb5-7eec32df2096" />
 <img width="1664" height="707" alt="image" src="https://github.com/user-attachments/assets/67431b4e-f0e3-481a-9217-5a6ab78e01c0" />
+
 **Figure A** Overview of the engineering and business KPI dashboard.
 
 [Open the Industrial Wastewater Optimization Dashboard](https://dbc-c0b76d43-142e.cloud.databricks.com/dashboardsv3/01f1e6b686eb133885ed3b67842e0964/published?o=7474660769183521)
