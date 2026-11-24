@@ -317,9 +317,13 @@ These are arithmetic planning examples, not observations.
 ### **7.2 Data and optimization workflow**
 
 **1. Define:** process boundaries, stakeholders, permit-specific CTQs, safety constraints.
+
 **2. Measure:** baseline flow, energy, dosing costs, sample completeness and treatment indicators.
+
 **3. Analyze:** descriptive statistics, data-quality checks, variability, correlations and matched-condition comparisons.
+
 **4. Improve:** evaluate candidate setpoints or control strategies through approved simulation or authorized DOE; review engineering and safety effects.
+
 **5. Control:** establish an operating window, instrument checks, dashboards, SOPs and deviation response.
 
 **Dataset:** [`synthetic_wastewater_baseline.csv`](https://drive.google.com/file/d/1hJw0FVOJqKPwFjR34nR1P5592U9HTLu1/view)
@@ -375,7 +379,7 @@ $$
 
 ### **9. Project risk, safety, and quality**
 
-Priority review areas include:
+**Priority review areas include:**
 
 - Noncompliance with site-specific discharge conditions
   
